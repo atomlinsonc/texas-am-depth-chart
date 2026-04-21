@@ -155,62 +155,47 @@ dialog {
 }
 
 .board__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  gap: 1rem;
+  display: block;
   margin-bottom: 0.9rem;
 }
 
-.board__summary {
+.board__toolbar {
   display: grid;
-  gap: 0.65rem;
-}
-
-.summary-strip {
-  display: flex;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.55rem;
-  align-items: center;
 }
 
-.summary-strip__label {
-  font-size: 0.78rem;
+.board-panel {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.72rem 0.82rem;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(44, 16, 16, 0.96), rgba(80, 0, 0, 0.98));
+  border: 1px solid rgba(80, 0, 0, 0.16);
+  color: #fff;
+}
+
+.board-panel__label {
+  font-size: 0.64rem;
   font-weight: 900;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--maroon);
+  color: rgba(255, 255, 255, 0.68);
 }
 
-.board__team {
-  margin: 0;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: 0.08em;
-  color: var(--maroon);
+.board-panel__value {
+  font-size: 1.02rem;
+  line-height: 1.05;
 }
 
-.style-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin-top: 0.55rem;
-}
-
-.style-pill {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.35rem 0.6rem;
-  border-radius: 999px;
-  background: rgba(80, 0, 0, 0.08);
-  color: var(--maroon);
-  font-size: 0.82rem;
-  font-weight: 800;
+.board-panel__detail {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .field {
   position: relative;
-  min-height: 54rem;
+  min-height: 56rem;
   border-radius: 24px;
   overflow: hidden;
   background: linear-gradient(
@@ -282,10 +267,12 @@ dialog {
 
 .field__zone--defense {
   top: 0.9rem;
+  z-index: 5;
 }
 
 .field__zone--offense {
   bottom: 0.9rem;
+  z-index: 5;
 }
 
 .field__line {
@@ -296,9 +283,9 @@ dialog {
 
 .coach-overlay {
   position: absolute;
-  top: 0.45rem;
-  left: 0.45rem;
-  right: 0.45rem;
+  top: 3.3rem;
+  left: 0.9rem;
+  right: 0.9rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.5rem;
@@ -377,9 +364,9 @@ dialog {
   text-align: left;
   cursor: pointer;
   border-radius: 18px;
-  padding: 0.42rem 0.55rem;
+  padding: 0.36rem 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.28);
-  background: rgba(255, 252, 247, 0.86);
+  background: rgba(255, 252, 247, 0.82);
   transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
 }
 
@@ -397,8 +384,8 @@ dialog {
 }
 
 .coach-card__headshot {
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
   border-radius: 10px;
   object-fit: cover;
   background: rgba(80, 0, 0, 0.06);
@@ -407,19 +394,19 @@ dialog {
 .coach-card__name {
   margin: 0;
   color: var(--maroon);
-  font-size: 0.84rem;
+  font-size: 0.78rem;
 }
 
 .coach-card__role {
   margin: 0.15rem 0 0;
   color: var(--muted);
-  font-size: 0.62rem;
+  font-size: 0.58rem;
 }
 
 .coach-card__bio {
-  margin: 0.35rem 0 0;
+  margin: 0.22rem 0 0;
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   line-height: 1.15;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -606,11 +593,16 @@ dialog {
   }
 
   .board__header {
-    flex-direction: column;
+    display: block;
+  }
+
+  .board__toolbar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .coach-overlay {
     grid-template-columns: 1fr;
+    top: 3.6rem;
   }
 
   .field {
@@ -650,5 +642,9 @@ dialog {
 
   .field {
     min-height: 60rem;
+  }
+
+  .board__toolbar {
+    grid-template-columns: 1fr;
   }
 }

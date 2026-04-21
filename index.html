@@ -19,7 +19,6 @@
         <div class="hero__meta">
           <p class="eyebrow">Texas A&amp;M Aggies Football</p>
           <h1 id="hero-title">Loading depth chart...</h1>
-          <p class="hero__copy" id="hero-copy"></p>
           <div class="hero__actions" role="group" aria-label="Depth chart string selector">
             <button class="segmented is-active" data-depth="0">Starters</button>
             <button class="segmented" data-depth="1">Second String</button>
@@ -33,17 +32,7 @@
 
       <section class="board">
         <div class="board__header">
-          <div class="board__summary">
-            <div class="summary-strip">
-              <span class="summary-strip__label">Offense</span>
-              <div class="style-row" id="offense-style"></div>
-            </div>
-            <div class="summary-strip">
-              <span class="summary-strip__label">Defense</span>
-              <div class="style-row" id="defense-style"></div>
-            </div>
-          </div>
-          <p class="board__team" id="board-team">Texas A&amp;M Aggies</p>
+          <div class="board__toolbar" id="board-toolbar"></div>
         </div>
         <div class="field field--combined">
           <div class="field__zone field__zone--defense">Defense</div>
@@ -71,7 +60,7 @@
             <div class="badge-row"></div>
           </div>
           <div class="rating-pill">
-            <span>Player Grade</span>
+            <span>Overall Grade</span>
             <strong></strong>
           </div>
         </div>
@@ -80,7 +69,7 @@
           <button class="bio-toggle" type="button" hidden></button>
         </div>
         <div class="stat-block">
-          <h4>CSV Profile</h4>
+          <h4>Overall Grade Profile</h4>
           <div class="stat-grid"></div>
         </div>
         <div class="link-row"></div>

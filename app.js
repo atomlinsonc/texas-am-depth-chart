@@ -6,6 +6,7 @@ const state = {
 const depthButtons = Array.from(document.querySelectorAll("[data-depth]"));
 const teamField = document.getElementById("team-field");
 const coachOverlay = document.getElementById("coach-overlay");
+const boardToolbar = document.getElementById("board-toolbar");
 const playerModal = document.getElementById("player-modal");
 const modalContent = document.getElementById("modal-content");
 const modalTemplate = document.getElementById("player-modal-template");
@@ -69,21 +70,36 @@ function renderRows(rows, layout, side) {
   });
 }
 
-function renderStyleRow(containerId, summary, prefix) {
-  const container = document.getElementById(containerId);
-  if (!container) return;
-  container.innerHTML = "";
-  const items = [
-    `${summary.formation.label}`,
-    `${summary.formation.percent}%`,
-    `${prefix} ${summary.runPass.run}/${summary.runPass.pass}`,
-  ];
-  items.forEach((text) => {
-    const chip = document.createElement("span");
-    chip.className = "style-pill";
-    chip.textContent = text;
-    container.appendChild(chip);
-  });
+function buildToolbarPanel(label, value, detail) {
+  return `
+    <article class="board-panel">
+      <span class="board-panel__label">${label}</span>
+      <strong class="board-panel__value">${value}</strong>
+      <span class="board-panel__detail">${detail}</span>
+    </article>
+  `;
+}
+
+function renderBoardToolbar() {
+  if (!state.data || !boardToolbar) return;
+  const offense = state.data.depthChart.styleSummary.offense;
+  const defense = state.data.depthChart.styleSummary.defense;
+  const depthLabel = ["Starters", "Second String", "Third String"][state.depthIndex];
+
+  boardToolbar.innerHTML = [
+    buildToolbarPanel("Team", state.data.team.name, "College football"),
+    buildToolbarPanel(
+      "Offense",
+      offense.formation.label,
+      `${offense.formation.percent}% • Run ${offense.runPass.run}% / Pass ${offense.runPass.pass}%`
+    ),
+    buildToolbarPanel(
+      "Defense",
+      defense.formation.label,
+      `${defense.formation.percent}% • Run ${defense.runPass.run}% / Pass ${defense.runPass.pass}%`
+    ),
+    buildToolbarPanel("Depth", depthLabel, "Current lineup")
+  ].join("");
 }
 
 function bindExpandableBio(fragment, fullBio, previewBio) {
@@ -123,9 +139,9 @@ function renderMetricCards(fragment, player) {
     const chip = document.createElement("div");
     chip.className = "stat-chip";
     chip.innerHTML = `
-      <span class="stat-chip__label">CSV Profile</span>
+      <span class="stat-chip__label">Overall Grade Profile</span>
       <strong class="stat-chip__value">Unavailable</strong>
-      <span class="stat-chip__detail">No matching CSV row for this player.</span>
+      <span class="stat-chip__detail">No matching overall-grade source row for this player.</span>
     `;
     statGrid.appendChild(chip);
     return;
@@ -160,10 +176,10 @@ function openPlayerModal(player) {
   bindExpandableBio(fragment, player.bio, player.bioShort);
   const ratingLabel =
     player.ratingSource?.type === "csv"
-      ? "CSV Grade"
+      ? "Overall Grade"
       : player.ratingSource?.type === "missing"
-        ? "No CSV Grade"
-        : "Projected Grade";
+        ? "No Overall Grade"
+        : "Overall Grade";
   fragment.querySelector(".rating-pill span").textContent = ratingLabel;
   fragment.querySelector(".rating-pill strong").textContent = formatRating(player.rating);
 
@@ -237,6 +253,7 @@ function renderFields() {
   teamField.innerHTML = "";
   renderRows(state.data.depthChart.defense, state.data.depthChart.layouts.defense, "defense");
   renderRows(state.data.depthChart.offense, state.data.depthChart.layouts.offense, "offense");
+  renderBoardToolbar();
 }
 
 function renderCoaches() {
@@ -267,12 +284,8 @@ async function init() {
 
   document.title = "Texas A&M Depth Chart";
   setText("hero-title", "Texas A&M Depth Chart");
-  setText("hero-copy", "Verified strings, CSV grades, and one-field formation view.");
   document.getElementById("hero-logo").src = state.data.team.logo;
   document.getElementById("hero-logo").alt = `${state.data.team.shortName} logo`;
-  setText("board-team", "Texas A&M Aggies");
-  renderStyleRow("offense-style", state.data.depthChart.styleSummary.offense, "Run/Pass");
-  renderStyleRow("defense-style", state.data.depthChart.styleSummary.defense, "Opp Run/Pass");
 
   renderFields();
   renderCoaches();
@@ -281,5 +294,4 @@ async function init() {
 init().catch((error) => {
   console.error(error);
   setText("hero-title", "Unable to load depth chart data");
-  setText("hero-copy", "The generated JSON payload is missing or invalid.");
 });
