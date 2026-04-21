@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import csv
 import json
 import re
 import sys
@@ -40,32 +41,40 @@ HEADERS = {
     )
 }
 
+RATING_CSV_PATHS = {
+    "rushing": Path.home() / "Downloads" / "rushing_summary.csv",
+    "receiving": Path.home() / "Downloads" / "receiving_summary.csv",
+    "passing": Path.home() / "Downloads" / "passing_summary.csv",
+    "blocking": Path.home() / "Downloads" / "offense_blocking.csv",
+    "defense": Path.home() / "Downloads" / "defense_summary.csv",
+}
+
 OFFENSE_LAYOUT = {
-    "WR-X": {"x": 8, "y": 14},
-    "WR-SL": {"x": 24, "y": 27},
-    "LT": {"x": 30, "y": 47},
-    "LG": {"x": 40, "y": 47},
-    "C": {"x": 50, "y": 47},
-    "RG": {"x": 60, "y": 47},
-    "RT": {"x": 70, "y": 47},
-    "TE": {"x": 82, "y": 39},
-    "QB": {"x": 50, "y": 62},
-    "RB": {"x": 50, "y": 80},
-    "WR-Z": {"x": 92, "y": 14},
+    "WR-X": {"x": 10, "y": 51},
+    "WR-SL": {"x": 23, "y": 67},
+    "LT": {"x": 35, "y": 51},
+    "LG": {"x": 43, "y": 51},
+    "C": {"x": 51, "y": 51},
+    "RG": {"x": 59, "y": 51},
+    "RT": {"x": 67, "y": 51},
+    "TE": {"x": 79, "y": 64},
+    "QB": {"x": 51, "y": 78},
+    "RB": {"x": 57, "y": 91},
+    "WR-Z": {"x": 90, "y": 51},
 }
 
 DEFENSE_LAYOUT = {
-    "LCB": {"x": 10, "y": 15},
-    "NB": {"x": 24, "y": 27},
-    "LDE": {"x": 31, "y": 43},
-    "NT": {"x": 43, "y": 43},
-    "DT": {"x": 57, "y": 43},
-    "RDE": {"x": 69, "y": 43},
-    "WLB": {"x": 36, "y": 62},
-    "MLB": {"x": 64, "y": 62},
-    "SS": {"x": 36, "y": 79},
-    "FS": {"x": 64, "y": 79},
-    "RCB": {"x": 90, "y": 15},
+    "FS": {"x": 35, "y": 18},
+    "SS": {"x": 67, "y": 24},
+    "WLB": {"x": 43, "y": 40},
+    "MLB": {"x": 57, "y": 40},
+    "NB": {"x": 23, "y": 49},
+    "LDE": {"x": 34, "y": 67},
+    "NT": {"x": 46, "y": 67},
+    "DT": {"x": 56, "y": 67},
+    "RDE": {"x": 68, "y": 67},
+    "LCB": {"x": 10, "y": 72},
+    "RCB": {"x": 90, "y": 72},
 }
 
 COACH_TENDENCIES = {
@@ -508,6 +517,98 @@ def clamp(value: float, low: float, high: float) -> float:
     return max(low, min(high, value))
 
 
+def parse_float(value: Any) -> float | None:
+    if value in ("", None):
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def sample_size(row: dict[str, str]) -> float:
+    for key in (
+        "snap_counts_defense",
+        "snap_counts_offense",
+        "dropbacks",
+        "attempts",
+        "routes",
+        "targets",
+        "snap_counts_pass_block",
+        "run_plays",
+        "player_game_count",
+    ):
+        value = parse_float(row.get(key))
+        if value is not None:
+            return value
+    return 0.0
+
+
+def load_rating_index() -> dict[str, dict[str, Any]]:
+    rating_index: dict[str, dict[str, Any]] = {}
+    for source_name, path in RATING_CSV_PATHS.items():
+        if not path.exists():
+            continue
+        with path.open(newline="", encoding="utf-8-sig") as handle:
+            reader = csv.DictReader(handle)
+            for row in reader:
+                raw_name = row.get("player")
+                if not raw_name:
+                    continue
+                grade_key = "grades_defense" if source_name == "defense" else "grades_offense"
+                overall_grade = parse_float(row.get(grade_key))
+                if overall_grade is None:
+                    continue
+                key = normalize_name(raw_name)
+                source_bucket = rating_index.setdefault(key, {})
+                existing = source_bucket.get(source_name)
+                candidate = {
+                    "name": raw_name,
+                    "team": row.get("team_name"),
+                    "position": row.get("position"),
+                    "overall": round(overall_grade, 1),
+                    "sampleSize": sample_size(row),
+                    "source": source_name,
+                }
+                if not existing or candidate["sampleSize"] >= existing["sampleSize"]:
+                    source_bucket[source_name] = candidate
+    return rating_index
+
+
+def csv_rating_preference(position_group: str) -> list[str]:
+    if position_group == "quarterback":
+        return ["passing", "rushing"]
+    if position_group == "running_back":
+        return ["rushing", "receiving"]
+    if position_group == "receiver":
+        return ["receiving", "rushing", "blocking"]
+    if position_group == "offensive_line":
+        return ["blocking"]
+    if position_group in {"front_seven", "defensive_back"}:
+        return ["defense"]
+    return ["passing", "rushing", "receiving", "blocking", "defense"]
+
+
+def select_rating(player_name: str, position_group: str, fallback_rating: float, rating_index: dict[str, dict[str, Any]]) -> tuple[float, dict[str, Any]]:
+    records = rating_index.get(normalize_name(player_name), {})
+    for source_name in csv_rating_preference(position_group):
+        record = records.get(source_name)
+        if record:
+            return record["overall"], {
+                "type": "csv",
+                "source": source_name,
+                "team": record.get("team"),
+            }
+    if records:
+        source_name, record = next(iter(records.items()))
+        return record["overall"], {
+            "type": "csv",
+            "source": source_name,
+            "team": record.get("team"),
+        }
+    return fallback_rating, {"type": "fallback", "source": "projection"}
+
+
 def parse_cfbstats_style_summary(season: int) -> dict[str, Any]:
     html = fetch_text(CFBSTATS_TEAM_URL.format(season=season))
     soup = BeautifulSoup(html, "html.parser")
@@ -565,7 +666,7 @@ def formation_labels(offense_rows: list[dict[str, Any]], defense_rows: list[dict
     }
 
 
-def compute_rating(player: dict[str, Any], depth_index: int) -> int:
+def compute_rating(player: dict[str, Any], depth_index: int) -> float:
     stats = player.get("stats", {}).get("statGroups", {})
     group = player.get("positionGroup", "general")
     experience = year_score(player.get("eligibility", ""))
@@ -622,7 +723,7 @@ def compute_rating(player: dict[str, Any], depth_index: int) -> int:
             + clamp((numeric_stat(stats, "defensive", "forcedFumbles")) * 1.6, 0, 2)
         )
 
-    return int(round(clamp(score, 60, 93)))
+    return round(clamp(score, 60, 93), 1)
 
 
 def compute_badges(player: dict[str, Any]) -> list[str]:
@@ -694,6 +795,7 @@ def merge_player(
     stats_map: dict[str, Any],
     twelfthman_links: dict[str, str],
     person_cache: dict[str, Any],
+    rating_index: dict[str, dict[str, Any]],
 ) -> dict[str, Any]:
     normalized = normalize_name(raw_player["name"])
     roster = roster_map.get(normalized, {})
@@ -706,11 +808,12 @@ def merge_player(
             person_cache[twelfthman_url] = parse_12thman_person(twelfthman_url)
         twelfthman = person_cache[twelfthman_url]
 
+    position_group = guess_position_group(position)
     player = {
         "id": roster.get("espnId") or slugify(raw_player["name"]),
         "name": roster.get("name") or raw_player["name"],
         "position": position,
-        "positionGroup": guess_position_group(position),
+        "positionGroup": position_group,
         "depthIndex": depth_index,
         "depthLabel": ["Starter", "2nd String", "3rd String"][depth_index],
         "eligibility": raw_player.get("eligibility") or "",
@@ -723,7 +826,8 @@ def merge_player(
         "hometown": twelfthman.get("fields", {}).get("Hometown"),
         "highSchool": twelfthman.get("fields", {}).get("High School"),
         "headshot": twelfthman.get("headshot") or roster.get("headshot") or stats.get("headshot"),
-        "bio": twelfthman.get("bioShort") or "",
+        "bio": twelfthman.get("bio") or "",
+        "bioShort": twelfthman.get("bioShort") or twelfthman.get("bio") or "",
         "bioSource": twelfthman.get("sourceUrl"),
         "espnPlayerUrl": roster.get("espnPlayerUrl") or stats.get("espnPlayerUrl"),
         "stats": stats,
@@ -742,7 +846,10 @@ def merge_player(
             ),
         ],
     }
-    player["rating"] = compute_rating(player, depth_index)
+    fallback_rating = compute_rating(player, depth_index)
+    player["rating"], player["ratingSource"] = select_rating(
+        player["name"], position_group, fallback_rating, rating_index
+    )
     player["badges"] = compute_badges(player)
     return player
 
@@ -753,6 +860,7 @@ def format_row(
     stats_map: dict[str, Any],
     twelfthman_links: dict[str, str],
     person_cache: dict[str, Any],
+    rating_index: dict[str, dict[str, Any]],
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     players = []
     lineup = {"position": row["position"], "playerIds": []}
@@ -765,6 +873,7 @@ def format_row(
             stats_map,
             twelfthman_links,
             person_cache,
+            rating_index,
         )
         players.append(merged)
         lineup["playerIds"].append(merged["id"])
@@ -792,6 +901,7 @@ def gather_coaches(person_cache: dict[str, Any]) -> dict[str, Any]:
 
 def build_payload() -> dict[str, Any]:
     person_cache: dict[str, Any] = {}
+    rating_index = load_rating_index()
 
     depth = parse_ourlads_depth(fetch_text(OURLADS_DEPTH_URL))
     roster_data = parse_espn_roster()
@@ -806,13 +916,17 @@ def build_payload() -> dict[str, Any]:
     defense_rows: list[dict[str, Any]] = []
 
     for row in depth["offense"]:
-        lineup, row_players = format_row(row, roster_map, stats_map, twelfthman_links, person_cache)
+        lineup, row_players = format_row(
+            row, roster_map, stats_map, twelfthman_links, person_cache, rating_index
+        )
         offense_rows.append(lineup)
         for player in row_players:
             players[str(player["id"])] = player
 
     for row in depth["defense"]:
-        lineup, row_players = format_row(row, roster_map, stats_map, twelfthman_links, person_cache)
+        lineup, row_players = format_row(
+            row, roster_map, stats_map, twelfthman_links, person_cache, rating_index
+        )
         defense_rows.append(lineup)
         for player in row_players:
             players[str(player["id"])] = player

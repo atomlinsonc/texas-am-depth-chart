@@ -9,7 +9,7 @@
       "accent": "#f7f0e8"
     }
   },
-  "generatedAt": "2026-04-21T16:49:51+00:00",
+  "generatedAt": "2026-04-21T19:27:29+00:00",
   "latestStatSeason": "2026",
   "seasonContext": {
     "rosterSeason": 2026,
@@ -200,94 +200,94 @@
     "layouts": {
       "offense": {
         "WR-X": {
-          "x": 8,
-          "y": 14
+          "x": 10,
+          "y": 51
         },
         "WR-SL": {
-          "x": 24,
-          "y": 27
+          "x": 23,
+          "y": 67
         },
         "LT": {
-          "x": 30,
-          "y": 47
+          "x": 35,
+          "y": 51
         },
         "LG": {
-          "x": 40,
-          "y": 47
+          "x": 43,
+          "y": 51
         },
         "C": {
-          "x": 50,
-          "y": 47
+          "x": 51,
+          "y": 51
         },
         "RG": {
-          "x": 60,
-          "y": 47
+          "x": 59,
+          "y": 51
         },
         "RT": {
-          "x": 70,
-          "y": 47
+          "x": 67,
+          "y": 51
         },
         "TE": {
-          "x": 82,
-          "y": 39
+          "x": 79,
+          "y": 64
         },
         "QB": {
-          "x": 50,
-          "y": 62
+          "x": 51,
+          "y": 78
         },
         "RB": {
-          "x": 50,
-          "y": 80
+          "x": 57,
+          "y": 91
         },
         "WR-Z": {
-          "x": 92,
-          "y": 14
+          "x": 90,
+          "y": 51
         }
       },
       "defense": {
-        "LCB": {
-          "x": 10,
-          "y": 15
-        },
-        "NB": {
-          "x": 24,
-          "y": 27
-        },
-        "LDE": {
-          "x": 31,
-          "y": 43
-        },
-        "NT": {
-          "x": 43,
-          "y": 43
-        },
-        "DT": {
-          "x": 57,
-          "y": 43
-        },
-        "RDE": {
-          "x": 69,
-          "y": 43
-        },
-        "WLB": {
-          "x": 36,
-          "y": 62
-        },
-        "MLB": {
-          "x": 64,
-          "y": 62
+        "FS": {
+          "x": 35,
+          "y": 18
         },
         "SS": {
-          "x": 36,
-          "y": 79
+          "x": 67,
+          "y": 24
         },
-        "FS": {
-          "x": 64,
-          "y": 79
+        "WLB": {
+          "x": 43,
+          "y": 40
+        },
+        "MLB": {
+          "x": 57,
+          "y": 40
+        },
+        "NB": {
+          "x": 23,
+          "y": 49
+        },
+        "LDE": {
+          "x": 34,
+          "y": 67
+        },
+        "NT": {
+          "x": 46,
+          "y": 67
+        },
+        "DT": {
+          "x": 56,
+          "y": 67
+        },
+        "RDE": {
+          "x": 68,
+          "y": 67
+        },
+        "LCB": {
+          "x": 10,
+          "y": 72
         },
         "RCB": {
           "x": 90,
-          "y": 15
+          "y": 72
         }
       }
     },
@@ -335,6 +335,7 @@
       "highSchool": "Oakland",
       "headshot": "https://12thman.com/images/2026/4/8/Horton__Isaiah.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/isaiah-horton/15548",
       "espnPlayerUrl": null,
       "stats": {},
@@ -352,7 +353,12 @@
           "url": "https://12thman.com/sports/football/roster/isaiah-horton/15548"
         }
       ],
-      "rating": 84,
+      "rating": 64.1,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "ALABAMA"
+      },
       "badges": [
         "Target"
       ]
@@ -374,7 +380,8 @@
       "hometown": "Montgomery, Ala.",
       "highSchool": "Carver",
       "headshot": "https://12thman.com/images/2025/7/31/Norman_-TK.jpg",
-      "bio": "HIGH SCHOOL : Tabbed a 3-star wide receiver by 247Sports, Rivals and ESPN \u2026 Coached by Bobby Carr at Carver High School \u2026 Amassed 75 catches for 1,365 yards and 16 touchdowns as a two-year starter \u2026 As a senior he averaged 20.3 yards per catch, while finishing the season with 31 catches for 629 yards and six touchdowns \u2026 Helped lead Carver to a 7-4 record and an AHSAA 6A playoff appearance in 2023 after finishing...",
+      "bio": "HIGH SCHOOL : Tabbed a 3-star wide receiver by 247Sports, Rivals and ESPN \u2026 Coached by Bobby Carr at Carver High School \u2026 Amassed 75 catches for 1,365 yards and 16 touchdowns as a two-year starter \u2026 As a senior he averaged 20.3 yards per catch, while finishing the season with 31 catches for 629 yards and six touchdowns \u2026 Helped lead Carver to a 7-4 record and an AHSAA 6A playoff appearance in 2023 after finishing with 44 catches for 736 yards and 10 touchdowns as a junior \u2026 Dual-sport athlete that competes in track & field with a personal best long jump of 22-6.",
+      "bioShort": "HIGH SCHOOL : Tabbed a 3-star wide receiver by 247Sports, Rivals and ESPN \u2026 Coached by Bobby Carr at Carver High School \u2026 Amassed 75 catches for 1,365 yards and 16 touchdowns as a two-year starter \u2026 As a senior he averaged 20.3 yards per catch, while finishing the season with 31 catches for 629 yards and six touchdowns \u2026 Helped lead Carver to a 7-4 record and an AHSAA 6A playoff appearance in 2023 after finishing...",
       "bioSource": "https://12thman.com/sports/football/roster/tk-norman/15502",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5164360/tk-norman",
       "stats": {
@@ -463,7 +470,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5164360/tk-norman"
         }
       ],
-      "rating": 78,
+      "rating": 60.8,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Target"
       ]
@@ -485,7 +497,8 @@
       "hometown": "Augusta, Ga.",
       "highSchool": "Douglas County",
       "headshot": "https://12thman.com/images/2026/4/8/Gregory__Aaron.jpg",
-      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered three years at Douglas County under head coach Johnny White \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 84 and No. 95 overall prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 10, No. 11 and No. 13 wide receiver nationally according to 247Sports.com...",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered three years at Douglas County under head coach Johnny White \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 84 and No. 95 overall prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 10, No. 11 and No. 13 wide receiver nationally according to 247Sports.com , ESPN.com and Rivals/On3.com , respectively \u2026 logged as the No. 9, No. 10 and No. 12 prospect from the state of Georgia according to 247Sports.com , ESPN.com and Rivals/On3.com , respectively \u2026 also listed at No. 75 on ESPN.com \u2019s top 300 list \u2026 helped Douglas County to a 33-8 three-year ledger and a 2023 regional championship, while also making consecutive state semifinal showings as a sophomore and junior and a quarterfinal appearance as a senior \u2026 carded 163 receptions for 2,930 yards (18.0) with 20 touchdowns during high school career \u2026 added 4-of-4 pass attempts for 100 yards as a sophomore \u2026 on defense, compiled 82 tackles, 1.0 tackles for loss, one interception, and two fumble recoveries \u2026 set the Douglas County school record for career receiving yards \u2026 named three-time all-state, and two-time Georgia 6A first team and 6A region 2 first team \u2026 selected to the Atlanta Journal-Constitution Super 11 team \u2026 was also chosen a two-time Navy All-American, an Under Armor All-American and a Polynesian Bowl All-American ... chosen a finalist for the Navy All-American Bowl Offensive Player of the Year. PERSONAL: Born October 22, 2007 \u2026 son of Brandon and Rhonda Pridgen \u2026 sister, Trinyty, lettered two seasons (2022-23) in track & field at Columbia International University and two years at Shorter University (2024-25) \u2026 maternal uncle, Will Avery, lettered two years in men\u2019s basketball at Duke University (1997-98 and 1998-99) earning second-team All-ACC honors and third-team Parade All-American recognition in 1999 before being selected as the 14th overall pick in the 1999 NBA Draft by the Minnesota Timberwolves; currently serves as an assistant men\u2019s basketball coach at Duke.",
+      "bioShort": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered three years at Douglas County under head coach Johnny White \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 84 and No. 95 overall prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 10, No. 11 and No. 13 wide receiver nationally according to 247Sports.com...",
       "bioSource": "https://12thman.com/sports/football/roster/aaron-gregory/15545",
       "espnPlayerUrl": null,
       "stats": {},
@@ -503,7 +516,11 @@
           "url": "https://12thman.com/sports/football/roster/aaron-gregory/15545"
         }
       ],
-      "rating": 68,
+      "rating": 67.8,
+      "ratingSource": {
+        "type": "fallback",
+        "source": "projection"
+      },
       "badges": [
         "Target",
         "Upside"
@@ -526,7 +543,8 @@
       "hometown": "Missouri City, Texas",
       "highSchool": "Ridge Point",
       "headshot": "https://12thman.com/images/2025/7/31/Bethel-Roman_-Ashton.jpg",
-      "bio": "2024 (FRESHMAN): Saw action in four games ... Made his Aggie debut catching one pass for 9 yards in the win over McNeese ... Brought in three passes for 35 yards and his first collegiate touchdown in the win over New Mexico State. HIGH SCHOOL: Coached by Rick Lafavers at Ridge Point High School \u2026 Rated a 4 star prospect by all three recruiting services (247 Sports, Rivals, ESPN) and ranked No. 207 in ESPN top 300 in...",
+      "bio": "2024 (FRESHMAN): Saw action in four games ... Made his Aggie debut catching one pass for 9 yards in the win over McNeese ... Brought in three passes for 35 yards and his first collegiate touchdown in the win over New Mexico State. HIGH SCHOOL: Coached by Rick Lafavers at Ridge Point High School \u2026 Rated a 4 star prospect by all three recruiting services (247 Sports, Rivals, ESPN) and ranked No. 207 in ESPN top 300 in the nation \u2026 Totaled 97 catches for 1,997 yards and 17 touchdowns, while averaging 21.7 yards per punt return in his high school career \u2026 Helped lead Ridge Point to a 9-3 record, including an undefeated 8-0 ledger to win the District 20-6A title and an area round appearance in the state playoffs \u2026 Caught 49 passes for 964 yards and nine scores, while earning all-district first team WR honors and the district return specialist MVP \u2026 Finished his junior season with 37 catches for 892 yards and eight touchdowns, while helping lead Ridge Point to a 10-3 record and a regional appearance in the state playoffs \u2026 Also competes in track & field recording a personal best 21.51 in the 200m and 23-3 long jump mark \u2026 Father, Mark Roman, was selected in the second round as the 34th overall pick in the 2000 NFL Draft by the Cincinnati Bengals.",
+      "bioShort": "2024 (FRESHMAN): Saw action in four games ... Made his Aggie debut catching one pass for 9 yards in the win over McNeese ... Brought in three passes for 35 yards and his first collegiate touchdown in the win over New Mexico State. HIGH SCHOOL: Coached by Rick Lafavers at Ridge Point High School \u2026 Rated a 4 star prospect by all three recruiting services (247 Sports, Rivals, ESPN) and ranked No. 207 in ESPN top 300 in...",
       "bioSource": "https://12thman.com/sports/football/roster/ashton-bethelroman/15458",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5139057/ashton-bethel-roman",
       "stats": {
@@ -589,7 +607,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5139057/ashton-bethel-roman"
         }
       ],
-      "rating": 92,
+      "rating": 59.4,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Explosive",
         "Finisher"
@@ -612,7 +635,8 @@
       "hometown": "Timpson, Texas",
       "highSchool": "Timpson",
       "headshot": "https://12thman.com/images/2025/7/31/Bussey_-Terry.jpg",
-      "bio": "2024 (FRESHMAN): Played in 12 games this season, primarily as a return specialist and selected offensive snaps ... Returned two kickoffs and two punts in the season-opener against Notre Dame ... Scored the first touchdown of his career, breaking away on a 65-yard run to the end zone in the win over McNeese ... Ran for 7 yards on two carries in the win at Florida ... Caught one pass for 10 yards in the win over...",
+      "bio": "2024 (FRESHMAN): Played in 12 games this season, primarily as a return specialist and selected offensive snaps ... Returned two kickoffs and two punts in the season-opener against Notre Dame ... Scored the first touchdown of his career, breaking away on a 65-yard run to the end zone in the win over McNeese ... Ran for 7 yards on two carries in the win at Florida ... Caught one pass for 10 yards in the win over Bowling Green ... Registered a season-high three catches for 76 yards in the win over No. 9 Missouri ... Rushed two times for 10 yards in the win over No. 8 LSU ... Rushed for his second score of the season against Auburn, while adding three catches for 29 yards ... Caught two passes for 40 yards against Texas ... Received four passes for 37 yards in the Las Vegas Bowl against USC. HIGH SCHOOL: Rated a 5-star prospect and the nation's No. 1 athlete by all three major outlets (247 Sports, Rivals, ESPN), also ranked as the No. 15 overall recruit by Rivals, No. 16 by 247 Sports and No. 18 by ESPN in the 2024 signing class ... Coached by Kerry Therwhanger at Timpson High School \u2026 2024 Under Armour All-American and Polynesian Bowl selection, as well as a Dave Campbell\u2019s Mr. Texas Football Player of the Year finalist \u2026 Led Timpson to an undefeated 16-0 record and a UIL 2A-D1 state title, was named the offensive MVP after throwing for 311 yards, rushing for 155 yards and scoring six touchdowns \u2026 Set the state championship game records for the longest touchdown pass (97 yards) and a class 2A record for longest rushing touchdown (93 yards) \u2026 Two-way four-year letterman at Timpson where he threw for 5,981 yards and rushed for 5,361 yards with 169 touchdowns as a quarterback, while totaling 270 tackles and 24 interceptions in his career \u2026 Was named Dave Campbell\u2019s Mr. Texas Football Player of the Year and TSWA Class 2A Offensive Player of the Year as a junior \u2026 Earned district MVP honors in 2023, 2022 and 2021 \u2026 Multi-sport athlete earning district MVP honors in basketball in 2022, has a personal best time of 10.66 in the 100m and won the 2A state championship in triple jump (45-10) as a junior \u2026 Nephew of Texas A&M Aggie Domingo Bryant (1982-85) who was a two-time All-Southwest Conference honoree (\u201982, \u201985) before being drafted in the sixth round of the 1986 NFL Draft by the Pittsburgh Steelers.",
+      "bioShort": "2024 (FRESHMAN): Played in 12 games this season, primarily as a return specialist and selected offensive snaps ... Returned two kickoffs and two punts in the season-opener against Notre Dame ... Scored the first touchdown of his career, breaking away on a 65-yard run to the end zone in the win over McNeese ... Ran for 7 yards on two carries in the win at Florida ... Caught one pass for 10 yards in the win over...",
       "bioSource": "https://12thman.com/sports/football/roster/terry-bussey/15466",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079326/terry-bussey",
       "stats": {
@@ -705,7 +729,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5079326/terry-bussey"
         }
       ],
-      "rating": 75,
+      "rating": 52.8,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Target"
       ]
@@ -727,7 +756,8 @@
       "hometown": "Draper, Utah",
       "highSchool": "Corner Canyon",
       "headshot": "https://12thman.com/images/2025/7/31/Myles_-Jerome.jpg",
-      "bio": "1 minute w/ @jerome_myles6 ??? pic.twitter.com/0VxoZuv69H \u2014 Texas A&M Football (@AggieFootball) August 19, 2025 Coached by Eric Kjar at Corner Canyon High School 247Sports: 5 star, No. 5 WR in Nation, No. 1 in Utah, No. 23 in Nation Rivals: 4 star, No. 4 WR in Nation, No. 1 in Utah, No. 32 in Nation ESPN: 4 star, No. 6 WR in Nation, No. 1 in Utah, No. 33 in Nation High School Tabbed a 5-star by 247Sports, while...",
+      "bio": "1 minute w/ @jerome_myles6 ??? pic.twitter.com/0VxoZuv69H \u2014 Texas A&M Football (@AggieFootball) August 19, 2025 Coached by Eric Kjar at Corner Canyon High School 247Sports: 5 star, No. 5 WR in Nation, No. 1 in Utah, No. 23 in Nation Rivals: 4 star, No. 4 WR in Nation, No. 1 in Utah, No. 32 in Nation ESPN: 4 star, No. 6 WR in Nation, No. 1 in Utah, No. 33 in Nation High School Tabbed a 5-star by 247Sports, while Rivals and ESPN listed him as a 4-star recruit \u2026 Ranked No. 33 in ESPN 300 \u2026 2024 Navy All-American Bowl and Polynesian Bowl selection \u2026 Coached by Eric Kjar at Corner Canyon High School \u2026 Totaled 28 catches for 732 yards and 10 touchdowns in two seasons as a Charger \u2026 Played the 2022 season at West Jordan High School where he caught 34 passes for 699 yards and eight touchdowns \u2026 Also runs track and won the 100m and 200m state title as a junior, while his 100m time of 10.36 broke a 43-year old Utah record.",
+      "bioShort": "1 minute w/ @jerome_myles6 ??? pic.twitter.com/0VxoZuv69H \u2014 Texas A&M Football (@AggieFootball) August 19, 2025 Coached by Eric Kjar at Corner Canyon High School 247Sports: 5 star, No. 5 WR in Nation, No. 1 in Utah, No. 23 in Nation Rivals: 4 star, No. 4 WR in Nation, No. 1 in Utah, No. 32 in Nation ESPN: 4 star, No. 6 WR in Nation, No. 1 in Utah, No. 33 in Nation High School Tabbed a 5-star by 247Sports, while...",
       "bioSource": "https://12thman.com/sports/football/roster/jerome-myles/15500",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5148650/jerome-myles",
       "stats": {},
@@ -749,7 +779,11 @@
           "url": "https://www.espn.com/college-football/player/_/id/5148650/jerome-myles"
         }
       ],
-      "rating": 68,
+      "rating": 67.8,
+      "ratingSource": {
+        "type": "fallback",
+        "source": "projection"
+      },
       "badges": [
         "Target"
       ]
@@ -771,7 +805,8 @@
       "hometown": "Birmingham, Ala.",
       "highSchool": "Clay-Chalkville",
       "headshot": "https://12thman.com/images/2025/7/31/Craver_-Mario.jpg",
-      "bio": "PRIOR TO TEXAS A&M: Ranked No. 2 in the SEC with 21.6 yards per catch among players with at least 15 catches in his freshman season at Mississippi State in nine games, while making three starts ... Caught 17 passes for 368 yards and three touchdowns, while averaging 40.9 yards per game ... Scored two touchdowns in his collegiate debut, a 54-yard reception and a blocked punt recovery in the end zone ... Recorded a...",
+      "bio": "PRIOR TO TEXAS A&M: Ranked No. 2 in the SEC with 21.6 yards per catch among players with at least 15 catches in his freshman season at Mississippi State in nine games, while making three starts ... Caught 17 passes for 368 yards and three touchdowns, while averaging 40.9 yards per game ... Scored two touchdowns in his collegiate debut, a 54-yard reception and a blocked punt recovery in the end zone ... Recorded a career-high five receptions for 42 yards and score against Texas A&M ... Tallied a career-high 75 yards receiving on two catches against Georgia. HIGH SCHOOL: Rated a 4-star recruit according to 247Sports and ESPN, while Rivals tabbed him a 3-star prospect ... Ranked No. 275 in ESPN's Top 300 for 2024 ... Selected to play in the 2024 Under Armour All-America Bowl and played in the Mississippi - Alabama All-Star Game ... Coached by Drew Gilmer at Clay-Chalkville High School ... Helped lead his team to an undefeated 14-0 record and an Alabama 6A State Championship in 2023 ... Registered over 1,000 yards receiving with 15 total touchdowns, including one kickoff return for a score as a senior ... As a sophomore he was the second-leading receiver averaging 62.5 yards receiving per game, while leading his team to a 15-0 record and a state title ... Also ran track and clocked a personal best 10.74 in the 100m in his junior season.",
+      "bioShort": "PRIOR TO TEXAS A&M: Ranked No. 2 in the SEC with 21.6 yards per catch among players with at least 15 catches in his freshman season at Mississippi State in nine games, while making three starts ... Caught 17 passes for 368 yards and three touchdowns, while averaging 40.9 yards per game ... Scored two touchdowns in his collegiate debut, a 54-yard reception and a blocked punt recovery in the end zone ... Recorded a...",
       "bioSource": "https://12thman.com/sports/football/roster/mario-craver/15470",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079345/mario-craver",
       "stats": {
@@ -864,7 +899,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5079345/mario-craver"
         }
       ],
-      "rating": 93,
+      "rating": 81.4,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Explosive",
         "Chain Mover"
@@ -887,7 +927,8 @@
       "hometown": "Irvine, Calif.",
       "highSchool": "St. John Bosco",
       "headshot": "https://12thman.com/images/2026/4/10/Williams__Madden.jpg",
-      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at St. John Bosco under head coach Jason Negro \u2026 consensus four-star prospect by ESPN.com, 247Sports.com and Rivals/On3.com \u2026 charted as the No. 26, No. 31 and No. 38 wide receiver nationally according to ESPN.com , 247Sports.com and Rivals/On3.com , respectively \u2026 logged as the No. 19, No. 21 and No. 21 prospect from the state of...",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at St. John Bosco under head coach Jason Negro \u2026 consensus four-star prospect by ESPN.com, 247Sports.com and Rivals/On3.com \u2026 charted as the No. 26, No. 31 and No. 38 wide receiver nationally according to ESPN.com , 247Sports.com and Rivals/On3.com , respectively \u2026 logged as the No. 19, No. 21 and No. 21 prospect from the state of California according to ESPN.com , 247Sports.com and Rivals/On3.com , respectively \u2026 also listed at No. 172 on ESPN.com \u2019s top 300 list \u2026 helped St. John Bosco to a 44-7 four-year record, including three consecutive state championship game appearances and the 2022 CIF Southern Section Division I State Championship after a 13-1 ledger \u2026 recorded 133 receptions for 2,157 yards (16.2) with 28 touchdowns throughout career \u2026 named a two-time All-American by Rivals.com and MaxPreps.com as well as a three-time all-state, all-CIF and all-league \u2026 set a program record for career receiving touchdowns and most receiving yards in a game (255 yards) \u2026 registered St. John Bosco's longest touchdown reception in a game following a 96-yard catch against Sierra Canyon ... selected to the Navy All-American Bowl and the Polynesian Bowl ... also lettered in basketball. PERSONAL: Born June 9, 2007 \u2026 son of Myron and Brandi Williams.",
+      "bioShort": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at St. John Bosco under head coach Jason Negro \u2026 consensus four-star prospect by ESPN.com, 247Sports.com and Rivals/On3.com \u2026 charted as the No. 26, No. 31 and No. 38 wide receiver nationally according to ESPN.com , 247Sports.com and Rivals/On3.com , respectively \u2026 logged as the No. 19, No. 21 and No. 21 prospect from the state of...",
       "bioSource": "https://12thman.com/sports/football/roster/madden-williams/15571",
       "espnPlayerUrl": null,
       "stats": {},
@@ -905,7 +946,11 @@
           "url": "https://12thman.com/sports/football/roster/madden-williams/15571"
         }
       ],
-      "rating": 74,
+      "rating": 73.8,
+      "ratingSource": {
+        "type": "fallback",
+        "source": "projection"
+      },
       "badges": [
         "Target",
         "Upside"
@@ -928,7 +973,8 @@
       "hometown": "Hitchcock, Texas",
       "highSchool": "Hitchcock",
       "headshot": "https://12thman.com/images/2025/7/31/Johnson_-Kelshaun.jpg",
-      "bio": "HIGH SCHOOL : Earned a 4-star ranking by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 176 on the ESPN 300 \u2026 Coached by Craig Smith at Hitchcock High School \u2026 Played varsity all four seasons leading the Bulldogs to district titles in 2022 and 2024 \u2026 Earned First Team All-District honors each season \u2026 Multi-sport athlete that was a starter on the state champion basketball team and...",
+      "bio": "HIGH SCHOOL : Earned a 4-star ranking by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 176 on the ESPN 300 \u2026 Coached by Craig Smith at Hitchcock High School \u2026 Played varsity all four seasons leading the Bulldogs to district titles in 2022 and 2024 \u2026 Earned First Team All-District honors each season \u2026 Multi-sport athlete that was a starter on the state champion basketball team and school-record holder in the 100m at 10.49.",
+      "bioShort": "HIGH SCHOOL : Earned a 4-star ranking by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 176 on the ESPN 300 \u2026 Coached by Craig Smith at Hitchcock High School \u2026 Played varsity all four seasons leading the Bulldogs to district titles in 2022 and 2024 \u2026 Earned First Team All-District honors each season \u2026 Multi-sport athlete that was a starter on the state champion basketball team and...",
       "bioSource": "https://12thman.com/sports/football/roster/kelshaun-johnson/15487",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5164648/kelshaun-johnson",
       "stats": {
@@ -987,7 +1033,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5164648/kelshaun-johnson"
         }
       ],
-      "rating": 68,
+      "rating": 56.7,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Target"
       ]
@@ -1010,6 +1061,7 @@
       "highSchool": "St. Augustine",
       "headshot": "https://12thman.com/images/2026/4/7/Adams__Tyree.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/tyree-adams/15527",
       "espnPlayerUrl": null,
       "stats": {},
@@ -1027,7 +1079,12 @@
           "url": "https://12thman.com/sports/football/roster/tyree-adams/15527"
         }
       ],
-      "rating": 84,
+      "rating": 55.5,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "LSU"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1050,7 +1107,8 @@
       "hometown": "Mesquite, Texas",
       "highSchool": "Horn",
       "headshot": "https://12thman.com/images/2025/7/31/Rogers_-Lamont.jpg",
-      "bio": "HIGH SCHOOL : A 5-star recruit by 247Sports and a 4-star prospect by Rivals and ESPN \u2026 Ranked No. 24 in the ESPN 300 \u2026 2024 Navy All-American Bowl selection \u2026 Coached by Courtney Allen at Horn High School \u2026 Earned first team all-district honors as a senior, junior and sophomore \u2026 As a sophomore he helped pave the way for the Jaguars to an 8-3 record and a UIL 6A DI playoff appearance \u2026 A multi-sport athlete that...",
+      "bio": "HIGH SCHOOL : A 5-star recruit by 247Sports and a 4-star prospect by Rivals and ESPN \u2026 Ranked No. 24 in the ESPN 300 \u2026 2024 Navy All-American Bowl selection \u2026 Coached by Courtney Allen at Horn High School \u2026 Earned first team all-district honors as a senior, junior and sophomore \u2026 As a sophomore he helped pave the way for the Jaguars to an 8-3 record and a UIL 6A DI playoff appearance \u2026 A multi-sport athlete that also played basketball and soccer.",
+      "bioShort": "HIGH SCHOOL : A 5-star recruit by 247Sports and a 4-star prospect by Rivals and ESPN \u2026 Ranked No. 24 in the ESPN 300 \u2026 2024 Navy All-American Bowl selection \u2026 Coached by Courtney Allen at Horn High School \u2026 Earned first team all-district honors as a senior, junior and sophomore \u2026 As a sophomore he helped pave the way for the Jaguars to an 8-3 record and a UIL 6A DI playoff appearance \u2026 A multi-sport athlete that...",
       "bioSource": "https://12thman.com/sports/football/roster/lamont-rogers/15513",
       "espnPlayerUrl": null,
       "stats": {},
@@ -1068,7 +1126,12 @@
           "url": "https://12thman.com/sports/football/roster/lamont-rogers/15513"
         }
       ],
-      "rating": 75,
+      "rating": 62.6,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1092,6 +1155,7 @@
       "highSchool": null,
       "headshot": null,
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": null,
       "stats": {},
@@ -1105,7 +1169,12 @@
           "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/trey-zuhn-iii/148226"
         }
       ],
-      "rating": 72,
+      "rating": 72.7,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1129,6 +1198,7 @@
       "highSchool": "Katy",
       "headshot": "https://12thman.com/images/2026/4/7/Echols__Coen.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/coen-echols/15538",
       "espnPlayerUrl": null,
       "stats": {},
@@ -1146,7 +1216,12 @@
           "url": "https://12thman.com/sports/football/roster/coen-echols/15538"
         }
       ],
-      "rating": 83,
+      "rating": 57.2,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "LSU"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1169,7 +1244,8 @@
       "hometown": "League City, Texas",
       "highSchool": "Clear Springs",
       "headshot": "https://12thman.com/images/2025/7/31/Ivy_-Blake.jpg",
-      "bio": "2024 (FRESHMAN): Saw offensive snaps in the wins against McNeese and New Mexico State ... Appeared in the Las Vegas Bowl against USC. HIGH SCHOOL: Tabbed a 4-star recruit by all three major outlets (247 Sports, Rivals, ESPN) ... Coached by Anthony Renfro at Clear Springs High School \u2026 2024 Under Armour All-American Bowl selection \u2026 Ranked No. 128 in ESPN top 300 in the nation \u2026 Three-year varsity starter at Clear...",
+      "bio": "2024 (FRESHMAN): Saw offensive snaps in the wins against McNeese and New Mexico State ... Appeared in the Las Vegas Bowl against USC. HIGH SCHOOL: Tabbed a 4-star recruit by all three major outlets (247 Sports, Rivals, ESPN) ... Coached by Anthony Renfro at Clear Springs High School \u2026 2024 Under Armour All-American Bowl selection \u2026 Ranked No. 128 in ESPN top 300 in the nation \u2026 Three-year varsity starter at Clear Springs, including starting at right tackle as a sophomore and junior before moving to left tackle as a senior \u2026 As a junior he helped lead Clear Springs to an 8-4 record, including a 5-1 record in district play.",
+      "bioShort": "2024 (FRESHMAN): Saw offensive snaps in the wins against McNeese and New Mexico State ... Appeared in the Las Vegas Bowl against USC. HIGH SCHOOL: Tabbed a 4-star recruit by all three major outlets (247 Sports, Rivals, ESPN) ... Coached by Anthony Renfro at Clear Springs High School \u2026 2024 Under Armour All-American Bowl selection \u2026 Ranked No. 128 in ESPN top 300 in the nation \u2026 Three-year varsity starter at Clear...",
       "bioSource": "https://12thman.com/sports/football/roster/blake-ivy/15485",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079453/blake-ivy",
       "stats": {},
@@ -1191,7 +1267,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5079453/blake-ivy"
         }
       ],
-      "rating": 77,
+      "rating": 47.9,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1215,6 +1296,7 @@
       "highSchool": null,
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079291.png",
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079291/isendre-ahfua",
       "stats": {},
@@ -1232,7 +1314,11 @@
           "url": "https://www.espn.com/college-football/player/_/id/5079291/isendre-ahfua"
         }
       ],
-      "rating": 72,
+      "rating": 72.5,
+      "ratingSource": {
+        "type": "fallback",
+        "source": "projection"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1255,7 +1341,8 @@
       "hometown": "Lynnwood, Wash.",
       "highSchool": "O'Dea",
       "headshot": "https://12thman.com/images/2025/7/31/Nabou-Jr_-Mark.jpg",
-      "bio": "2024 (SOPHOMORE): Made the start at center in the season opener before suffering a season-ending injury. 2023 (FRESHMAN): Started in all 12 games, including 11 starts at left guard and one at center ... Made the start at Miami, while the offensive line allowed only 1.0 sack in 53 pass attempts ... Made his first career start at center as the Aggies registered a season-high 399 passing yards in the win over ULM ......",
+      "bio": "2024 (SOPHOMORE): Made the start at center in the season opener before suffering a season-ending injury. 2023 (FRESHMAN): Started in all 12 games, including 11 starts at left guard and one at center ... Made the start at Miami, while the offensive line allowed only 1.0 sack in 53 pass attempts ... Made his first career start at center as the Aggies registered a season-high 399 passing yards in the win over ULM ... Started at left guard helping the Aggies eclipse the 200-yard rushing mark in wins over Auburn (209), Arkansas (204) and Mississippi State (246). 2022 (REDSHIRT): Made his first career start at left guard against Florida and saw the field against UMass. HIGH SCHOOL: Coached by Monte Kohler at O\u2019Dea High School ... Rated as a 3-star recruit by all three major outlets ... Was a 2022 Polynesian Bowl selection ... Was a two-year starter on varsity ... As a senior, helped lead the Fighting Irish to an 8-3 record and a 4-1 mark in the 3A Metro League as they advanced to the second round of the Washington State Playoffs.",
+      "bioShort": "2024 (SOPHOMORE): Made the start at center in the season opener before suffering a season-ending injury. 2023 (FRESHMAN): Started in all 12 games, including 11 starts at left guard and one at center ... Made the start at Miami, while the offensive line allowed only 1.0 sack in 53 pass attempts ... Made his first career start at center as the Aggies registered a season-high 399 passing yards in the win over ULM ......",
       "bioSource": "https://12thman.com/sports/football/roster/mark-nabou-jr/15501",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4832816/mark-nabou-jr",
       "stats": {},
@@ -1277,7 +1364,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4832816/mark-nabou-jr"
         }
       ],
-      "rating": 86,
+      "rating": 64.9,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1300,7 +1392,8 @@
       "hometown": "Katy, Texas",
       "highSchool": "Tompkins",
       "headshot": "https://12thman.com/images/2025/7/31/Funk_-Ashton.jpg",
-      "bio": "2024 (FRESHMAN): Saw offensive snaps at left tackle in the wins over McNeese and New Mexico State ... Appeared in the Las Vegas Bowl against USC. HIGH SCHOOL: Rated a 4-star prospect by 247 Sports, ESPN and Rivals ... Coached by Todd McVey at Tompkins High School \u2026 2023 Houston TD Club Offensive Player of the Year Finalist \u2026 Ranked No. 147 in ESPN top 300 in the nation \u2026 As a junior he was a UIL District 19-6A First...",
+      "bio": "2024 (FRESHMAN): Saw offensive snaps at left tackle in the wins over McNeese and New Mexico State ... Appeared in the Las Vegas Bowl against USC. HIGH SCHOOL: Rated a 4-star prospect by 247 Sports, ESPN and Rivals ... Coached by Todd McVey at Tompkins High School \u2026 2023 Houston TD Club Offensive Player of the Year Finalist \u2026 Ranked No. 147 in ESPN top 300 in the nation \u2026 As a junior he was a UIL District 19-6A First Team selection and TSWA Class 6A First Team All-State selection \u2026 Started primarily at left tackle as a sophomore.",
+      "bioShort": "2024 (FRESHMAN): Saw offensive snaps at left tackle in the wins over McNeese and New Mexico State ... Appeared in the Las Vegas Bowl against USC. HIGH SCHOOL: Rated a 4-star prospect by 247 Sports, ESPN and Rivals ... Coached by Todd McVey at Tompkins High School \u2026 2023 Houston TD Club Offensive Player of the Year Finalist \u2026 Ranked No. 147 in ESPN top 300 in the nation \u2026 As a junior he was a UIL District 19-6A First...",
       "bioSource": "https://12thman.com/sports/football/roster/ashton-funk/15474",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5113181/ashton-funk",
       "stats": {},
@@ -1322,7 +1415,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5113181/ashton-funk"
         }
       ],
-      "rating": 77,
+      "rating": 57.7,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1346,6 +1444,7 @@
       "highSchool": null,
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4894116.png",
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4894116/william-huntsinger",
       "stats": {},
@@ -1363,7 +1462,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4894116/william-huntsinger"
         }
       ],
-      "rating": 72,
+      "rating": 55.1,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1387,6 +1491,7 @@
       "highSchool": "Pace Academy",
       "headshot": "https://12thman.com/images/2026/4/7/Baugh__Trovon.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/trovon-baugh/15531",
       "espnPlayerUrl": null,
       "stats": {},
@@ -1404,7 +1509,12 @@
           "url": "https://12thman.com/sports/football/roster/trovon-baugh/15531"
         }
       ],
-      "rating": 84,
+      "rating": 53.1,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "S CAROLINA"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1427,7 +1537,8 @@
       "hometown": "Dickinson, Texas",
       "highSchool": "Dickinson",
       "headshot": "https://12thman.com/images/2025/7/31/Thomas_-Tyler.jpg",
-      "bio": "HIGH SCHOOL : Rated a 3-star prospect by 247Sports, Rivals and ESPN \u2026 Coached by John Snelson at Dickinson High School \u2026 Three-year varsity letterman and helped lead the Gators to the UIL 6A D1 playoffs each season \u2026 Was named a finalist for the 2024 Offensive Player of the Year by the Touchdown Club of Houston \u2026 As a senior he helped pave the way for a 1,500-plus yard rusher as Dickinson averaged 250.7 rushing...",
+      "bio": "HIGH SCHOOL : Rated a 3-star prospect by 247Sports, Rivals and ESPN \u2026 Coached by John Snelson at Dickinson High School \u2026 Three-year varsity letterman and helped lead the Gators to the UIL 6A D1 playoffs each season \u2026 Was named a finalist for the 2024 Offensive Player of the Year by the Touchdown Club of Houston \u2026 As a senior he helped pave the way for a 1,500-plus yard rusher as Dickinson averaged 250.7 rushing yards per game \u2026 In 2023, he helped lead Dickinson to a 24-6A district title with an undefeated 6-0 record in league play before finishing the season at 9-2 after losing in the Bi-District round of the playoffs \u2026 Also competed in track & field as a sophomore finishing with a season-best shot put of 40-11.5.",
+      "bioShort": "HIGH SCHOOL : Rated a 3-star prospect by 247Sports, Rivals and ESPN \u2026 Coached by John Snelson at Dickinson High School \u2026 Three-year varsity letterman and helped lead the Gators to the UIL 6A D1 playoffs each season \u2026 Was named a finalist for the 2024 Offensive Player of the Year by the Touchdown Club of Houston \u2026 As a senior he helped pave the way for a 1,500-plus yard rusher as Dickinson averaged 250.7 rushing...",
       "bioSource": "https://12thman.com/sports/football/roster/tyler-thomas/15521",
       "espnPlayerUrl": null,
       "stats": {},
@@ -1445,7 +1556,12 @@
           "url": "https://12thman.com/sports/football/roster/tyler-thomas/15521"
         }
       ],
-      "rating": 75,
+      "rating": 65.6,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1469,6 +1585,7 @@
       "highSchool": null,
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4606712.png",
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4606712/armaj-reed-adams",
       "stats": {},
@@ -1486,7 +1603,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4606712/armaj-reed-adams"
         }
       ],
-      "rating": 74,
+      "rating": 69.1,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1510,6 +1632,7 @@
       "highSchool": "Northridge",
       "headshot": "https://12thman.com/images/2026/4/7/Formby__Wilkin.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/wilkin-formby/15542",
       "espnPlayerUrl": null,
       "stats": {},
@@ -1527,7 +1650,12 @@
           "url": "https://12thman.com/sports/football/roster/wilkin-formby/15542"
         }
       ],
-      "rating": 84,
+      "rating": 70.9,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "ALABAMA"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1550,7 +1678,8 @@
       "hometown": "Collierville, Tenn.",
       "highSchool": "Collierville",
       "headshot": "https://12thman.com/images/2025/7/31/Bourdon_-Robert.jpg",
-      "bio": "2024 (FRESHMAN): Saw action in the win over New Mexico State. HIGH SCHOOL: Coached by Joe Rocconi at Collierville High School ... Named to the Commercial Appeal All-Metro First Team and earned TSWA All-State 6A honors as a senior \u2026 Helped lead Collierville to an 8-4 record and 4-3 in 6A Region 8 action \u2026 As a junior, he helped pave the way as Collierville finished third in district play at 5-2 before finishing the...",
+      "bio": "2024 (FRESHMAN): Saw action in the win over New Mexico State. HIGH SCHOOL: Coached by Joe Rocconi at Collierville High School ... Named to the Commercial Appeal All-Metro First Team and earned TSWA All-State 6A honors as a senior \u2026 Helped lead Collierville to an 8-4 record and 4-3 in 6A Region 8 action \u2026 As a junior, he helped pave the way as Collierville finished third in district play at 5-2 before finishing the season 8-3 overall \u2026 Also played lacrosse earning all-region honors. 247 Sports: 4 star, No. 35 OT, No. 10 in Tennessee Rivals: 3 star ESPN: 3 star, No. 59 OT, No. 15 in Tennessee",
+      "bioShort": "2024 (FRESHMAN): Saw action in the win over New Mexico State. HIGH SCHOOL: Coached by Joe Rocconi at Collierville High School ... Named to the Commercial Appeal All-Metro First Team and earned TSWA All-State 6A honors as a senior \u2026 Helped lead Collierville to an 8-4 record and 4-3 in 6A Region 8 action \u2026 As a junior, he helped pave the way as Collierville finished third in district play at 5-2 before finishing the...",
       "bioSource": "https://12thman.com/sports/football/roster/robert-bourdon/15460",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5146765/robert-bourdon",
       "stats": {},
@@ -1572,7 +1701,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5146765/robert-bourdon"
         }
       ],
-      "rating": 77,
+      "rating": 66.1,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1596,6 +1730,7 @@
       "highSchool": null,
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4431526.png",
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4431526/dametrious-crownover",
       "stats": {},
@@ -1613,7 +1748,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4431526/dametrious-crownover"
         }
       ],
-      "rating": 74,
+      "rating": 65.2,
+      "ratingSource": {
+        "type": "csv",
+        "source": "blocking",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Anchor",
         "Pass Pro"
@@ -1637,6 +1777,7 @@
       "highSchool": "College Station",
       "headshot": "https://12thman.com/images/2026/4/12/Thomas__Houston.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/houston-thomas/15568",
       "espnPlayerUrl": null,
       "stats": {},
@@ -1654,7 +1795,12 @@
           "url": "https://12thman.com/sports/football/roster/houston-thomas/15568"
         }
       ],
-      "rating": 84,
+      "rating": 62.8,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "UTSA"
+      },
       "badges": [
         "Target"
       ]
@@ -1677,6 +1823,7 @@
       "highSchool": "Tualatin",
       "headshot": "https://12thman.com/images/2026/4/7/Anderson__Richie.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/richie-anderson/15528",
       "espnPlayerUrl": null,
       "stats": {},
@@ -1694,7 +1841,12 @@
           "url": "https://12thman.com/sports/football/roster/richie-anderson/15528"
         }
       ],
-      "rating": 75,
+      "rating": 55.1,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "FRESNO ST"
+      },
       "badges": [
         "Target"
       ]
@@ -1716,7 +1868,8 @@
       "hometown": "Jasper, Texas",
       "highSchool": "Jasper",
       "headshot": "https://12thman.com/images/2025/7/31/Armstrong_-Kiotti.jpg",
-      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major outlets (247Sports, Rivals, ESPN) and ranked a top 25 prospect in Texas by 247Sports and ESPN \u2026 Ranked No. 160 in the ESPN 300 \u2026 Coached by Kendrick Crumedy at Jasper High School \u2026 2024 Navy All-American Bowl selection \u2026 Made 68 catches for 1,026 yards and 18 touchdowns as a three-year varsity letterman for the Bulldogs \u2026 As a senior he had 36 catches for...",
+      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major outlets (247Sports, Rivals, ESPN) and ranked a top 25 prospect in Texas by 247Sports and ESPN \u2026 Ranked No. 160 in the ESPN 300 \u2026 Coached by Kendrick Crumedy at Jasper High School \u2026 2024 Navy All-American Bowl selection \u2026 Made 68 catches for 1,026 yards and 18 touchdowns as a three-year varsity letterman for the Bulldogs \u2026 As a senior he had 36 catches for 683 yards and seven touchdowns \u2026 In 2023 he made 26 catches for 268 yards and nine touchdowns, while leading Jasper to a 9-5 record and a UIL D-II state quarterfinal appearance \u2026 A multi-sport athlete that played varsity baseball, basketball and track & field.",
+      "bioShort": "HIGH SCHOOL : A consensus 4-star recruit by all three major outlets (247Sports, Rivals, ESPN) and ranked a top 25 prospect in Texas by 247Sports and ESPN \u2026 Ranked No. 160 in the ESPN 300 \u2026 Coached by Kendrick Crumedy at Jasper High School \u2026 2024 Navy All-American Bowl selection \u2026 Made 68 catches for 1,026 yards and 18 touchdowns as a three-year varsity letterman for the Bulldogs \u2026 As a senior he had 36 catches for...",
       "bioSource": "https://12thman.com/sports/football/roster/kiotti-armstrong/15456",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141358/kiotti-armstrong",
       "stats": {},
@@ -1738,7 +1891,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5141358/kiotti-armstrong"
         }
       ],
-      "rating": 68,
+      "rating": 54.2,
+      "ratingSource": {
+        "type": "csv",
+        "source": "receiving",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Target"
       ]
@@ -1760,7 +1918,8 @@
       "hometown": "Nashville, Tenn.",
       "highSchool": "Montgomery Bell Academy",
       "headshot": "https://12thman.com/images/2025/7/31/Reed_-Marcel2.jpg",
-      "bio": "SEC Freshman of the Week (9/16/24) SEC Freshman of the Week (10/28/24) Shaun Alexander Player of the Week (10/29/24) Davey O'Brien National QB of the Week (10/29/24) 2024 (FRESHMAN): Started eight of 11 games he appeared in, including three straight wins in his first three career starts ... Ranked first among SEC quarterbacks averaging 4.7 yards per carry, while his 49.4 yards per game and seven rushing scores were...",
+      "bio": "SEC Freshman of the Week (9/16/24) SEC Freshman of the Week (10/28/24) Shaun Alexander Player of the Week (10/29/24) Davey O'Brien National QB of the Week (10/29/24) 2024 (FRESHMAN): Started eight of 11 games he appeared in, including three straight wins in his first three career starts ... Ranked first among SEC quarterbacks averaging 4.7 yards per carry, while his 49.4 yards per game and seven rushing scores were fourth among SEC signal callers ... His 22 touchdowns (15 pass, 7 rush) this season ranks second in the SEC among freshmen ... Made his season debut passing 5-of-11 for 71 yards and rushing for 43 yards on seven carries in the win over McNeese ... Led the Aggies to a win in his first career start throwing 11-of-17 for 178 yards and two touchdowns, while adding 83 yards on the ground on 13 carries and one score in the SEC opener at Florida ... Was named SEC Freshman of the Week for his Week 3 performance and became the first Aggie quarterback to pass for 175-plus yards and rush for 75-plus yards in a game since Kellen Mond in 2017 ... Threw 16-of-29 for 173 yards and two touchdowns, while rushing for 91 yards on 12 carries and one score in the win over Bowling Green ... His two passing touchdowns and one rushing score in consecutive games is the first time an Aggie quarterback has done so since Johnny Manziel in 2012 ... Completed 11-of-22 for 163 yards with two touchdowns and one rushing score in the win over Arkansas ... Sparked a second-half comeback coming off the bench to score three unanswered rushing touchdowns in the win over No. 8 LSU ... He earned his second SEC Freshman of the Week honor and was named the Shaun Alexander Player of the Week, as well as the Davey O'Brien National QB of the Week after rushing for for 62 yards on nine carries and three scores, while completing two passes for 70 yards in the top 10 win over LSU ... Passed 20-of-31 for 268 yards and two scores, while adding 41 rushing yards on four carries and one score in the win over New Mexico State to become the first Aggie quarterback to pass for two scores and rush for one three times in a season since Kellen Mond in 2019 ... Completed 22-of-35 passes for a season-high 297 yards and a career-high three touchdowns at Auburn ... Passed for 292 yards and three touchdowns and ran for 46 yards and a touchdown in the Las Vegas Bowl against USC. 2023 (REDSHIRT): Appeared in three games, including the majority of his action in the Texas Bowl after the starting quarterback left the game following an injury on the first play of the game ... Completed 20-of-33 passes for 361 yards and rushed for 29 yards on 10 carries and one score in the bowl game ... Threw a 13-yard touchdown pass to Jaden Platt in the win over ACU for his first collegiate score through the air. HIGH SCHOOL: Coached by Marty Euverard at Montgomery Bell Academy ... Rated as a 4-star prospect by 247 Sports, Rivals and ESPN \u2026 2023 Mr. Football in Tennessee \u2026 Finished his career with 6,357 yards passing and 62 touchdowns, while rushing for 2,277 yards and 38 scores \u2026 Led Montgomery Bell Academy to a 12-1 record and to a state championship appearance \u2026 Passed for 2,198 yards and 27 touchdowns, while adding 944 yards rushing and 15 scores on the ground as a senior \u2026 Helped lead Montgomery Bell Academy to the state championship game as a junior \u2026 Had 1,513 yards passing and 12 touchdowns through the air, added 593 yards on 115 carries for 12 touchdowns on the ground in 2021.",
+      "bioShort": "SEC Freshman of the Week (9/16/24) SEC Freshman of the Week (10/28/24) Shaun Alexander Player of the Week (10/29/24) Davey O'Brien National QB of the Week (10/29/24) 2024 (FRESHMAN): Started eight of 11 games he appeared in, including three straight wins in his first three career starts ... Ranked first among SEC quarterbacks averaging 4.7 yards per carry, while his 49.4 yards per game and seven rushing scores were...",
       "bioSource": "https://12thman.com/sports/football/roster/marcel-reed/15506",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870971/marcel-reed",
       "stats": {
@@ -1883,7 +2042,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4870971/marcel-reed"
         }
       ],
-      "rating": 93,
+      "rating": 68.3,
+      "ratingSource": {
+        "type": "csv",
+        "source": "passing",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Dual Threat",
         "Explosive Arm"
@@ -1906,7 +2070,8 @@
       "hometown": "Cocoa, Fla.",
       "highSchool": "Cocoa",
       "headshot": "https://12thman.com/images/2025/7/31/Hart_-Brady.jpg",
-      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 134 in ESPN 300 2025 class after reclassifying from the 2026 class \u2026 Coached by Ryan Schneider at Cocoa High School \u2026 Completed 509-of-757 for 7,476 yards and 78 touchdowns in his career for the Tigers \u2026 In 2024 he has led Cocoa to a 9-3 record and an appearance in the FHSAA 2A state semifinals,...",
+      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 134 in ESPN 300 2025 class after reclassifying from the 2026 class \u2026 Coached by Ryan Schneider at Cocoa High School \u2026 Completed 509-of-757 for 7,476 yards and 78 touchdowns in his career for the Tigers \u2026 In 2024 he has led Cocoa to a 9-3 record and an appearance in the FHSAA 2A state semifinals, while passing 212-of-308 for 3,592 yards and 36 touchdowns \u2026 As a first-year starter in 2023 he completed 288-of-437 for 3,759 yards and 41 scores, while leading the Tigers to a 14-1 record and a FHSAA 2A state title \u2026 Father, Alex, was a pitcher at Florida (1999-2002) and was selected in the fifth round of the 2002 MLB Draft by the Pittsburgh Pirates.",
+      "bioShort": "HIGH SCHOOL : A consensus 4-star recruit by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 134 in ESPN 300 2025 class after reclassifying from the 2026 class \u2026 Coached by Ryan Schneider at Cocoa High School \u2026 Completed 509-of-757 for 7,476 yards and 78 touchdowns in his career for the Tigers \u2026 In 2024 he has led Cocoa to a 9-3 record and an appearance in the FHSAA 2A state semifinals,...",
       "bioSource": "https://12thman.com/sports/football/roster/brady-hart/15482",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5295969/brady-hart",
       "stats": {
@@ -2025,7 +2190,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5295969/brady-hart"
         }
       ],
-      "rating": 76,
+      "rating": 57.7,
+      "ratingSource": {
+        "type": "csv",
+        "source": "passing",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Dual Threat"
       ]
@@ -2047,7 +2217,8 @@
       "hometown": "Kona, Hawai'i",
       "highSchool": "Corner Canyon [Utah]",
       "headshot": "https://12thman.com/images/2026/4/7/Casuga__Helaman.jpg",
-      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered two years at Timpview under head coach Donny Atuaia and two seasons at Corner Canyon under head coach Eric Kjar \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 235 and No. 274 overall prospect nationally by Rivals/On3.com and 247Sports.com , respectively \u2026 charted as the No. 15, No. 16 and No....",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered two years at Timpview under head coach Donny Atuaia and two seasons at Corner Canyon under head coach Eric Kjar \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 235 and No. 274 overall prospect nationally by Rivals/On3.com and 247Sports.com , respectively \u2026 charted as the No. 15, No. 16 and No. 17 quarterback nationally according to Rivals/On3.com , 247Sports.com and ESPN.com , respectively \u2026 logged as the No. 6 prospect from the state of Utah according to ESPN.com , 247Sports.com and Rivals/On3.com , respectively \u2026 also listed at No. 297 on ESPN.com \u2019s top 300 list \u2026 helped Corner Canyon to a 25-2 two-year ledger, including consecutive 6A UHSAA State Championship titles as a junior and senior \u2026 while with the Chargers, completed 302-of-449 (.673) pass attempts for 5,104 yards with 55 touchdowns and rushed 121 times for 797 yards (6.6) with 12 scores \u2026 also helped Timpview to a 21-5 two-year record including back-to-back state championship game appearances and the 5A UHSAA State Championship title in 2023 as a sophomore. PERSONAL: Born July 9, 2007\u2026 son of Nephi and Lorie Casuga.",
+      "bioShort": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered two years at Timpview under head coach Donny Atuaia and two seasons at Corner Canyon under head coach Eric Kjar \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 235 and No. 274 overall prospect nationally by Rivals/On3.com and 247Sports.com , respectively \u2026 charted as the No. 15, No. 16 and No....",
       "bioSource": "https://12thman.com/sports/football/roster/helaman-casuga/15535",
       "espnPlayerUrl": null,
       "stats": {},
@@ -2065,7 +2236,11 @@
           "url": "https://12thman.com/sports/football/roster/helaman-casuga/15535"
         }
       ],
-      "rating": 70,
+      "rating": 69.8,
+      "ratingSource": {
+        "type": "fallback",
+        "source": "projection"
+      },
       "badges": [
         "Field General",
         "Upside"
@@ -2088,7 +2263,8 @@
       "hometown": "El Campo, Texas",
       "highSchool": "El Campo",
       "headshot": "https://12thman.com/images/2025/7/31/Owens-II_-Rueben.jpg",
-      "bio": "2023 SEC All-Freshman Team (RB) 2024 (REDSHIRT): Suffered a foot injury in the first scrimmage of fall camp that sidelined him until Week 14 when he rushed three times for 10 yards against Texas ... Led the team with 13 carries for 56 yards in the Las Vegas Bowl against USC. 2023 (FRESHMAN): Appeared in 13 games making five starts, while registering a rush in every game and making a catch in eight games ... Earned...",
+      "bio": "2023 SEC All-Freshman Team (RB) 2024 (REDSHIRT): Suffered a foot injury in the first scrimmage of fall camp that sidelined him until Week 14 when he rushed three times for 10 yards against Texas ... Led the team with 13 carries for 56 yards in the Las Vegas Bowl against USC. 2023 (FRESHMAN): Appeared in 13 games making five starts, while registering a rush in every game and making a catch in eight games ... Earned SEC All-Freshman Team honors after leading the league's true freshmen in all-purpose yards (743), rushing yards (385) and kick return yards (249) ... Recorded his first career 100 all-purpose yard game after totaling 61 kick return yards, 35 receiving yards and 7 rushing yards at Miami ... Scored his first collegiate touchdown with a 21-yard rush, before finishing with 51 yards on eight carries against ULM ... Rushed 18 times for 106 yards and one score against ACU to mark his first career 100-yard rushing game. HIGH SCHOOL: Coached by Chad Worrell at El Campo High School ... Tabbed a 5-star prospect by 247 Sports and Rivals, also ranked the No. 1 running back by Rivals and No. 2 running back by 247 Sports \u2026 2023 Army All-American Bowl and Polynesian Bowl Selection \u2026 2022 Dave Campbell\u2019s Mr. Texas Football top-10 finalists \u2026 Eclipsed 7,000 rushing yards and 100 rushing touchdowns during his high school career \u2026 UIL District 12-4A D-I MVP in 2022 and 2021 \u2026 UIL 4A Co-Offensive Player of the Year by the Texas Sportswriters Association \u2026 2020 District 12-4A DI Offensive MVP and 2019 District 13-4A D-I Newcomer of the Year ... Also competed in track & field finishing third at the state championships in long jump as a junior and boasts personal bests of 10.68 in the 100m and 23\u20193.75\u201d in the long jump.",
+      "bioShort": "2023 SEC All-Freshman Team (RB) 2024 (REDSHIRT): Suffered a foot injury in the first scrimmage of fall camp that sidelined him until Week 14 when he rushed three times for 10 yards against Texas ... Led the team with 13 carries for 56 yards in the Las Vegas Bowl against USC. 2023 (FRESHMAN): Appeared in 13 games making five starts, while registering a rush in every game and making a catch in eight games ... Earned...",
       "bioSource": "https://12thman.com/sports/football/roster/rueben-owens-ii/15503",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870934/rueben-owens-ii",
       "stats": {
@@ -2181,7 +2357,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4870934/rueben-owens-ii"
         }
       ],
-      "rating": 93,
+      "rating": 76.6,
+      "ratingSource": {
+        "type": "csv",
+        "source": "rushing",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Burst"
       ]
@@ -2203,7 +2384,8 @@
       "hometown": "Memphis, Tenn.",
       "highSchool": "Melrose",
       "headshot": "https://12thman.com/images/2025/7/31/Morrow_-Jamarion.jpg",
-      "bio": "HIGH SCHOOL : Rated a 4-star and ranked as a top 10 overall prospect in Tennessee by 247Sports and Rivals \u2026 Coached by his father Jarrett Morrow at Melrose High School \u2026 As he senior he has played running back, wide receiver and quarterback, while helping lead the Wildcats to 12-3 record, an undefeated district title and Melrose\u2019s first TSSAA 4A state title game appearance since 1998 \u2026 In 2023 he played at...",
+      "bio": "HIGH SCHOOL : Rated a 4-star and ranked as a top 10 overall prospect in Tennessee by 247Sports and Rivals \u2026 Coached by his father Jarrett Morrow at Melrose High School \u2026 As he senior he has played running back, wide receiver and quarterback, while helping lead the Wildcats to 12-3 record, an undefeated district title and Melrose\u2019s first TSSAA 4A state title game appearance since 1998 \u2026 In 2023 he played at Germantown High School where he was a two-way player that accounted for 1,212 all-purpose yards and 12 scores, while adding 24 tackles, 2.0 tackles for loss and four interceptions.",
+      "bioShort": "HIGH SCHOOL : Rated a 4-star and ranked as a top 10 overall prospect in Tennessee by 247Sports and Rivals \u2026 Coached by his father Jarrett Morrow at Melrose High School \u2026 As he senior he has played running back, wide receiver and quarterback, while helping lead the Wildcats to 12-3 record, an undefeated district title and Melrose\u2019s first TSSAA 4A state title game appearance since 1998 \u2026 In 2023 he played at...",
       "bioSource": "https://12thman.com/sports/football/roster/jamarion-morrow/15498",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141561/jamarion-morrow",
       "stats": {
@@ -2296,7 +2478,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5141561/jamarion-morrow"
         }
       ],
-      "rating": 76,
+      "rating": 69.4,
+      "ratingSource": {
+        "type": "csv",
+        "source": "rushing",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Ball Carrier"
       ]
@@ -2318,7 +2505,8 @@
       "hometown": "Carthage, Texas",
       "highSchool": "Carthage",
       "headshot": "https://12thman.com/images/2026/4/7/Edwards__KJ.jpg",
-      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at Carthage under head coach Scott Surratt \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 43 and No. 59 overall prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 3, No. 3 and No. 4 running back nationally according to 247Sports.com ,...",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at Carthage under head coach Scott Surratt \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 43 and No. 59 overall prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 3, No. 3 and No. 4 running back nationally according to 247Sports.com , Rivals/On3.com and ESPN.com , respectively \u2026 logged as the No. 5, No. 6 and No. 6 prospect from the state of Texas according to 247Sports.com , ESPN.com and Rivals/On3.com , respectively \u2026 also listed at No. 50 on ESPN.com \u2019s top 300 list \u2026 helped Carthage to a 57-2 four-year ledger, including at least a state quarterfinal showing all four years and two 4A D2 UIL Texas Football State Championship titles as a freshman and junior \u2026 has rushed for 1,596 yards so far as a senior on just 120 carries with 24 touchdowns \u2026 has also added 23 receptions for 223 yards with one score during final season \u2026 set the program record for career rushing yards and rushing touchdowns with over 5,500 rushing yards and 78 touchdowns \u2026 named the 2024 offensive MVP of the state championship game. PERSONAL: Born October 2, 2007 \u2026 son of Jamon Edwards and Romekia Allison.",
+      "bioShort": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at Carthage under head coach Scott Surratt \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 43 and No. 59 overall prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 3, No. 3 and No. 4 running back nationally according to 247Sports.com ,...",
       "bioSource": "https://12thman.com/sports/football/roster/kj-edwards/15540",
       "espnPlayerUrl": null,
       "stats": {},
@@ -2336,7 +2524,11 @@
           "url": "https://12thman.com/sports/football/roster/kj-edwards/15540"
         }
       ],
-      "rating": 69,
+      "rating": 68.8,
+      "ratingSource": {
+        "type": "fallback",
+        "source": "projection"
+      },
       "badges": [
         "Ball Carrier",
         "Upside"
@@ -2360,6 +2552,7 @@
       "highSchool": "Loyola Blakefield",
       "headshot": "https://12thman.com/images/2026/4/10/Saka__Anto.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/anto-saka/15564",
       "espnPlayerUrl": null,
       "stats": {},
@@ -2377,7 +2570,12 @@
           "url": "https://12thman.com/sports/football/roster/anto-saka/15564"
         }
       ],
-      "rating": 84,
+      "rating": 72.7,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "NWESTERN"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2399,7 +2597,8 @@
       "hometown": "Olivette, Mo.",
       "highSchool": "IMG Academy",
       "headshot": "https://12thman.com/images/2025/7/31/M_Pemba_-Samuel.jpg",
-      "bio": "PRIOR TO TEXAS A&M: Appeared in 14 games in two seasons at Georgia ... Played in four games in 2024 ... Made six tackles in 2023, including two tackles against Ole Miss. HIGH SCHOOL: Tabbed a 5-star by 247Sports and Rivals, while ESPN rated him a 5-star ... Selected to Under Armour All-America Bowl ... Coached by Billy Miller at IMG Academy ... Nationally ranked No. 1 edge prospect by Rivals and No. 2 edge recruit...",
+      "bio": "PRIOR TO TEXAS A&M: Appeared in 14 games in two seasons at Georgia ... Played in four games in 2024 ... Made six tackles in 2023, including two tackles against Ole Miss. HIGH SCHOOL: Tabbed a 5-star by 247Sports and Rivals, while ESPN rated him a 5-star ... Selected to Under Armour All-America Bowl ... Coached by Billy Miller at IMG Academy ... Nationally ranked No. 1 edge prospect by Rivals and No. 2 edge recruit by ESPN ... As a senior, he helped lead IMG to an 8-1 record registering 36 tackles, including 24 solo takedowns, 14 tackles for loss and 4.5 sacks.",
+      "bioShort": "PRIOR TO TEXAS A&M: Appeared in 14 games in two seasons at Georgia ... Played in four games in 2024 ... Made six tackles in 2023, including two tackles against Ole Miss. HIGH SCHOOL: Tabbed a 5-star by 247Sports and Rivals, while ESPN rated him a 5-star ... Selected to Under Armour All-America Bowl ... Coached by Billy Miller at IMG Academy ... Nationally ranked No. 1 edge prospect by Rivals and No. 2 edge recruit...",
       "bioSource": "https://12thman.com/sports/football/roster/sam-mpemba/15492",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870904/sam-mpemba",
       "stats": {
@@ -2432,7 +2631,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4870904/sam-mpemba"
         }
       ],
-      "rating": 76,
+      "rating": 87.6,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2455,6 +2659,7 @@
       "highSchool": "Canyon Springs High",
       "headshot": "https://12thman.com/images/2026/4/10/Henderson__Ryan.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/ryan-henderson/15547",
       "espnPlayerUrl": null,
       "stats": {},
@@ -2472,7 +2677,12 @@
           "url": "https://12thman.com/sports/football/roster/ryan-henderson/15547"
         }
       ],
-      "rating": 71,
+      "rating": 69.7,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "S DIEGO ST"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2495,6 +2705,7 @@
       "highSchool": "West Craven",
       "headshot": "https://12thman.com/images/2026/4/12/Mims__CJ.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/cj-mims/15556",
       "espnPlayerUrl": null,
       "stats": {},
@@ -2512,7 +2723,12 @@
           "url": "https://12thman.com/sports/football/roster/cj-mims/15556"
         }
       ],
-      "rating": 84,
+      "rating": 69.7,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "N CAROLINA"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2535,6 +2751,7 @@
       "highSchool": "Pickerington North",
       "headshot": "https://12thman.com/images/2026/4/12/McCullom__Angelo.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/angelo-mccullom/15553",
       "espnPlayerUrl": null,
       "stats": {},
@@ -2552,7 +2769,12 @@
           "url": "https://12thman.com/sports/football/roster/angelo-mccullom/15553"
         }
       ],
-      "rating": 76,
+      "rating": 66.5,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "ILLINOIS"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2575,6 +2797,7 @@
       "highSchool": "West Bloomfield",
       "headshot": "https://12thman.com/images/2026/4/7/Davis-Swain__Brandon.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/brandon-davisswain/15537",
       "espnPlayerUrl": null,
       "stats": {},
@@ -2592,7 +2815,12 @@
           "url": "https://12thman.com/sports/football/roster/brandon-davisswain/15537"
         }
       ],
-      "rating": 69,
+      "rating": 61.4,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "COLORADO"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2614,7 +2842,8 @@
       "hometown": "Katy, Texas",
       "highSchool": "Paetow",
       "headshot": "https://12thman.com/images/2025/7/31/Hicks_-DJ.jpg",
-      "bio": "2024 (SOPHOMORE): Played in all 13 games, making the start in the Las Vegas Bowl ... Was in on three tackles in the win over McNeese ... Had a solo sack for a 3-yard loss in the win over Missouri ... Made three tackles and was in on a sack in the win over LSU ... Had a pair of tackles, including 1.0 for loss, at South Carolina ... Broke up a pass that landed in the hands of Will Lee III, who returned it 93 yards to...",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games, making the start in the Las Vegas Bowl ... Was in on three tackles in the win over McNeese ... Had a solo sack for a 3-yard loss in the win over Missouri ... Made three tackles and was in on a sack in the win over LSU ... Had a pair of tackles, including 1.0 for loss, at South Carolina ... Broke up a pass that landed in the hands of Will Lee III, who returned it 93 yards to the end zone and added a pair of tackles against Texas ... Made three tackles and broke up a pass against USC in the bowl game ... Was a nominee for the Academic Excellence Award at the team banquet. 2023 (FRESHMAN): Played in 11 games, making the start in the Texas Bowl against Oklahoma State ... Was in on a tackle in the season-opening victory over New Mexico ... Saw the field on defense at Miami ... Had three tackles, including 1.0 for loss, in the win over ULM ... Was in on three tackles, including a sack at Tennessee ... Was in on a tackle in the win over South Carolina ... Had three tackles and was in on a sack in the win over Mississippi State. HIGH SCHOOL: Rated a 5-star prospect and ranked in the top-15 by all three recruiting services (247 Sports, ESPN, Rivals), also tabbed the No. 1 recruit in the Lone Star state by 247 Sports \u2026 Was coached by David Hicks Sr. at Paetow High School \u2026 2023 Under Armour All-American and Polynesian Bowl selection \u2026 Totaled 62 tackles, including 23.0 tackles for loss, while adding three forced fumbles and two fumble recoveries in 2022 \u2026 2021 UIL District 5-6A Defensive MVP as a junior with 88 tackles, 22.0 tackles for loss and 13.0 sacks \u2026 Was a 6A first team all-state selection by the Texas Sportswriters Association \u2026 As a sophomore, made 52 tackles, 12.0 tackles for loss and 5.0 sacks ... Finished as one of the top throwers in the nation and was ranked in top 10 in discus with a personal best at 202'2\" and had a personal best 63'0\" in shot put ... Placed third in discus at the UIL stat championship meet as a senior.",
+      "bioShort": "2024 (SOPHOMORE): Played in all 13 games, making the start in the Las Vegas Bowl ... Was in on three tackles in the win over McNeese ... Had a solo sack for a 3-yard loss in the win over Missouri ... Made three tackles and was in on a sack in the win over LSU ... Had a pair of tackles, including 1.0 for loss, at South Carolina ... Broke up a pass that landed in the hands of Will Lee III, who returned it 93 yards to...",
       "bioSource": "https://12thman.com/sports/football/roster/dj-hicks/15483",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5160111/dj-hicks",
       "stats": {
@@ -2647,7 +2876,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5160111/dj-hicks"
         }
       ],
-      "rating": 84,
+      "rating": 66.3,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2669,7 +2903,8 @@
       "hometown": "Cypress, Texas",
       "highSchool": "Cy-Fair",
       "headshot": "https://12thman.com/images/2025/7/31/Rink_-Landon.jpg",
-      "bio": "HIGH SCHOOL : Tabbed a 4-star recruit by 247Sports, Rivals and ESPN \u2026 Ranked No. 155 in the ESPN 300 \u2026 Coached by Jeff Miller at Cy-Fair High School \u2026 Totaled 255 tackles, including 86.5 tackles for loss and 34.0 sacks, while adding 80 quarterback hurries in four seasons for the Bobcats \u2026 Was named the 17-6A District Defensive MVP after finishing his junior season with 70 tackles and 15.0 sacks \u2026 Helped lead Cy-Fair...",
+      "bio": "HIGH SCHOOL : Tabbed a 4-star recruit by 247Sports, Rivals and ESPN \u2026 Ranked No. 155 in the ESPN 300 \u2026 Coached by Jeff Miller at Cy-Fair High School \u2026 Totaled 255 tackles, including 86.5 tackles for loss and 34.0 sacks, while adding 80 quarterback hurries in four seasons for the Bobcats \u2026 Was named the 17-6A District Defensive MVP after finishing his junior season with 70 tackles and 15.0 sacks \u2026 Helped lead Cy-Fair to back-to-back undefeated 17-6A district titles as a sophomore and junior, before finishing the 2023 season at 11-2 with a UIL 6A DI Regional playoff appearance \u2026 Also competes in track & field with a personal best 47-2 in the shot put and 140-11 in the discus \u2026 Father, Shane Rink, was a defensive lineman at Texas from 1991-95.",
+      "bioShort": "HIGH SCHOOL : Tabbed a 4-star recruit by 247Sports, Rivals and ESPN \u2026 Ranked No. 155 in the ESPN 300 \u2026 Coached by Jeff Miller at Cy-Fair High School \u2026 Totaled 255 tackles, including 86.5 tackles for loss and 34.0 sacks, while adding 80 quarterback hurries in four seasons for the Bobcats \u2026 Was named the 17-6A District Defensive MVP after finishing his junior season with 70 tackles and 15.0 sacks \u2026 Helped lead Cy-Fair...",
       "bioSource": "https://12thman.com/sports/football/roster/landon-rink/15511",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141651/landon-rink",
       "stats": {
@@ -2702,7 +2937,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5141651/landon-rink"
         }
       ],
-      "rating": 75,
+      "rating": 84.2,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2724,7 +2964,8 @@
       "hometown": "Bellville, Texas",
       "highSchool": "Bellville",
       "headshot": "https://12thman.com/images/2025/7/31/Sanders_-DJ.jpg",
-      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 110 in the ESPN 300 \u2026 Coached by Keith Reineke at Bellville High School \u2026 2024 Navy All-American Bowl selection \u2026 Has totaled over 304 tackles, including 88 solo takedowns, 42.5 tackles for loss, 36.5 sacks, while adding 51 quarterback hurries, five forced fumbles and five fumble recoveries in four seasons for...",
+      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 110 in the ESPN 300 \u2026 Coached by Keith Reineke at Bellville High School \u2026 2024 Navy All-American Bowl selection \u2026 Has totaled over 304 tackles, including 88 solo takedowns, 42.5 tackles for loss, 36.5 sacks, while adding 51 quarterback hurries, five forced fumbles and five fumble recoveries in four seasons for the Brahmas \u2026 As a junior he totaled 115 tackles, 28 tackles for loss and 15 sacks to earn Dave Campbell\u2019s Texas Football Super Team recognition \u2026 Won district 10-4A Defensive MVP honors as a sophomore and was named district 12-4A Defensive Newcomer of the year as a freshman \u2026 Helped lead Bellville to a district title all four seasons, including a runner-up finish in the UIL 4A DII state playoffs with a 15-1 record \u2026 Cousin is Emmanuel Sanders who played at SMU (2005-09) and played 12 seasons in the NFL where he was a Super Bowl L champion and two-time Pro Bowler with the Denver Broncos.",
+      "bioShort": "HIGH SCHOOL : A consensus 4-star recruit by all three major outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 110 in the ESPN 300 \u2026 Coached by Keith Reineke at Bellville High School \u2026 2024 Navy All-American Bowl selection \u2026 Has totaled over 304 tackles, including 88 solo takedowns, 42.5 tackles for loss, 36.5 sacks, while adding 51 quarterback hurries, five forced fumbles and five fumble recoveries in four seasons for...",
       "bioSource": "https://12thman.com/sports/football/roster/dj-sanders/15514",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141638/dj-sanders",
       "stats": {
@@ -2757,7 +2998,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5141638/dj-sanders"
         }
       ],
-      "rating": 69,
+      "rating": 74.8,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2779,7 +3025,8 @@
       "hometown": "Thomaston, Ga.",
       "highSchool": "Upson-Lee",
       "headshot": "https://12thman.com/images/2025/7/31/Searcy_-TJ.jpg",
-      "bio": "PRIOR TO TEXAS A&M: Appeared in 24 games with five starts over two seasons at Florida, recording 60 tackles, including 29 solo takedowns and 7.5 tackles for loss with 2.5 sacks ... In 2024, he logged 34 tackles, 4.0 tackles for loss, two forced fumbles and one fumble recovery ... Earned Freshman All-SEC honors in 2023 after appearing in all 12 games, tallying 26 tackles, two quarterback hurries and a forced fumble....",
+      "bio": "PRIOR TO TEXAS A&M: Appeared in 24 games with five starts over two seasons at Florida, recording 60 tackles, including 29 solo takedowns and 7.5 tackles for loss with 2.5 sacks ... In 2024, he logged 34 tackles, 4.0 tackles for loss, two forced fumbles and one fumble recovery ... Earned Freshman All-SEC honors in 2023 after appearing in all 12 games, tallying 26 tackles, two quarterback hurries and a forced fumble. HIGH SCHOOL: Rated a consensus 4-star recruit by 247Sports, ESPN and Rivals ... Named the No. 22 defensive lineman and the No. 22 player in Georgia in the 2023 class by Rivals ... Had 39 tackles and six quarterback hurries his senior season.",
+      "bioShort": "PRIOR TO TEXAS A&M: Appeared in 24 games with five starts over two seasons at Florida, recording 60 tackles, including 29 solo takedowns and 7.5 tackles for loss with 2.5 sacks ... In 2024, he logged 34 tackles, 4.0 tackles for loss, two forced fumbles and one fumble recovery ... Earned Freshman All-SEC honors in 2023 after appearing in all 12 games, tallying 26 tackles, two quarterback hurries and a forced fumble....",
       "bioSource": "https://12thman.com/sports/football/roster/tj-searcy/15517",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870990/tj-searcy",
       "stats": {
@@ -2812,7 +3059,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4870990/tj-searcy"
         }
       ],
-      "rating": 84,
+      "rating": 71.9,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2834,7 +3086,8 @@
       "hometown": "Dublin, Calif.",
       "highSchool": "San Ramon Valley",
       "headshot": "https://12thman.com/images/2025/7/31/Jones_-Marco.jpg",
-      "bio": "HIGH SCHOOL: A consensus 4-star prospect by all three major recruiting networks (247Sports, Rivals, ESPN) \u2026 Ranked No. 193 in ESPN 300 \u2026 Coached by Aaron Becker at San Ramon Valley High School \u2026 2024 Navy All-American Bowl selection \u2026 Totaled nearly 425 tackles, including 214 solo takedowns, 53.0 tackles for loss, 13.0 sacks, while adding seven forced fumbles, five fumble recoveries and six interceptions in his...",
+      "bio": "HIGH SCHOOL: A consensus 4-star prospect by all three major recruiting networks (247Sports, Rivals, ESPN) \u2026 Ranked No. 193 in ESPN 300 \u2026 Coached by Aaron Becker at San Ramon Valley High School \u2026 2024 Navy All-American Bowl selection \u2026 Totaled nearly 425 tackles, including 214 solo takedowns, 53.0 tackles for loss, 13.0 sacks, while adding seven forced fumbles, five fumble recoveries and six interceptions in his career \u2026 Was named Cal-Hi State Junior of the Year in 2023 after making 166 tackles, 15.0 tackles for loss, 2.5 sacks, three interceptions and three forced fumbles \u2026 Helped lead San Ramon Valley to a CIF state title as a sophomore \u2026 A multi-sport athlete that also played basketball and baseball.",
+      "bioShort": "HIGH SCHOOL: A consensus 4-star prospect by all three major recruiting networks (247Sports, Rivals, ESPN) \u2026 Ranked No. 193 in ESPN 300 \u2026 Coached by Aaron Becker at San Ramon Valley High School \u2026 2024 Navy All-American Bowl selection \u2026 Totaled nearly 425 tackles, including 214 solo takedowns, 53.0 tackles for loss, 13.0 sacks, while adding seven forced fumbles, five fumble recoveries and six interceptions in his...",
       "bioSource": "https://12thman.com/sports/football/roster/marco-jones/15489",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141540/marco-jones",
       "stats": {
@@ -2867,7 +3120,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5141540/marco-jones"
         }
       ],
-      "rating": 75,
+      "rating": 77.1,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2889,7 +3147,8 @@
       "hometown": "Atlanta, Ga.",
       "highSchool": "Buford",
       "headshot": "https://12thman.com/images/2026/4/10/Perry-Wright__Bryce.jpg",
-      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at Buford under head coach Bryant Appling \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 60 and No. 66 prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 3, No. 7 and No. 10 defensive tackle nationally according to ESPN.com , 247Sports.com...",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at Buford under head coach Bryant Appling \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 60 and No. 66 prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 3, No. 7 and No. 10 defensive tackle nationally according to ESPN.com , 247Sports.com and Rivals/On3.com , respectively \u2026 logged as the No. 7, No. 8 and No. 9 prospect from the state of Georgia according to ESPN.com , Rivals/On3.com and 247Sports.com , respectively \u2026 also listed at No. 54 on ESPN.com \u2019s top 300 list \u2026 has helped Buford to a 37-5 four-year record, with consecutive GHSA 6A State semifinal appearances and an undefeated 13-0 senior season \u2026 selected to the Navy All-American Bowl \u2026 registered 202 tackles, 38.0 tackles for loss, 23.5 sacks, 52 quarterback pressures and three forced fumbles in his career at Buford \u2026 also competed in track & field. PERSONAL: Born August 4, 2007 \u2026 son of Latron Wright and Brionna Perry.",
+      "bioShort": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at Buford under head coach Bryant Appling \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 60 and No. 66 prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 3, No. 7 and No. 10 defensive tackle nationally according to ESPN.com , 247Sports.com...",
       "bioSource": "https://12thman.com/sports/football/roster/bryce-perrywright/15561",
       "espnPlayerUrl": null,
       "stats": {},
@@ -2907,7 +3166,11 @@
           "url": "https://12thman.com/sports/football/roster/bryce-perrywright/15561"
         }
       ],
-      "rating": 69,
+      "rating": 68.8,
+      "ratingSource": {
+        "type": "fallback",
+        "source": "projection"
+      },
       "badges": [
         "Run Stopper",
         "Upside"
@@ -2930,7 +3193,8 @@
       "hometown": "La Verne, Calif.",
       "highSchool": "Bonita",
       "headshot": "https://12thman.com/images/2025/7/31/Mikhail_-Noah.jpg",
-      "bio": "HIGH SCHOOL : Rated a 4-star prospect and ranked in the top 10 overall prospect in California by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 64 in the ESPN 300 \u2026 Coached by Bo Beatty and Steve Bogan at Bonita High School \u2026 2024 Navy All-American and Polynesian Bowl selection \u2026 Three-time Max Preps All-American, two-time All-CIF and two-time CIF League Defensive MVP \u2026 Was a two-way...",
+      "bio": "HIGH SCHOOL : Rated a 4-star prospect and ranked in the top 10 overall prospect in California by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 64 in the ESPN 300 \u2026 Coached by Bo Beatty and Steve Bogan at Bonita High School \u2026 2024 Navy All-American and Polynesian Bowl selection \u2026 Three-time Max Preps All-American, two-time All-CIF and two-time CIF League Defensive MVP \u2026 Was a two-way standout that totaled 446 tackles, including 54.0 tackles for loss, 11.0 sacks, five interceptions, while adding over 2,000 all-purpose yards and 29 touchdowns in his career \u2026 Earned the Palomares League Outstanding Senior Award and was a four-time varsity scholar athlete.",
+      "bioShort": "HIGH SCHOOL : Rated a 4-star prospect and ranked in the top 10 overall prospect in California by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 64 in the ESPN 300 \u2026 Coached by Bo Beatty and Steve Bogan at Bonita High School \u2026 2024 Navy All-American and Polynesian Bowl selection \u2026 Three-time Max Preps All-American, two-time All-CIF and two-time CIF League Defensive MVP \u2026 Was a two-way...",
       "bioSource": "https://12thman.com/sports/football/roster/noah-mikhail/15495",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141596/noah-mikhail",
       "stats": {
@@ -2963,7 +3227,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5141596/noah-mikhail"
         }
       ],
-      "rating": 82,
+      "rating": 73.2,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -2986,6 +3255,7 @@
       "highSchool": "Fairfield HS",
       "headshot": "https://12thman.com/images/2026/4/7/Coney__Ray.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/ray-coney/15536",
       "espnPlayerUrl": null,
       "stats": {},
@@ -3003,7 +3273,12 @@
           "url": "https://12thman.com/sports/football/roster/ray-coney/15536"
         }
       ],
-      "rating": 77,
+      "rating": 87.6,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TULSA"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -3026,6 +3301,7 @@
       "highSchool": "Cathedral",
       "headshot": "https://12thman.com/images/2026/4/10/Smith__TJ.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/tj-smith/15566",
       "espnPlayerUrl": null,
       "stats": {},
@@ -3043,7 +3319,12 @@
           "url": "https://12thman.com/sports/football/roster/tj-smith/15566"
         }
       ],
-      "rating": 70,
+      "rating": 59.0,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TULANE"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -3065,7 +3346,8 @@
       "hometown": "Katy, Texas",
       "highSchool": "Paetow",
       "headshot": "https://12thman.com/images/2025/7/31/Sanford_-Daymion.jpg",
-      "bio": "2024 (SOPHOMORE): Played in all 13 games, making three starts ... Made a pair of tackles against Notre Dame ... Had a tackle and a breakup against McNeese in his first career start ... Made a pair of tackles, including 1.0 for a 5-yard loss, in the win over Bowling Green ... Tallied three tackles and added a hurry against Arkansas ... Had four tackles, including a solo sack, in the win over Missouri ... Tallied...",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games, making three starts ... Made a pair of tackles against Notre Dame ... Had a tackle and a breakup against McNeese in his first career start ... Made a pair of tackles, including 1.0 for a 5-yard loss, in the win over Bowling Green ... Tallied three tackles and added a hurry against Arkansas ... Had four tackles, including a solo sack, in the win over Missouri ... Tallied seven tackles and broke up two passes at Mississippi State ... Made three tackles in the won over LSU ... Had three tackles at South Carolina and against Texas ... Had three tackles and a breakup against USC in the Las Vegas Bowl. 2023 (FRESHMAN): Played in all 13 games ... Had two solo tackles in the season-opening win over New Mexico ... Made two tackles against ACU. HIGH SCHOOL: Was a 4-star prospect by 247 Sports, Rivals and ESPN \u2026 Coached by David Hicks at Paetow High School \u2026 Totaled 150 tackles, 25.0 sacks and five interceptions during his high school career \u2026 Two-time First-Team District 10-5A selection \u2026 Helped lead Katy Paetow to a 15-1 record and the UIL 5A D-I state title in 2021 \u2026 Earned UIL District 10-5A D-I Defensive co-MVP honors \u2026 Totaled 91 tackles, 26.0 TFL, 13.0 sacks, while adding three pass breakups, two fumble recoveries and one interception as a junior \u2026 Also ran track, finishing as the runner-up in the 110m hurdles at the 19-5A district meet and made the regional final in 2022 \u2026 Relative, Donnie Baggs, played football at A&M in 2011-14.",
+      "bioShort": "2024 (SOPHOMORE): Played in all 13 games, making three starts ... Made a pair of tackles against Notre Dame ... Had a tackle and a breakup against McNeese in his first career start ... Made a pair of tackles, including 1.0 for a 5-yard loss, in the win over Bowling Green ... Tallied three tackles and added a hurry against Arkansas ... Had four tackles, including a solo sack, in the win over Missouri ... Tallied...",
       "bioSource": "https://12thman.com/sports/football/roster/daymion-sanford/15515",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5078108/daymion-sanford",
       "stats": {
@@ -3098,7 +3380,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5078108/daymion-sanford"
         }
       ],
-      "rating": 84,
+      "rating": 70.6,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -3120,7 +3407,8 @@
       "hometown": "Redlands, Calif.",
       "highSchool": "St. John Bosco",
       "headshot": "https://12thman.com/images/2025/7/31/Lockhart_-Jordan.jpg",
-      "bio": "2024 (FRESHMAN): Played in 10 games ... Was in on a tackle in his collegiate debut against Notre Dame ... Led the team with six tackles in the win over McNeese ... Was in on a tackle in the win at Florida ... Had a pair of tackles in the win over New Mexico State. HIGH SCHOOL: Coached by Jason Negro at St. John Bosco High School \u2026 Rated as 4-star prospect by 247 Sports and Rivals ... 2024 Polynesian Bowl selection \u2026...",
+      "bio": "2024 (FRESHMAN): Played in 10 games ... Was in on a tackle in his collegiate debut against Notre Dame ... Led the team with six tackles in the win over McNeese ... Was in on a tackle in the win at Florida ... Had a pair of tackles in the win over New Mexico State. HIGH SCHOOL: Coached by Jason Negro at St. John Bosco High School \u2026 Rated as 4-star prospect by 247 Sports and Rivals ... 2024 Polynesian Bowl selection \u2026 Amassed 149 tackles, including 77 solo takedowns, 10.0 sacks and three forced fumbles during his career \u2026 As a senior, he helped lead St. John Bosco to an 11-2 record and the CIF Southern Section Division 1 state championship game \u2026 In 2023, he produced his best season recording 77 tackles, including 43 solo takedowns and 5.0 sacks \u2026 As a junior, his team finished as state champions with a 13-1 record, while he recorded 60 tackles, including 28 solo takedowns and 3.5 sacks \u2026 In his sophomore season, he saw limited action making 12 tackles.",
+      "bioShort": "2024 (FRESHMAN): Played in 10 games ... Was in on a tackle in his collegiate debut against Notre Dame ... Led the team with six tackles in the win over McNeese ... Was in on a tackle in the win at Florida ... Had a pair of tackles in the win over New Mexico State. HIGH SCHOOL: Coached by Jason Negro at St. John Bosco High School \u2026 Rated as 4-star prospect by 247 Sports and Rivals ... 2024 Polynesian Bowl selection \u2026...",
       "bioSource": "https://12thman.com/sports/football/roster/jordan-lockhart/15491",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079560/jordan-lockhart",
       "stats": {
@@ -3153,7 +3441,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5079560/jordan-lockhart"
         }
       ],
-      "rating": 76,
+      "rating": 67.8,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -3176,6 +3469,7 @@
       "highSchool": null,
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4917859.png",
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4917859/taurean-york",
       "stats": {
@@ -3204,7 +3498,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4917859/taurean-york"
         }
       ],
-      "rating": 70,
+      "rating": 83.7,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Run Stopper"
       ]
@@ -3226,7 +3525,8 @@
       "hometown": "Norfolk, Va.",
       "highSchool": "IMG Academy",
       "headshot": "https://12thman.com/images/2025/7/31/Ricks_-Dezz.jpg",
-      "bio": "2024 (FRESHMAN): Played in all 13 games, making nine starts ... Made three tackles, including 1.0 for loss against Notre Dame ... Was in on a tackle in the win over McNeese ... Had five tackles and a breakup against Arkansas ... Made two tackles at Mississippi State ... Broke up a pass in the win over LSU ... Had three tackles at Auburn ... Had a pair of tackles against USC in the Las Vegas Bowl ... Was nominated...",
+      "bio": "2024 (FRESHMAN): Played in all 13 games, making nine starts ... Made three tackles, including 1.0 for loss against Notre Dame ... Was in on a tackle in the win over McNeese ... Had five tackles and a breakup against Arkansas ... Made two tackles at Mississippi State ... Broke up a pass in the win over LSU ... Had three tackles at Auburn ... Had a pair of tackles against USC in the Las Vegas Bowl ... Was nominated for the Academic Excellence Award at the team award show. PRIOR TO TEXAS A&M: Saw defensive snaps against Kentucky and Chattanooga while at Alabama in 2023. HIGH SCHOOL: Was a 5-star prospect by ESPN and Rivals and 4-star recruit by 247 Sports, ranked as the No. 17 player on the ESPN300 list and the No. 2 cornerback, as well as No. 3 player in Florida by ESPN ... Coached by Kyle Brey at IMG Academy ... 2023 Under Armour All-American Bowl selection.",
+      "bioShort": "2024 (FRESHMAN): Played in all 13 games, making nine starts ... Made three tackles, including 1.0 for loss against Notre Dame ... Was in on a tackle in the win over McNeese ... Had five tackles and a breakup against Arkansas ... Made two tackles at Mississippi State ... Broke up a pass in the win over LSU ... Had three tackles at Auburn ... Had a pair of tackles against USC in the Las Vegas Bowl ... Was nominated...",
       "bioSource": "https://12thman.com/sports/football/roster/dezz-ricks/15507",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079656/dezz-ricks",
       "stats": {
@@ -3259,7 +3559,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5079656/dezz-ricks"
         }
       ],
-      "rating": 83,
+      "rating": 59.9,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3281,7 +3586,8 @@
       "hometown": "Lancaster, Calif.",
       "highSchool": "Quartz Hill",
       "headshot": "https://12thman.com/images/2025/7/31/Currie_-Adonyss.jpg",
-      "bio": "HIGH SCHOOL : A consensus 4-star recruit and ranked the No. 3 overall prospect in California by ESPN \u2026 Ranked No. 55 in ESPN 300 \u2026 Coached by Russell Gordon at Quartz Hill High School \u2026 2024 Navy All-American Bowl and Polynesian Bowl selection \u2026 Played his junior and senior seasons at Quartz Hill High School where he was a two-way standout totaling 1,500-plus yards receiving and over 60 tackles, while scoring nearly...",
+      "bio": "HIGH SCHOOL : A consensus 4-star recruit and ranked the No. 3 overall prospect in California by ESPN \u2026 Ranked No. 55 in ESPN 300 \u2026 Coached by Russell Gordon at Quartz Hill High School \u2026 2024 Navy All-American Bowl and Polynesian Bowl selection \u2026 Played his junior and senior seasons at Quartz Hill High School where he was a two-way standout totaling 1,500-plus yards receiving and over 60 tackles, while scoring nearly 30 touchdowns \u2026 As a junior he made 47 catches for 865 yards and nine touchdowns, while registering 35 tackles, 4.0 tackles for loss, 3.0 sacks and four interceptions to lead Quartz Hill to the CIF Division 11 state semifinals \u2026 Played his sophomore season at Notre Dame High School in Sherman Oaks, Calif., and freshman year at Golden Valley High School in Santa Clarita, Calif.",
+      "bioShort": "HIGH SCHOOL : A consensus 4-star recruit and ranked the No. 3 overall prospect in California by ESPN \u2026 Ranked No. 55 in ESPN 300 \u2026 Coached by Russell Gordon at Quartz Hill High School \u2026 2024 Navy All-American Bowl and Polynesian Bowl selection \u2026 Played his junior and senior seasons at Quartz Hill High School where he was a two-way standout totaling 1,500-plus yards receiving and over 60 tackles, while scoring nearly...",
       "bioSource": "https://12thman.com/sports/football/roster/adonyss-currie/15471",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141400/adonyss-currie",
       "stats": {
@@ -3314,7 +3620,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5141400/adonyss-currie"
         }
       ],
-      "rating": 75,
+      "rating": 65.9,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3336,7 +3647,8 @@
       "hometown": "Shiner, Texas",
       "highSchool": "Shiner",
       "headshot": "https://12thman.com/images/2025/7/31/Brooks_-Dalton.jpg",
-      "bio": "2024 (SOPHOMORE): Played in all 13 games, making eight starts ... Finished the season second on the team with 59 tackles and top-five on the team with 5.5 tackles for loss ... Tallied three tackles in the win over McNeese ... Had a tackle and a breakup in the win at Florida ... Made a pair of tackles, including 1.0 for loss in the win over Bowling Green ... Led the team with seven tackles, including 2.0 for 6 yards...",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games, making eight starts ... Finished the season second on the team with 59 tackles and top-five on the team with 5.5 tackles for loss ... Tallied three tackles in the win over McNeese ... Had a tackle and a breakup in the win at Florida ... Made a pair of tackles, including 1.0 for loss in the win over Bowling Green ... Led the team with seven tackles, including 2.0 for 6 yards lost in the win over Arkansas ... Made six tackles including 1.0 for a 5-yard loss against Missouri ... Tallied a career-high nine takedowns at Mississippi State ... Had three tackles, a hurry and a breakup in the win over LSU ... Made five tackles at South Carolina ... Had three tackles, including a solo sack for an 8-yard loss, at Auburn ... Helped lead the way with 10 tackles against Texas. 2023 (FRESHMAN): Played in 12 games, making the first start of his career in the Texas Bowl ... Had a tackle for a 6-yard loss in the season-opening victory over New Mexico ... Saw the field at Miami ... Made a tackle in the win over ULM ... Was in on a tackle against Auburn ... Assisted on a tackle in the wins over Arkansas and South Carolina ... Made two tackles at Ole Miss ... Tallied four takedowns in the win over Mississippi State ... Picked off a pass and made seven tackles in the Texas Bowl against Oklahoma State. HIGH SCHOOL: Rated a 4-star by ESPN, Rivals and 247 Sports ... Three-phase standout that led Shiner to UIL 2A D-I state championships in 2020 and 2021 \u2026 2022 Dave Campbell\u2019s Mr. Texas Football top-10 finalists \u2026 Totaled 2,519 yards on 210 carries and 36 touchdowns, while making seven catches for 236 yards and five scores, adding 120 tackles, 8.0 tackles for loss, two interceptions and one forced fumble in 2022 \u2026 Texas Sportswriters Association 2A Offensive Player of the Year and District 13-2A MVP in 2021 \u2026 Was named the Offensive MVP for the title game as a sophomore and earned District 13-2A Defensive MVP and first-team honors at running back \u2026 Selected to the TSWA 2A first-team all-state selection as a utility player \u2026 Competed in track & field with a personal best long jump mark of 22\u201910.25\u201d.",
+      "bioShort": "2024 (SOPHOMORE): Played in all 13 games, making eight starts ... Finished the season second on the team with 59 tackles and top-five on the team with 5.5 tackles for loss ... Tallied three tackles in the win over McNeese ... Had a tackle and a breakup in the win at Florida ... Made a pair of tackles, including 1.0 for loss in the win over Bowling Green ... Led the team with seven tackles, including 2.0 for 6 yards...",
       "bioSource": "https://12thman.com/sports/football/roster/dalton-brooks/15463",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870644/dalton-brooks",
       "stats": {
@@ -3399,7 +3711,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4870644/dalton-brooks"
         }
       ],
-      "rating": 84,
+      "rating": 64.5,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3422,6 +3739,7 @@
       "highSchool": "DeMatha Catholic",
       "headshot": "https://12thman.com/images/2026/4/7/Byrad__Tawfiq.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/tawfiq-byard/15534",
       "espnPlayerUrl": null,
       "stats": {},
@@ -3439,7 +3757,12 @@
           "url": "https://12thman.com/sports/football/roster/tawfiq-byard/15534"
         }
       ],
-      "rating": 76,
+      "rating": 75.0,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "COLORADO"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3461,7 +3784,8 @@
       "hometown": "Converse, Texas",
       "highSchool": "Judson",
       "headshot": "https://12thman.com/images/2025/7/31/Davis_-Myles.jpg",
-      "bio": "2024 (FRESHMAN): Played in 12 games, primarily on special teams ... Saw the field in the win over McNeese and finished the game second on the team with five tackles ... Made a tackle in the win over Bowling Green ... Had a tackle in the win at Mississippi State ... Made three tackles in the New Mexico State victory. HIGH SCHOOL: Coached by Mark Soto at Judson High School \u2026 Rated as a 4-star recruit by 247 Sports and...",
+      "bio": "2024 (FRESHMAN): Played in 12 games, primarily on special teams ... Saw the field in the win over McNeese and finished the game second on the team with five tackles ... Made a tackle in the win over Bowling Green ... Had a tackle in the win at Mississippi State ... Made three tackles in the New Mexico State victory. HIGH SCHOOL: Coached by Mark Soto at Judson High School \u2026 Rated as a 4-star recruit by 247 Sports and Rivals ... A dynamic two-way player and kick returner as a two-year varsity letterman for Judson HS \u2026 Totaled nearly 85 tackles, 12 passes defended and six interceptions, while registering 421 all-purpose yards in his career \u2026 As a senior he made 51 tackles, including 41 solo takedowns and 3.0 tackles for loss, while catching 11 passes for 110 yards and three scores, as well as scoring two touchdowns as a kickoff returner averaging 57.0 yards per return \u2026 In 2022 he made 32 tackles, including 23 solo takedowns, eight passes defended and three interceptions.",
+      "bioShort": "2024 (FRESHMAN): Played in 12 games, primarily on special teams ... Saw the field in the win over McNeese and finished the game second on the team with five tackles ... Made a tackle in the win over Bowling Green ... Had a tackle in the win at Mississippi State ... Made three tackles in the New Mexico State victory. HIGH SCHOOL: Coached by Mark Soto at Judson High School \u2026 Rated as a 4-star recruit by 247 Sports and...",
       "bioSource": "https://12thman.com/sports/football/roster/myles-davis/15472",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5139087/myles-davis",
       "stats": {
@@ -3494,7 +3818,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5139087/myles-davis"
         }
       ],
-      "rating": 70,
+      "rating": 66.4,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3516,7 +3845,8 @@
       "hometown": "Chula Vista, Calif.",
       "highSchool": "Cathedral Catholic",
       "headshot": "https://12thman.com/images/2025/7/31/Ratcliffe_-Marcus.jpg",
-      "bio": "2024 (SOPHOMORE): Played in all 13 games, making 12 starts ... Finished the year eighth in the SEC with three interceptions, also ranking third on the team with 48 tackles ... Had two tackles and a hurry in the season opener against Notre Dame ... Picked off a pass and returned it 12 yards in the win over McNeese ... Led the team with five tackles in the win at Florida, forcing a fumble and making it back-to-back...",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games, making 12 starts ... Finished the year eighth in the SEC with three interceptions, also ranking third on the team with 48 tackles ... Had two tackles and a hurry in the season opener against Notre Dame ... Picked off a pass and returned it 12 yards in the win over McNeese ... Led the team with five tackles in the win at Florida, forcing a fumble and making it back-to-back games with an interception when he picked off a pass as time ran out in the second quarter ... Intercepted a pass in a third-straight game with a late pick in the end zone, also adding three tackles in the win over Bowling Green ... Tallied five takedowns against Arkansas ... Made four tackles in the wins over Missouri and Mississippi State ... Had three takedowns against LSU ... Made five tackles, including 1.0 for loss, at South Carolina ... Blocked a punt and made three tackles in the win over New Mexico State ... Had four takedowns at Auburn ... Tallied eight tackles against Texas ... Was nominated for Defensive Newcomer of the Year at the team's annual award banquet. PRIOR TO TEXAS A&M: Started 11 of 12 games he appeared in as a true freshman at San Diego State \u2026 Was fourth on the team with 49 tackles and second with 31 solo takedowns, while recording one pass breakup, one interception and one quarterback hurry \u2026 Was awarded as the team\u2019s Most Outstanding Defensive Freshman. HIGH SCHOOL: Earned three letters at Cathedral Catholic High School \u2026 Helped lead the Dons to a 12-2 record in 2021 and the state championship \u2026 Was at three-time first-team all-league selection on defense and once on offense \u2026 A consensus 3-star recruit by 247sports (safety), Rivals (defensive back) and ESPN (outside linebacker).",
+      "bioShort": "2024 (SOPHOMORE): Played in all 13 games, making 12 starts ... Finished the year eighth in the SEC with three interceptions, also ranking third on the team with 48 tackles ... Had two tackles and a hurry in the season opener against Notre Dame ... Picked off a pass and returned it 12 yards in the win over McNeese ... Led the team with five tackles in the win at Florida, forcing a fumble and making it back-to-back...",
       "bioSource": "https://12thman.com/sports/football/roster/marcus-ratcliffe/15505",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4950396/marcus-ratcliffe",
       "stats": {
@@ -3549,7 +3879,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4950396/marcus-ratcliffe"
         }
       ],
-      "rating": 84,
+      "rating": 80.3,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3571,7 +3906,8 @@
       "hometown": "Beaumont, Texas",
       "highSchool": "West Brook",
       "headshot": "https://12thman.com/images/2025/7/31/Anderson_-Bryce.jpg",
-      "bio": "2022 Dave Campbell's Texas Football Defensive Freshman of the Year 2024 (JUNIOR): Played in all 13 games, making five starts ... Had a pair of tackles, including 1.0 for loss in the season-opener against Notre Dame ... Picked of a pass in the third quarter and returned it 45 yards to the end zone to extend the Aggie lead on Florida to 33-7 and register the first score of his career ... Was in on a pair of tackles in...",
+      "bio": "2022 Dave Campbell's Texas Football Defensive Freshman of the Year 2024 (JUNIOR): Played in all 13 games, making five starts ... Had a pair of tackles, including 1.0 for loss in the season-opener against Notre Dame ... Picked of a pass in the third quarter and returned it 45 yards to the end zone to extend the Aggie lead on Florida to 33-7 and register the first score of his career ... Was in on a pair of tackles in the win over Bowling Green ... Tallied six tackles in the win over LSU ... Made two tackles, 1.0 for loss, at South Carolina ... Had three tackles and a breakup at Auburn. 2023 (SOPHOMORE): Started all 11 games he played in ... Was fourth on the team with 54 tackles on the season ... Finished the victory over New Mexico with five tackles, 1.0 for loss, and a hurry ... Added a pair of tackles at Miami ... Broke up a pass in the win over ULM and helped the defense hold the War Hawks to less than 100 passing yards ... Tallied five tackles, including 2.0 for loss, and forced a fumble against Auburn ... Helped lead the way with six tackles, adding a pair of breakups against Arkansas ... Picked off a pass early in the third quarter and returned it 15 yards against Alabama, finishing the game with a hurry, fumble recovery and three takedowns ... Made six tackles, including 1.5 for loss and 1.0 sack, also adding a breakup against South Carolina ... Led the defense with eight tackles, 1.5 for loss, at Ole Miss ... Helped lead the way with five tackles and a hurry against ACU ... Tallied seven tackles and was in on a sack at LSU ... Made eight tackles in the Texas Bowl against Oklahoma State. 2022 (FRESHMAN): Played in 11 games ... Led the team with two fumble recoveries ... Recorded two tackles, one solo and one assisted, in the season opener against Sam Houston ... Registered eight tackles against Miami ... Made three solo tackles against Arkansas ... Tallied three tackles, 2.0 for loss, one forced fumble and two fumble recoveries at South Carolina ... Matched a career high in tackles with eight, including 1.5 takedowns for a 5-yard loss against Ole Miss ... Made two solo tackles and one assisted tackle in the win over No. 6 LSU ... Received the Aggie Defensive Top Newcomer Award, Defensive Attitude Award and Special Teams Top Newcomer Award at the annual team banquet. HIGH SCHOOL: Coached by Chuck Langston at West Brook High School ... Rated as a 4-star recruit by all three major outlets ... Named a 2022 Under Armour All-American and was a Polynesian Bowl selection ... Excelled at quarterback for West Brook, tallying over 1,600 total yards and 14 touchdowns as a senior ... In 2020, was named District 21-6A First Team QB of the Year ... Was named District 21-6A Sophomore of the Year and was a MaxPreps Sophomore All-America First Team selection in 2019 ... A two-sport athlete, ran a 10.48 in the 100m and 21.20 in the 200m as a junior.",
+      "bioShort": "2022 Dave Campbell's Texas Football Defensive Freshman of the Year 2024 (JUNIOR): Played in all 13 games, making five starts ... Had a pair of tackles, including 1.0 for loss in the season-opener against Notre Dame ... Picked of a pass in the third quarter and returned it 45 yards to the end zone to extend the Aggie lead on Florida to 33-7 and register the first score of his career ... Was in on a pair of tackles in...",
       "bioSource": "https://12thman.com/sports/football/roster/bryce-anderson/15455",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4685255/bryce-anderson",
       "stats": {
@@ -3604,7 +3940,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4685255/bryce-anderson"
         }
       ],
-      "rating": 76,
+      "rating": 58.0,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3627,6 +3968,7 @@
       "highSchool": null,
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5149470.png",
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5149470/rashad-johnson-jr",
       "stats": {
@@ -3655,7 +3997,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5149470/rashad-johnson-jr"
         }
       ],
-      "rating": 69,
+      "rating": 59.5,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3678,6 +4025,7 @@
       "highSchool": "Hewitt-Trussville",
       "headshot": "https://12thman.com/images/2026/4/10/Gibson_III__Rickey.jpg",
       "bio": "",
+      "bioShort": "",
       "bioSource": "https://12thman.com/sports/football/roster/rickey-gibson-iii/15543",
       "espnPlayerUrl": null,
       "stats": {},
@@ -3695,7 +4043,12 @@
           "url": "https://12thman.com/sports/football/roster/rickey-gibson-iii/15543"
         }
       ],
-      "rating": 83,
+      "rating": 54.5,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TENNESSEE"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3717,7 +4070,8 @@
       "hometown": "Galveston, Texas",
       "highSchool": "Clear Lake",
       "headshot": "https://12thman.com/images/2025/7/31/Humphrey_-Julian.jpg",
-      "bio": "PRIOR TO TEXAS A&M: Played three seasons at Georgia appearing in 23 games, including 10 starts and a team leading four pass breakups on the 2024 SEC Championship team ... Totaled 21 tackles, including 18 solo takedowns and had five pass breakups ... Saw action in nine games as a reserve defensive back in 2023, while he appeared in three games in 2022. HIGH SCHOOL: Coached by Larry McRae at Clear Lake High School ......",
+      "bio": "PRIOR TO TEXAS A&M: Played three seasons at Georgia appearing in 23 games, including 10 starts and a team leading four pass breakups on the 2024 SEC Championship team ... Totaled 21 tackles, including 18 solo takedowns and had five pass breakups ... Saw action in nine games as a reserve defensive back in 2023, while he appeared in three games in 2022. HIGH SCHOOL: Coached by Larry McRae at Clear Lake High School ... Tabbed a 5-star recruit by Rivals and 4-star by ESPN and 247Sports ... Ranked as the No. 13 defensive back in the nation and No. 17 overall prospect in Texas in 2021 ... Was selected to play in 2022 All-America Bowl ... Finished his senior season with 27 total tackles, 23 solo tackles, with 8 pass deflections\u2026 Registered 24 tackles, 18 solo, with 8 passes defended and one interception in 2020 junior season.",
+      "bioShort": "PRIOR TO TEXAS A&M: Played three seasons at Georgia appearing in 23 games, including 10 starts and a team leading four pass breakups on the 2024 SEC Championship team ... Totaled 21 tackles, including 18 solo takedowns and had five pass breakups ... Saw action in nine games as a reserve defensive back in 2023, while he appeared in three games in 2022. HIGH SCHOOL: Coached by Larry McRae at Clear Lake High School ......",
       "bioSource": "https://12thman.com/sports/football/roster/julio-humphrey/15484",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4685412/julio-humphrey",
       "stats": {
@@ -3750,7 +4104,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4685412/julio-humphrey"
         }
       ],
-      "rating": 77,
+      "rating": 71.6,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3773,6 +4132,7 @@
       "highSchool": null,
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5151083.png",
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5151083/will-lee-iii",
       "stats": {
@@ -3801,7 +4161,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/5151083/will-lee-iii"
         }
       ],
-      "rating": 71,
+      "rating": 66.5,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3823,7 +4188,8 @@
       "hometown": "Los Angeles, Calif.",
       "highSchool": "St. Pius X-St. Matthias Academy",
       "headshot": "https://12thman.com/images/2025/7/31/Shaw_-Jordan.jpg",
-      "bio": "PRIOR TO TEXAS A&M: Has appeared in 17 career games, including 11 starts with 49 career tackles, including 29 solo takedowns, 5.0 tackles for loss for 14 yards, while adding seven pass breakups ... Appeared in 13 games, making nine starts totaling 37 tackles, including 21 solo takedowns, 4.0 tackles for loss and six pass breakups in 2024 at Washington ... As a true freshman at Indiana, he tallied eight solo tackles...",
+      "bio": "PRIOR TO TEXAS A&M: Has appeared in 17 career games, including 11 starts with 49 career tackles, including 29 solo takedowns, 5.0 tackles for loss for 14 yards, while adding seven pass breakups ... Appeared in 13 games, making nine starts totaling 37 tackles, including 21 solo takedowns, 4.0 tackles for loss and six pass breakups in 2024 at Washington ... As a true freshman at Indiana, he tallied eight solo tackles and one pass breakup in four games. HIGH SCHOOL: Coached by Devah Thomas at St. Pius X - St. Matthias Academy ... Helped lead his team to an 8-2 record and a playoff birth as a senior as he earned All-CIF-SS First-Team honors and was named the Del Rey League Player of the Year after recording 83 tackles and seven interceptions in 2022 ... Totaled eight punt return touchdowns, one kickoff return score, while adding a rushing, receiving and interception touchdown in two seasons ... Was selected to play in the All-America Bowl.",
+      "bioShort": "PRIOR TO TEXAS A&M: Has appeared in 17 career games, including 11 starts with 49 career tackles, including 29 solo takedowns, 5.0 tackles for loss for 14 yards, while adding seven pass breakups ... Appeared in 13 games, making nine starts totaling 37 tackles, including 21 solo takedowns, 4.0 tackles for loss and six pass breakups in 2024 at Washington ... As a true freshman at Indiana, he tallied eight solo tackles...",
       "bioSource": "https://12thman.com/sports/football/roster/jordan-shaw/15518",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4921319/jordan-shaw",
       "stats": {
@@ -3856,7 +4222,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4921319/jordan-shaw"
         }
       ],
-      "rating": 83,
+      "rating": 71.1,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3878,7 +4249,8 @@
       "hometown": "La Grange, Texas",
       "highSchool": "La Grange",
       "headshot": "https://12thman.com/images/2025/7/31/Rogers_-Bravion.jpg",
-      "bio": "2024 (SOPHOMORE): Played in all 13 games ... Was in on a tackle against Notre Dame ... Made two tackles in the win over McNeese ... Added three solo tackles in the win at Florida ... Had 1.0 tackle for loss against New Mexico State ... Was nominated for Special Teams MVP at the team award show. 2023 (FRESHMAN): Played in seven games, making the start in the Texas Bowl against Oklahoma State ... Saw the field in the...",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games ... Was in on a tackle against Notre Dame ... Made two tackles in the win over McNeese ... Added three solo tackles in the win at Florida ... Had 1.0 tackle for loss against New Mexico State ... Was nominated for Special Teams MVP at the team award show. 2023 (FRESHMAN): Played in seven games, making the start in the Texas Bowl against Oklahoma State ... Saw the field in the season-opening win over New Mexico ... Made a tackle at Ole Miss ... Broke up a pass against ACU ... Tallied seven tackles in the Texas Bowl. HIGH SCHOOL: Coached by Matt Kate at La Grange High School ... Was a 4-star prospect by 247 Sports, Rivals and ESPN, ranked as a top-15 recruit in the Lone Star state \u2026 2023 Under Armour All-America and Polynesian Bowl selection \u2026 Led the Leopards to the playoffs while seeing action at defensive back, running back, wide receiver and quarterback \u2026 Finished the 2022 season with 24 tackles, one interception and two pass breakups, while rushing for 258 yards on 39 carries and two scores and added 175 yards receiving with 11 catches and two touchdowns \u2026 As a junior, totaled 27 tackles, including 21 solo takedowns and caught two interceptions, while recovering two fumbles \u2026 Garnered UIL 13-4A D-II first team all-district honors at wide receiver and defensive back as a junior and sophomore \u2026 Offensively, amassed 1,264 yards rushing with 17 touchdowns and 511 yards receiving and eight scores the last two seasons \u2026 Also competed in track & field posting personal bests of 10.69 in the 100m dash, 21\u20196.5\u201d in the long jump and 6\u20196\u201d in the high jump.",
+      "bioShort": "2024 (SOPHOMORE): Played in all 13 games ... Was in on a tackle against Notre Dame ... Made two tackles in the win over McNeese ... Added three solo tackles in the win at Florida ... Had 1.0 tackle for loss against New Mexico State ... Was nominated for Special Teams MVP at the team award show. 2023 (FRESHMAN): Played in seven games, making the start in the Texas Bowl against Oklahoma State ... Saw the field in the...",
       "bioSource": "https://12thman.com/sports/football/roster/bravion-rogers/15512",
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4899422/bravion-rogers",
       "stats": {
@@ -3911,7 +4283,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4899422/bravion-rogers"
         }
       ],
-      "rating": 77,
+      "rating": 66.2,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]
@@ -3934,6 +4311,7 @@
       "highSchool": null,
       "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4602676.png",
       "bio": "",
+      "bioShort": "",
       "bioSource": null,
       "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4602676/tyreek-chappell",
       "stats": {
@@ -3962,7 +4340,12 @@
           "url": "https://www.espn.com/college-football/player/_/id/4602676/tyreek-chappell"
         }
       ],
-      "rating": 71,
+      "rating": 63.2,
+      "ratingSource": {
+        "type": "csv",
+        "source": "defense",
+        "team": "TEXAS A&M"
+      },
       "badges": [
         "Tackler"
       ]

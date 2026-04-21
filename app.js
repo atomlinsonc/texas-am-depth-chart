@@ -36,6 +36,12 @@ function positionPoint(layout, position) {
   return layout[position] || { x: 50, y: 50 };
 }
 
+function formatRating(value) {
+  if (value === null || value === undefined || value === "") return "--";
+  const numeric = Number(value);
+  return Number.isFinite(numeric) ? numeric.toFixed(1) : "--";
+}
+
 function buildPlayerButton(player, position, coordinates) {
   const button = document.createElement("button");
   button.className = "field-player";
@@ -44,7 +50,7 @@ function buildPlayerButton(player, position, coordinates) {
   button.innerHTML = `
     <div class="field-player__top">
       <span class="field-player__pos">${position}</span>
-      <span class="field-player__rating">${player.rating}</span>
+      <span class="field-player__rating">${formatRating(player.rating)}</span>
     </div>
     <h3 class="field-player__name">${player.name}</h3>
     <p class="field-player__meta">${player.class || player.eligibility || ""}</p>
@@ -96,6 +102,35 @@ function renderStyleRow(containerId, summary, prefix) {
   });
 }
 
+function bindExpandableBio(fragment, fullBio, previewBio) {
+  const bioElement = fragment.querySelector(".modal-card__bio");
+  const toggle = fragment.querySelector(".bio-toggle");
+  if (!bioElement || !toggle) return;
+
+  const fallback = "Official bio not available from the current source set.";
+  const fullText = (fullBio || "").trim() || fallback;
+  const previewText =
+    (previewBio || "").trim() ||
+    (fullText.length > 420 ? `${fullText.slice(0, 420).trimEnd()}...` : fullText);
+  const canExpand = previewText !== fullText;
+  let expanded = !canExpand;
+
+  const render = () => {
+    bioElement.textContent = expanded ? fullText : previewText;
+    toggle.hidden = !canExpand;
+    if (canExpand) {
+      toggle.textContent = expanded ? "Show less" : "Show full bio";
+    }
+  };
+
+  toggle.addEventListener("click", () => {
+    expanded = !expanded;
+    render();
+  });
+
+  render();
+}
+
 function openPlayerModal(player) {
   const fragment = modalTemplate.content.cloneNode(true);
   fragment.querySelector(".modal-card__headshot").src =
@@ -111,9 +146,10 @@ function openPlayerModal(player) {
   ]
     .filter(Boolean)
     .join(" • ");
-  fragment.querySelector(".modal-card__bio").textContent =
-    player.bio || "Official bio not available from the current source set.";
-  fragment.querySelector(".rating-pill strong").textContent = player.rating;
+  bindExpandableBio(fragment, player.bio, player.bioShort);
+  fragment.querySelector(".rating-pill span").textContent =
+    player.ratingSource?.type === "csv" ? "CSV Grade" : "Projected Grade";
+  fragment.querySelector(".rating-pill strong").textContent = formatRating(player.rating);
 
   const badgeRow = fragment.querySelector(".badge-row");
   player.badges.forEach((badge) => {
@@ -163,7 +199,7 @@ function openCoachModal(coach) {
   fragment.querySelector(".modal-card__depth").textContent = coach.role;
   fragment.querySelector(".modal-card__name").textContent = coach.name;
   fragment.querySelector(".modal-card__meta").textContent = "Texas A&M Football Staff";
-  fragment.querySelector(".modal-card__bio").textContent = coach.bio || "";
+  bindExpandableBio(fragment, coach.bio, coach.bioShort || coach.bio);
 
   const tendencyList = fragment.querySelector(".tendency-list");
   coach.tendencies.forEach((item) => {
