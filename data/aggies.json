@@ -9,7 +9,7 @@
       "accent": "#f7f0e8"
     }
   },
-  "generatedAt": "2026-04-21T19:27:29+00:00",
+  "generatedAt": "2026-04-21T20:02:21+00:00",
   "latestStatSeason": "2026",
   "seasonContext": {
     "rosterSeason": 2026,
@@ -201,53 +201,53 @@
       "offense": {
         "WR-X": {
           "x": 10,
-          "y": 51
+          "y": 58
         },
         "WR-SL": {
-          "x": 23,
-          "y": 67
+          "x": 22,
+          "y": 71
         },
         "LT": {
-          "x": 35,
-          "y": 51
+          "x": 34,
+          "y": 58
         },
         "LG": {
-          "x": 43,
-          "y": 51
+          "x": 42,
+          "y": 58
         },
         "C": {
-          "x": 51,
-          "y": 51
+          "x": 50,
+          "y": 58
         },
         "RG": {
-          "x": 59,
-          "y": 51
+          "x": 58,
+          "y": 58
         },
         "RT": {
-          "x": 67,
-          "y": 51
+          "x": 66,
+          "y": 58
         },
         "TE": {
-          "x": 79,
-          "y": 64
+          "x": 80,
+          "y": 71
         },
         "QB": {
-          "x": 51,
-          "y": 78
+          "x": 50,
+          "y": 81
         },
         "RB": {
-          "x": 57,
-          "y": 91
+          "x": 56,
+          "y": 93
         },
         "WR-Z": {
           "x": 90,
-          "y": 51
+          "y": 58
         }
       },
       "defense": {
         "FS": {
           "x": 35,
-          "y": 18
+          "y": 20
         },
         "SS": {
           "x": 67,
@@ -255,39 +255,39 @@
         },
         "WLB": {
           "x": 43,
-          "y": 40
+          "y": 36
         },
         "MLB": {
           "x": 57,
-          "y": 40
+          "y": 36
         },
         "NB": {
           "x": 23,
-          "y": 49
+          "y": 50
         },
         "LDE": {
           "x": 34,
-          "y": 67
+          "y": 45
         },
         "NT": {
           "x": 46,
-          "y": 67
+          "y": 45
         },
         "DT": {
           "x": 56,
-          "y": 67
+          "y": 45
         },
         "RDE": {
           "x": 68,
-          "y": 67
+          "y": 45
         },
         "LCB": {
           "x": 10,
-          "y": 72
+          "y": 58
         },
         "RCB": {
           "x": 90,
-          "y": 72
+          "y": 58
         }
       }
     },
@@ -357,10 +357,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "ALABAMA"
+        "team": "ALABAMA",
+        "bucket": "WR"
       },
       "badges": [
-        "Target"
+        "Reliable Hands"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "64.1",
+          "detail": "Nat. #535 \u2022 ALABAMA"
+        },
+        {
+          "label": "Route Grade",
+          "value": "65.3",
+          "detail": "Nat. #458 \u2022 ALABAMA"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "71.2%",
+          "detail": "Nat. #401 \u2022 ALABAMA"
+        },
+        {
+          "label": "YPRR",
+          "value": "1.4",
+          "detail": "Nat. #580 \u2022 ALABAMA"
+        },
+        {
+          "label": "aDOT",
+          "value": "11.6",
+          "detail": "Nat. #545 \u2022 ALABAMA"
+        },
+        {
+          "label": "YAC/Rec",
+          "value": "2.3",
+          "detail": "Nat. #958 \u2022 ALABAMA"
+        },
+        {
+          "label": "Drop Rate",
+          "value": "8.7%",
+          "detail": "Nat. #843 \u2022 ALABAMA"
+        },
+        {
+          "label": "Contested",
+          "value": "45.5%",
+          "detail": "Nat. #472 \u2022 ALABAMA"
+        }
       ]
     },
     "5164360": {
@@ -474,10 +517,48 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "WR"
       },
       "badges": [
-        "Target"
+        "YAC Threat"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "60.8",
+          "detail": "Nat. #726"
+        },
+        {
+          "label": "Route Grade",
+          "value": "61.7",
+          "detail": "Nat. #645"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "50.0%",
+          "detail": "Nat. #920"
+        },
+        {
+          "label": "YPRR",
+          "value": "1.4",
+          "detail": "Nat. #583"
+        },
+        {
+          "label": "aDOT",
+          "value": "11.7",
+          "detail": "Nat. #533"
+        },
+        {
+          "label": "YAC/Rec",
+          "value": "15.0",
+          "detail": "Nat. #22"
+        },
+        {
+          "label": "Drop Rate",
+          "value": "0.0%",
+          "detail": "Nat. #1"
+        }
       ]
     },
     "aaron-gregory": {
@@ -516,15 +597,15 @@
           "url": "https://12thman.com/sports/football/roster/aaron-gregory/15545"
         }
       ],
-      "rating": 67.8,
+      "rating": null,
       "ratingSource": {
-        "type": "fallback",
-        "source": "projection"
+        "type": "missing",
+        "source": "csv"
       },
       "badges": [
-        "Target",
-        "Upside"
-      ]
+        "No 2025 CSV"
+      ],
+      "metricCards": []
     },
     "5139057": {
       "id": "5139057",
@@ -611,11 +692,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "WR"
       },
       "badges": [
-        "Explosive",
-        "Finisher"
+        "YAC Threat",
+        "Vertical Target"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "59.4",
+          "detail": "Nat. #797"
+        },
+        {
+          "label": "Route Grade",
+          "value": "57.3",
+          "detail": "Nat. #907"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "53.3%",
+          "detail": "Nat. #889"
+        },
+        {
+          "label": "YPRR",
+          "value": "1.5",
+          "detail": "Nat. #561"
+        },
+        {
+          "label": "aDOT",
+          "value": "14.5",
+          "detail": "Nat. #269"
+        },
+        {
+          "label": "YAC/Rec",
+          "value": "6.5",
+          "detail": "Nat. #279"
+        },
+        {
+          "label": "Drop Rate",
+          "value": "20.0%",
+          "detail": "Nat. #1081"
+        },
+        {
+          "label": "Contested",
+          "value": "85.7%",
+          "detail": "Nat. #87"
+        }
       ]
     },
     "5079326": {
@@ -733,10 +857,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "WR"
       },
       "badges": [
-        "Target"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "52.8",
+          "detail": "Nat. #1143"
+        },
+        {
+          "label": "Route Grade",
+          "value": "53.5",
+          "detail": "Nat. #1105"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "62.1%",
+          "detail": "Nat. #687"
+        },
+        {
+          "label": "YPRR",
+          "value": "0.9",
+          "detail": "Nat. #880"
+        },
+        {
+          "label": "aDOT",
+          "value": "8.8",
+          "detail": "Nat. #822"
+        },
+        {
+          "label": "YAC/Rec",
+          "value": "5.5",
+          "detail": "Nat. #413"
+        },
+        {
+          "label": "Drop Rate",
+          "value": "21.7%",
+          "detail": "Nat. #1105"
+        },
+        {
+          "label": "Contested",
+          "value": "66.7%",
+          "detail": "Nat. #134"
+        }
       ]
     },
     "5148650": {
@@ -779,14 +946,15 @@
           "url": "https://www.espn.com/college-football/player/_/id/5148650/jerome-myles"
         }
       ],
-      "rating": 67.8,
+      "rating": null,
       "ratingSource": {
-        "type": "fallback",
-        "source": "projection"
+        "type": "missing",
+        "source": "csv"
       },
       "badges": [
-        "Target"
-      ]
+        "No 2025 CSV"
+      ],
+      "metricCards": []
     },
     "5079345": {
       "id": "5079345",
@@ -903,11 +1071,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "WR"
       },
       "badges": [
-        "Explosive",
-        "Chain Mover"
+        "Route Winner",
+        "YAC Threat"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "81.4",
+          "detail": "Nat. #44"
+        },
+        {
+          "label": "Route Grade",
+          "value": "82.7",
+          "detail": "Nat. #49"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "69.4%",
+          "detail": "Nat. #443"
+        },
+        {
+          "label": "YPRR",
+          "value": "3.2",
+          "detail": "Nat. #95"
+        },
+        {
+          "label": "aDOT",
+          "value": "7.8",
+          "detail": "Nat. #905"
+        },
+        {
+          "label": "YAC/Rec",
+          "value": "9.7",
+          "detail": "Nat. #99"
+        },
+        {
+          "label": "Drop Rate",
+          "value": "6.3%",
+          "detail": "Nat. #712"
+        },
+        {
+          "label": "Contested",
+          "value": "50.0%",
+          "detail": "Nat. #318"
+        }
       ]
     },
     "madden-williams": {
@@ -946,15 +1157,15 @@
           "url": "https://12thman.com/sports/football/roster/madden-williams/15571"
         }
       ],
-      "rating": 73.8,
+      "rating": null,
       "ratingSource": {
-        "type": "fallback",
-        "source": "projection"
+        "type": "missing",
+        "source": "csv"
       },
       "badges": [
-        "Target",
-        "Upside"
-      ]
+        "No 2025 CSV"
+      ],
+      "metricCards": []
     },
     "5164648": {
       "id": "5164648",
@@ -1037,10 +1248,48 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "WR"
       },
       "badges": [
-        "Target"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "56.7",
+          "detail": "Nat. #961"
+        },
+        {
+          "label": "Route Grade",
+          "value": "56.6",
+          "detail": "Nat. #943"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "66.7%",
+          "detail": "Nat. #499"
+        },
+        {
+          "label": "YPRR",
+          "value": "1.3",
+          "detail": "Nat. #657"
+        },
+        {
+          "label": "aDOT",
+          "value": "4.5",
+          "detail": "Nat. #1102"
+        },
+        {
+          "label": "YAC/Rec",
+          "value": "4.0",
+          "detail": "Nat. #691"
+        },
+        {
+          "label": "Drop Rate",
+          "value": "20.0%",
+          "detail": "Nat. #1081"
+        }
       ]
     },
     "tyree-adams": {
@@ -1083,11 +1332,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "LSU"
+        "team": "LSU",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Clean Pocket"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "55.5",
+          "detail": "Nat. #1375 \u2022 LSU"
+        },
+        {
+          "label": "Pass Block",
+          "value": "65.0",
+          "detail": "Nat. #936 \u2022 LSU"
+        },
+        {
+          "label": "Run Block",
+          "value": "47.6",
+          "detail": "Nat. #1682 \u2022 LSU"
+        },
+        {
+          "label": "PBE",
+          "value": "97.9",
+          "detail": "Nat. #861 \u2022 LSU"
+        },
+        {
+          "label": "Pressures",
+          "value": "11",
+          "detail": "Nat. #1235 \u2022 LSU"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "1",
+          "detail": "Nat. #1041 \u2022 LSU"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "4",
+          "detail": "Nat. #1623 \u2022 LSU"
+        },
+        {
+          "label": "Hurries",
+          "value": "6",
+          "detail": "Nat. #1081 \u2022 LSU"
+        }
       ]
     },
     "lamont-rogers": {
@@ -1130,11 +1421,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Run Mover",
+        "Clean Pocket"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "62.6",
+          "detail": "Nat. #755"
+        },
+        {
+          "label": "Pass Block",
+          "value": "36.9",
+          "detail": "Nat. #1468"
+        },
+        {
+          "label": "Run Block",
+          "value": "69.7",
+          "detail": "Nat. #270"
+        },
+        {
+          "label": "PBE",
+          "value": "92.4",
+          "detail": "Nat. #1544"
+        },
+        {
+          "label": "Pressures",
+          "value": "5",
+          "detail": "Nat. #913"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "1",
+          "detail": "Nat. #962"
+        },
+        {
+          "label": "Hurries",
+          "value": "4",
+          "detail": "Nat. #950"
+        }
       ]
     },
     "trey-zuhn": {
@@ -1173,11 +1507,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Pass Pro",
+        "Clean Pocket"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "72.7",
+          "detail": "Nat. #175"
+        },
+        {
+          "label": "Pass Block",
+          "value": "96.8",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Run Block",
+          "value": "59.7",
+          "detail": "Nat. #999"
+        },
+        {
+          "label": "PBE",
+          "value": "98.5",
+          "detail": "Nat. #620"
+        },
+        {
+          "label": "Pressures",
+          "value": "10",
+          "detail": "Nat. #1177"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "2",
+          "detail": "Nat. #1371"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "1",
+          "detail": "Nat. #962"
+        },
+        {
+          "label": "Hurries",
+          "value": "7",
+          "detail": "Nat. #1165"
+        }
       ]
     },
     "coen-echols": {
@@ -1220,11 +1597,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "LSU"
+        "team": "LSU",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "57.2",
+          "detail": "Nat. #1267 \u2022 LSU"
+        },
+        {
+          "label": "Pass Block",
+          "value": "68.3",
+          "detail": "Nat. #759 \u2022 LSU"
+        },
+        {
+          "label": "Run Block",
+          "value": "49.7",
+          "detail": "Nat. #1632 \u2022 LSU"
+        },
+        {
+          "label": "PBE",
+          "value": "97.2",
+          "detail": "Nat. #1088 \u2022 LSU"
+        },
+        {
+          "label": "Pressures",
+          "value": "18",
+          "detail": "Nat. #1547 \u2022 LSU"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "3",
+          "detail": "Nat. #1543 \u2022 LSU"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "1",
+          "detail": "Nat. #962 \u2022 LSU"
+        },
+        {
+          "label": "Hurries",
+          "value": "14",
+          "detail": "Nat. #1583 \u2022 LSU"
+        }
       ]
     },
     "5079453": {
@@ -1271,11 +1690,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Clean Pocket"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "47.9",
+          "detail": "Nat. #1661"
+        },
+        {
+          "label": "Pass Block",
+          "value": "44.0",
+          "detail": "Nat. #1404"
+        },
+        {
+          "label": "Run Block",
+          "value": "46.2",
+          "detail": "Nat. #1705"
+        },
+        {
+          "label": "PBE",
+          "value": "98.3",
+          "detail": "Nat. #695"
+        },
+        {
+          "label": "Pressures",
+          "value": "1",
+          "detail": "Nat. #581"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hurries",
+          "value": "1",
+          "detail": "Nat. #624"
+        }
       ]
     },
     "5079291": {
@@ -1314,15 +1775,15 @@
           "url": "https://www.espn.com/college-football/player/_/id/5079291/isendre-ahfua"
         }
       ],
-      "rating": 72.5,
+      "rating": null,
       "ratingSource": {
-        "type": "fallback",
-        "source": "projection"
+        "type": "missing",
+        "source": "csv"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
-      ]
+        "No 2025 CSV"
+      ],
+      "metricCards": []
     },
     "4832816": {
       "id": "4832816",
@@ -1368,11 +1829,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Pass Pro",
+        "Clean Pocket"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "64.9",
+          "detail": "Nat. #590"
+        },
+        {
+          "label": "Pass Block",
+          "value": "75.7",
+          "detail": "Nat. #373"
+        },
+        {
+          "label": "Run Block",
+          "value": "59.4",
+          "detail": "Nat. #1035"
+        },
+        {
+          "label": "PBE",
+          "value": "98.5",
+          "detail": "Nat. #620"
+        },
+        {
+          "label": "Pressures",
+          "value": "12",
+          "detail": "Nat. #1289"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hurries",
+          "value": "12",
+          "detail": "Nat. #1489"
+        }
       ]
     },
     "5113181": {
@@ -1419,11 +1923,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
         "Pass Pro"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "57.7",
+          "detail": "Nat. #1247"
+        },
+        {
+          "label": "Pass Block",
+          "value": "86.3",
+          "detail": "Nat. #34"
+        },
+        {
+          "label": "Run Block",
+          "value": "50.7",
+          "detail": "Nat. #1593"
+        },
+        {
+          "label": "PBE",
+          "value": "100.0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Pressures",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hurries",
+          "value": "0",
+          "detail": "Nat. #1"
+        }
       ]
     },
     "4894116": {
@@ -1466,11 +2012,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
         "Pass Pro"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "55.1",
+          "detail": "Nat. #1400"
+        },
+        {
+          "label": "Pass Block",
+          "value": "77.3",
+          "detail": "Nat. #293"
+        },
+        {
+          "label": "Run Block",
+          "value": "54.0",
+          "detail": "Nat. #1439"
+        },
+        {
+          "label": "PBE",
+          "value": "100.0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Pressures",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hurries",
+          "value": "0",
+          "detail": "Nat. #1"
+        }
       ]
     },
     "trovon-baugh": {
@@ -1513,11 +2101,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "S CAROLINA"
+        "team": "S CAROLINA",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "53.1",
+          "detail": "Nat. #1488 \u2022 S CAROLINA"
+        },
+        {
+          "label": "Pass Block",
+          "value": "59.3",
+          "detail": "Nat. #1101 \u2022 S CAROLINA"
+        },
+        {
+          "label": "Run Block",
+          "value": "55.7",
+          "detail": "Nat. #1348 \u2022 S CAROLINA"
+        },
+        {
+          "label": "PBE",
+          "value": "96.4",
+          "detail": "Nat. #1276 \u2022 S CAROLINA"
+        },
+        {
+          "label": "Pressures",
+          "value": "19",
+          "detail": "Nat. #1582 \u2022 S CAROLINA"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "5",
+          "detail": "Nat. #1721 \u2022 S CAROLINA"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "0",
+          "detail": "Nat. #1 \u2022 S CAROLINA"
+        },
+        {
+          "label": "Hurries",
+          "value": "14",
+          "detail": "Nat. #1583 \u2022 S CAROLINA"
+        }
       ]
     },
     "tyler-thomas": {
@@ -1560,11 +2190,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Clean Pocket"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "65.6",
+          "detail": "Nat. #537"
+        },
+        {
+          "label": "Pass Block",
+          "value": "71.2",
+          "detail": "Nat. #637"
+        },
+        {
+          "label": "Run Block",
+          "value": "64.2",
+          "detail": "Nat. #572"
+        },
+        {
+          "label": "PBE",
+          "value": "96.3",
+          "detail": "Nat. #1299"
+        },
+        {
+          "label": "Pressures",
+          "value": "1",
+          "detail": "Nat. #581"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "1",
+          "detail": "Nat. #1041"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hurries",
+          "value": "0",
+          "detail": "Nat. #1"
+        }
       ]
     },
     "4606712": {
@@ -1607,11 +2279,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Run Mover"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "69.1",
+          "detail": "Nat. #335"
+        },
+        {
+          "label": "Pass Block",
+          "value": "65.2",
+          "detail": "Nat. #929"
+        },
+        {
+          "label": "Run Block",
+          "value": "72.7",
+          "detail": "Nat. #179"
+        },
+        {
+          "label": "PBE",
+          "value": "97.9",
+          "detail": "Nat. #861"
+        },
+        {
+          "label": "Pressures",
+          "value": "14",
+          "detail": "Nat. #1400"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "1",
+          "detail": "Nat. #1041"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hurries",
+          "value": "13",
+          "detail": "Nat. #1536"
+        }
       ]
     },
     "wilkin-formby": {
@@ -1654,11 +2368,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "ALABAMA"
+        "team": "ALABAMA",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
         "Pass Pro"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "70.9",
+          "detail": "Nat. #253 \u2022 ALABAMA"
+        },
+        {
+          "label": "Pass Block",
+          "value": "82.1",
+          "detail": "Nat. #114 \u2022 ALABAMA"
+        },
+        {
+          "label": "Run Block",
+          "value": "61.8",
+          "detail": "Nat. #735 \u2022 ALABAMA"
+        },
+        {
+          "label": "PBE",
+          "value": "97.6",
+          "detail": "Nat. #974 \u2022 ALABAMA"
+        },
+        {
+          "label": "Pressures",
+          "value": "20",
+          "detail": "Nat. #1616 \u2022 ALABAMA"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "3",
+          "detail": "Nat. #1543 \u2022 ALABAMA"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "5",
+          "detail": "Nat. #1697 \u2022 ALABAMA"
+        },
+        {
+          "label": "Hurries",
+          "value": "12",
+          "detail": "Nat. #1489 \u2022 ALABAMA"
+        }
       ]
     },
     "5146765": {
@@ -1705,11 +2461,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Clean Pocket"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "66.1",
+          "detail": "Nat. #498"
+        },
+        {
+          "label": "Pass Block",
+          "value": "70.2",
+          "detail": "Nat. #678"
+        },
+        {
+          "label": "Run Block",
+          "value": "61.8",
+          "detail": "Nat. #735"
+        },
+        {
+          "label": "PBE",
+          "value": "97.8",
+          "detail": "Nat. #888"
+        },
+        {
+          "label": "Pressures",
+          "value": "3",
+          "detail": "Nat. #783"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Hurries",
+          "value": "3",
+          "detail": "Nat. #866"
+        }
       ]
     },
     "4431526": {
@@ -1752,11 +2550,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "blocking",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "OL"
       },
       "badges": [
-        "Anchor",
-        "Pass Pro"
+        "Run Mover"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "65.2",
+          "detail": "Nat. #563"
+        },
+        {
+          "label": "Pass Block",
+          "value": "58.4",
+          "detail": "Nat. #1132"
+        },
+        {
+          "label": "Run Block",
+          "value": "72.4",
+          "detail": "Nat. #192"
+        },
+        {
+          "label": "PBE",
+          "value": "96.4",
+          "detail": "Nat. #1276"
+        },
+        {
+          "label": "Pressures",
+          "value": "27",
+          "detail": "Nat. #1726"
+        },
+        {
+          "label": "Sacks Allowed",
+          "value": "2",
+          "detail": "Nat. #1371"
+        },
+        {
+          "label": "Hits Allowed",
+          "value": "2",
+          "detail": "Nat. #1280"
+        },
+        {
+          "label": "Hurries",
+          "value": "23",
+          "detail": "Nat. #1750"
+        }
       ]
     },
     "houston-thomas": {
@@ -1799,10 +2639,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "UTSA"
+        "team": "UTSA",
+        "bucket": "TE"
       },
       "badges": [
-        "Target"
+        "Reliable Hands"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "62.8",
+          "detail": "Nat. #180 \u2022 UTSA"
+        },
+        {
+          "label": "Route Grade",
+          "value": "68.3",
+          "detail": "Nat. #112 \u2022 UTSA"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "73.9%",
+          "detail": "Nat. #201 \u2022 UTSA"
+        },
+        {
+          "label": "YPRR",
+          "value": "1.7",
+          "detail": "Nat. #93 \u2022 UTSA"
+        },
+        {
+          "label": "YAC/Rec",
+          "value": "4.2",
+          "detail": "Nat. #276 \u2022 UTSA"
+        },
+        {
+          "label": "Contested",
+          "value": "50.0%",
+          "detail": "Nat. #137 \u2022 UTSA"
+        },
+        {
+          "label": "Pass Block",
+          "value": "67.5",
+          "detail": "Nat. #278 \u2022 UTSA"
+        },
+        {
+          "label": "Run Block",
+          "value": "46.5",
+          "detail": "Nat. #632 \u2022 UTSA"
+        }
       ]
     },
     "richie-anderson": {
@@ -1845,10 +2728,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "FRESNO ST"
+        "team": "FRESNO ST",
+        "bucket": "TE"
       },
       "badges": [
-        "Target"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "55.1",
+          "detail": "Nat. #336 \u2022 FRESNO ST"
+        },
+        {
+          "label": "Route Grade",
+          "value": "53.2",
+          "detail": "Nat. #378 \u2022 FRESNO ST"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "66.0%",
+          "detail": "Nat. #304 \u2022 FRESNO ST"
+        },
+        {
+          "label": "YPRR",
+          "value": "1.1",
+          "detail": "Nat. #219 \u2022 FRESNO ST"
+        },
+        {
+          "label": "YAC/Rec",
+          "value": "4.5",
+          "detail": "Nat. #258 \u2022 FRESNO ST"
+        },
+        {
+          "label": "Contested",
+          "value": "100.0%",
+          "detail": "Nat. #1 \u2022 FRESNO ST"
+        },
+        {
+          "label": "Pass Block",
+          "value": "68.5",
+          "detail": "Nat. #239 \u2022 FRESNO ST"
+        },
+        {
+          "label": "Run Block",
+          "value": "61.1",
+          "detail": "Nat. #214 \u2022 FRESNO ST"
+        }
       ]
     },
     "5141358": {
@@ -1895,10 +2821,48 @@
       "ratingSource": {
         "type": "csv",
         "source": "receiving",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "TE"
       },
       "badges": [
-        "Target"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "54.2",
+          "detail": "Nat. #352"
+        },
+        {
+          "label": "Route Grade",
+          "value": "53.8",
+          "detail": "Nat. #368"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "0.0%",
+          "detail": "Nat. #471"
+        },
+        {
+          "label": "YPRR",
+          "value": "0.0",
+          "detail": "Nat. #471"
+        },
+        {
+          "label": "Contested",
+          "value": "0.0%",
+          "detail": "Nat. #260"
+        },
+        {
+          "label": "Pass Block",
+          "value": "70.0",
+          "detail": "Nat. #187"
+        },
+        {
+          "label": "Run Block",
+          "value": "55.6",
+          "detail": "Nat. #432"
+        }
       ]
     },
     "4870971": {
@@ -2046,11 +3010,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "passing",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "QB"
       },
       "badges": [
-        "Dual Threat",
-        "Explosive Arm"
+        "Shot Creator",
+        "Accurate"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "68.3",
+          "detail": "Nat. #229"
+        },
+        {
+          "label": "Pass Grade",
+          "value": "63.6",
+          "detail": "Nat. #228"
+        },
+        {
+          "label": "Accuracy",
+          "value": "72.8%",
+          "detail": "Nat. #232"
+        },
+        {
+          "label": "QB Rating",
+          "value": "96.8",
+          "detail": "Nat. #177"
+        },
+        {
+          "label": "BTT Rate",
+          "value": "4.5%",
+          "detail": "Nat. #128"
+        },
+        {
+          "label": "TWP Rate",
+          "value": "4.7%",
+          "detail": "Nat. #433"
+        },
+        {
+          "label": "Run Grade",
+          "value": "69.3",
+          "detail": "Nat. #124"
+        },
+        {
+          "label": "Scramble Yds",
+          "value": "391",
+          "detail": "Nat. #9"
+        }
       ]
     },
     "5295969": {
@@ -2194,10 +3201,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "passing",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "QB"
       },
       "badges": [
-        "Dual Threat"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "57.7",
+          "detail": "Nat. #425"
+        },
+        {
+          "label": "Pass Grade",
+          "value": "51.5",
+          "detail": "Nat. #425"
+        },
+        {
+          "label": "Accuracy",
+          "value": "55.6%",
+          "detail": "Nat. #423"
+        },
+        {
+          "label": "QB Rating",
+          "value": "63.4",
+          "detail": "Nat. #398"
+        },
+        {
+          "label": "BTT Rate",
+          "value": "0.0%",
+          "detail": "Nat. #280"
+        },
+        {
+          "label": "TWP Rate",
+          "value": "0.0%",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "Run Grade",
+          "value": "66.2",
+          "detail": "Nat. #168"
+        },
+        {
+          "label": "Scramble Yds",
+          "value": "9",
+          "detail": "Nat. #274"
+        }
       ]
     },
     "helaman-casuga": {
@@ -2236,15 +3286,15 @@
           "url": "https://12thman.com/sports/football/roster/helaman-casuga/15535"
         }
       ],
-      "rating": 69.8,
+      "rating": null,
       "ratingSource": {
-        "type": "fallback",
-        "source": "projection"
+        "type": "missing",
+        "source": "csv"
       },
       "badges": [
-        "Field General",
-        "Upside"
-      ]
+        "No 2025 CSV"
+      ],
+      "metricCards": []
     },
     "4870934": {
       "id": "4870934",
@@ -2361,10 +3411,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "rushing",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "RB"
       },
       "badges": [
-        "Burst"
+        "Home Run",
+        "Receiving Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "76.6",
+          "detail": "Nat. #154"
+        },
+        {
+          "label": "Rush Grade",
+          "value": "80.1",
+          "detail": "Nat. #128"
+        },
+        {
+          "label": "Elusive",
+          "value": "37.1",
+          "detail": "Nat. #510"
+        },
+        {
+          "label": "Breakaway",
+          "value": "39.9%",
+          "detail": "Nat. #182"
+        },
+        {
+          "label": "YCO/Att",
+          "value": "2.9",
+          "detail": "Nat. #403"
+        },
+        {
+          "label": "Yards/Att",
+          "value": "5.4",
+          "detail": "Nat. #205"
+        },
+        {
+          "label": "Route Grade",
+          "value": "66.3",
+          "detail": "Nat. #156"
+        },
+        {
+          "label": "YPRR",
+          "value": "0.8",
+          "detail": "Nat. #297"
+        }
       ]
     },
     "5141561": {
@@ -2482,10 +3576,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "rushing",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "RB"
       },
       "badges": [
-        "Ball Carrier"
+        "Home Run",
+        "Receiving Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Off Grade",
+          "value": "69.4",
+          "detail": "Nat. #368"
+        },
+        {
+          "label": "Rush Grade",
+          "value": "69.9",
+          "detail": "Nat. #391"
+        },
+        {
+          "label": "Elusive",
+          "value": "50.0",
+          "detail": "Nat. #408"
+        },
+        {
+          "label": "Breakaway",
+          "value": "41.2%",
+          "detail": "Nat. #164"
+        },
+        {
+          "label": "YCO/Att",
+          "value": "2.7",
+          "detail": "Nat. #456"
+        },
+        {
+          "label": "Yards/Att",
+          "value": "4.2",
+          "detail": "Nat. #450"
+        },
+        {
+          "label": "Route Grade",
+          "value": "67.1",
+          "detail": "Nat. #147"
+        },
+        {
+          "label": "YPRR",
+          "value": "1.4",
+          "detail": "Nat. #129"
+        }
       ]
     },
     "kj-edwards": {
@@ -2524,15 +3662,15 @@
           "url": "https://12thman.com/sports/football/roster/kj-edwards/15540"
         }
       ],
-      "rating": 68.8,
+      "rating": null,
       "ratingSource": {
-        "type": "fallback",
-        "source": "projection"
+        "type": "missing",
+        "source": "csv"
       },
       "badges": [
-        "Ball Carrier",
-        "Upside"
-      ]
+        "No 2025 CSV"
+      ],
+      "metricCards": []
     },
     "anto-saka": {
       "id": "anto-saka",
@@ -2574,10 +3712,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "NWESTERN"
+        "team": "NWESTERN",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Pass Rush"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "72.7",
+          "detail": "Nat. #348 \u2022 NWESTERN"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "84.1",
+          "detail": "Nat. #61 \u2022 NWESTERN"
+        },
+        {
+          "label": "Run Defense",
+          "value": "54.5",
+          "detail": "Nat. #2058 \u2022 NWESTERN"
+        },
+        {
+          "label": "Tackle",
+          "value": "63.8",
+          "detail": "Nat. #1024 \u2022 NWESTERN"
+        },
+        {
+          "label": "Pressures",
+          "value": "30",
+          "detail": "Nat. #131 \u2022 NWESTERN"
+        },
+        {
+          "label": "Sacks",
+          "value": "4",
+          "detail": "Nat. #167 \u2022 NWESTERN"
+        },
+        {
+          "label": "TFL",
+          "value": "1",
+          "detail": "Nat. #629 \u2022 NWESTERN"
+        },
+        {
+          "label": "Stops",
+          "value": "7",
+          "detail": "Nat. #876 \u2022 NWESTERN"
+        }
       ]
     },
     "4870904": {
@@ -2635,10 +3816,55 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Pass Rush",
+        "Run Stopper",
+        "Sure Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "87.6",
+          "detail": "Nat. #23"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "88.3",
+          "detail": "Nat. #38"
+        },
+        {
+          "label": "Run Defense",
+          "value": "72.8",
+          "detail": "Nat. #341"
+        },
+        {
+          "label": "Tackle",
+          "value": "77.1",
+          "detail": "Nat. #222"
+        },
+        {
+          "label": "Pressures",
+          "value": "2",
+          "detail": "Nat. #1318"
+        },
+        {
+          "label": "Sacks",
+          "value": "1",
+          "detail": "Nat. #638"
+        },
+        {
+          "label": "TFL",
+          "value": "0",
+          "detail": "Nat. #1061"
+        },
+        {
+          "label": "Stops",
+          "value": "1",
+          "detail": "Nat. #1506"
+        }
       ]
     },
     "ryan-henderson": {
@@ -2681,10 +3907,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "S DIEGO ST"
+        "team": "S DIEGO ST",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "69.7",
+          "detail": "Nat. #528 \u2022 S DIEGO ST"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "73.5",
+          "detail": "Nat. #234 \u2022 S DIEGO ST"
+        },
+        {
+          "label": "Run Defense",
+          "value": "62.6",
+          "detail": "Nat. #1100 \u2022 S DIEGO ST"
+        },
+        {
+          "label": "Tackle",
+          "value": "69.9",
+          "detail": "Nat. #761 \u2022 S DIEGO ST"
+        },
+        {
+          "label": "Pressures",
+          "value": "31",
+          "detail": "Nat. #124 \u2022 S DIEGO ST"
+        },
+        {
+          "label": "Sacks",
+          "value": "8",
+          "detail": "Nat. #32 \u2022 S DIEGO ST"
+        },
+        {
+          "label": "TFL",
+          "value": "2",
+          "detail": "Nat. #370 \u2022 S DIEGO ST"
+        },
+        {
+          "label": "Stops",
+          "value": "16",
+          "detail": "Nat. #319 \u2022 S DIEGO ST"
+        }
       ]
     },
     "cj-mims": {
@@ -2727,10 +3996,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "N CAROLINA"
+        "team": "N CAROLINA",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "69.7",
+          "detail": "Nat. #528 \u2022 N CAROLINA"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "66.2",
+          "detail": "Nat. #593 \u2022 N CAROLINA"
+        },
+        {
+          "label": "Run Defense",
+          "value": "66.9",
+          "detail": "Nat. #754 \u2022 N CAROLINA"
+        },
+        {
+          "label": "Tackle",
+          "value": "53.6",
+          "detail": "Nat. #1415 \u2022 N CAROLINA"
+        },
+        {
+          "label": "Pressures",
+          "value": "14",
+          "detail": "Nat. #486 \u2022 N CAROLINA"
+        },
+        {
+          "label": "Sacks",
+          "value": "2",
+          "detail": "Nat. #410 \u2022 N CAROLINA"
+        },
+        {
+          "label": "TFL",
+          "value": "1",
+          "detail": "Nat. #629 \u2022 N CAROLINA"
+        },
+        {
+          "label": "Stops",
+          "value": "20",
+          "detail": "Nat. #178 \u2022 N CAROLINA"
+        }
       ]
     },
     "angelo-mccullom": {
@@ -2773,10 +4085,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "ILLINOIS"
+        "team": "ILLINOIS",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Sure Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "66.5",
+          "detail": "Nat. #807 \u2022 ILLINOIS"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "59.3",
+          "detail": "Nat. #1360 \u2022 ILLINOIS"
+        },
+        {
+          "label": "Run Defense",
+          "value": "67.4",
+          "detail": "Nat. #712 \u2022 ILLINOIS"
+        },
+        {
+          "label": "Tackle",
+          "value": "73.1",
+          "detail": "Nat. #489 \u2022 ILLINOIS"
+        },
+        {
+          "label": "Pressures",
+          "value": "7",
+          "detail": "Nat. #874 \u2022 ILLINOIS"
+        },
+        {
+          "label": "Sacks",
+          "value": "2",
+          "detail": "Nat. #410 \u2022 ILLINOIS"
+        },
+        {
+          "label": "TFL",
+          "value": "2",
+          "detail": "Nat. #370 \u2022 ILLINOIS"
+        },
+        {
+          "label": "Stops",
+          "value": "12",
+          "detail": "Nat. #522 \u2022 ILLINOIS"
+        }
       ]
     },
     "brandon-davis-swain": {
@@ -2819,10 +4174,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "COLORADO"
+        "team": "COLORADO",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "61.4",
+          "detail": "Nat. #1395 \u2022 COLORADO"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "62.2",
+          "detail": "Nat. #915 \u2022 COLORADO"
+        },
+        {
+          "label": "Run Defense",
+          "value": "59.0",
+          "detail": "Nat. #1768 \u2022 COLORADO"
+        },
+        {
+          "label": "Tackle",
+          "value": "30.1",
+          "detail": "Nat. #1787 \u2022 COLORADO"
+        },
+        {
+          "label": "Pressures",
+          "value": "10",
+          "detail": "Nat. #681 \u2022 COLORADO"
+        },
+        {
+          "label": "Sacks",
+          "value": "1",
+          "detail": "Nat. #638 \u2022 COLORADO"
+        },
+        {
+          "label": "TFL",
+          "value": "1",
+          "detail": "Nat. #629 \u2022 COLORADO"
+        },
+        {
+          "label": "Stops",
+          "value": "8",
+          "detail": "Nat. #804 \u2022 COLORADO"
+        }
       ]
     },
     "5160111": {
@@ -2880,10 +4278,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "66.3",
+          "detail": "Nat. #827"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "66.0",
+          "detail": "Nat. #612"
+        },
+        {
+          "label": "Run Defense",
+          "value": "63.5",
+          "detail": "Nat. #1030"
+        },
+        {
+          "label": "Tackle",
+          "value": "35.7",
+          "detail": "Nat. #1737"
+        },
+        {
+          "label": "Pressures",
+          "value": "15",
+          "detail": "Nat. #447"
+        },
+        {
+          "label": "Sacks",
+          "value": "4",
+          "detail": "Nat. #167"
+        },
+        {
+          "label": "TFL",
+          "value": "3",
+          "detail": "Nat. #229"
+        },
+        {
+          "label": "Stops",
+          "value": "14",
+          "detail": "Nat. #412"
+        }
       ]
     },
     "landon-rink": {
@@ -2941,10 +4382,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Run Stopper",
+        "Sure Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "84.2",
+          "detail": "Nat. #50"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "60.5",
+          "detail": "Nat. #1112"
+        },
+        {
+          "label": "Run Defense",
+          "value": "90.9",
+          "detail": "Nat. #4"
+        },
+        {
+          "label": "Tackle",
+          "value": "77.7",
+          "detail": "Nat. #196"
+        },
+        {
+          "label": "Pressures",
+          "value": "2",
+          "detail": "Nat. #1318"
+        },
+        {
+          "label": "Sacks",
+          "value": "0",
+          "detail": "Nat. #1029"
+        },
+        {
+          "label": "TFL",
+          "value": "1",
+          "detail": "Nat. #629"
+        },
+        {
+          "label": "Stops",
+          "value": "5",
+          "detail": "Nat. #1044"
+        }
       ]
     },
     "dj-sanders": {
@@ -3002,10 +4487,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DL"
       },
       "badges": [
         "Run Stopper"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "74.8",
+          "detail": "Nat. #254"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "59.5",
+          "detail": "Nat. #1320"
+        },
+        {
+          "label": "Run Defense",
+          "value": "77.2",
+          "detail": "Nat. #150"
+        },
+        {
+          "label": "Tackle",
+          "value": "56.8",
+          "detail": "Nat. #1308"
+        },
+        {
+          "label": "Pressures",
+          "value": "2",
+          "detail": "Nat. #1318"
+        },
+        {
+          "label": "Sacks",
+          "value": "0",
+          "detail": "Nat. #1029"
+        },
+        {
+          "label": "TFL",
+          "value": "0",
+          "detail": "Nat. #1061"
+        },
+        {
+          "label": "Stops",
+          "value": "2",
+          "detail": "Nat. #1350"
+        }
       ]
     },
     "t-j-searcy": {
@@ -3063,10 +4591,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Run Stopper",
+        "Sure Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "71.9",
+          "detail": "Nat. #391"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "57.1",
+          "detail": "Nat. #1681"
+        },
+        {
+          "label": "Run Defense",
+          "value": "77.6",
+          "detail": "Nat. #139"
+        },
+        {
+          "label": "Tackle",
+          "value": "78.4",
+          "detail": "Nat. #173"
+        },
+        {
+          "label": "Pressures",
+          "value": "10",
+          "detail": "Nat. #681"
+        },
+        {
+          "label": "Sacks",
+          "value": "2",
+          "detail": "Nat. #410"
+        },
+        {
+          "label": "TFL",
+          "value": "6",
+          "detail": "Nat. #37"
+        },
+        {
+          "label": "Stops",
+          "value": "16",
+          "detail": "Nat. #319"
+        }
       ]
     },
     "5141540": {
@@ -3124,10 +4696,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DL"
       },
       "badges": [
-        "Run Stopper"
+        "Run Stopper",
+        "Sure Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "77.1",
+          "detail": "Nat. #177"
+        },
+        {
+          "label": "Pass Rush",
+          "value": "71.3",
+          "detail": "Nat. #306"
+        },
+        {
+          "label": "Run Defense",
+          "value": "79.1",
+          "detail": "Nat. #104"
+        },
+        {
+          "label": "Tackle",
+          "value": "84.1",
+          "detail": "Nat. #24"
+        },
+        {
+          "label": "Pressures",
+          "value": "8",
+          "detail": "Nat. #805"
+        },
+        {
+          "label": "Sacks",
+          "value": "2",
+          "detail": "Nat. #410"
+        },
+        {
+          "label": "TFL",
+          "value": "1",
+          "detail": "Nat. #629"
+        },
+        {
+          "label": "Stops",
+          "value": "10",
+          "detail": "Nat. #661"
+        }
       ]
     },
     "bryce-perry-wright": {
@@ -3166,15 +4782,15 @@
           "url": "https://12thman.com/sports/football/roster/bryce-perrywright/15561"
         }
       ],
-      "rating": 68.8,
+      "rating": null,
       "ratingSource": {
-        "type": "fallback",
-        "source": "projection"
+        "type": "missing",
+        "source": "csv"
       },
       "badges": [
-        "Run Stopper",
-        "Upside"
-      ]
+        "No 2025 CSV"
+      ],
+      "metricCards": []
     },
     "5141596": {
       "id": "5141596",
@@ -3231,10 +4847,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "LB"
       },
       "badges": [
-        "Run Stopper"
+        "Run Stopper",
+        "Sure Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "73.2",
+          "detail": "Nat. #165"
+        },
+        {
+          "label": "Run Defense",
+          "value": "81.7",
+          "detail": "Nat. #79"
+        },
+        {
+          "label": "Tackle",
+          "value": "86.2",
+          "detail": "Nat. #31"
+        },
+        {
+          "label": "Coverage",
+          "value": "59.8",
+          "detail": "Nat. #498"
+        },
+        {
+          "label": "Stops",
+          "value": "10",
+          "detail": "Nat. #458"
+        },
+        {
+          "label": "TFL",
+          "value": "2",
+          "detail": "Nat. #278"
+        },
+        {
+          "label": "Pressures",
+          "value": "0",
+          "detail": "Nat. #707"
+        },
+        {
+          "label": "Sacks",
+          "value": "0",
+          "detail": "Nat. #415"
+        }
       ]
     },
     "ray-coney": {
@@ -3277,10 +4937,55 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TULSA"
+        "team": "TULSA",
+        "bucket": "LB"
       },
       "badges": [
-        "Run Stopper"
+        "Pass Rush",
+        "Run Stopper",
+        "Sure Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "87.6",
+          "detail": "Nat. #16 \u2022 TULSA"
+        },
+        {
+          "label": "Run Defense",
+          "value": "86.9",
+          "detail": "Nat. #29 \u2022 TULSA"
+        },
+        {
+          "label": "Tackle",
+          "value": "88.2",
+          "detail": "Nat. #19 \u2022 TULSA"
+        },
+        {
+          "label": "Coverage",
+          "value": "73.7",
+          "detail": "Nat. #85 \u2022 TULSA"
+        },
+        {
+          "label": "Stops",
+          "value": "59",
+          "detail": "Nat. #7 \u2022 TULSA"
+        },
+        {
+          "label": "TFL",
+          "value": "4",
+          "detail": "Nat. #123 \u2022 TULSA"
+        },
+        {
+          "label": "Pressures",
+          "value": "23",
+          "detail": "Nat. #20 \u2022 TULSA"
+        },
+        {
+          "label": "Sacks",
+          "value": "2",
+          "detail": "Nat. #115 \u2022 TULSA"
+        }
       ]
     },
     "tj-smith": {
@@ -3323,10 +5028,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TULANE"
+        "team": "TULANE",
+        "bucket": "LB"
       },
       "badges": [
-        "Run Stopper"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "59.0",
+          "detail": "Nat. #745 \u2022 TULANE"
+        },
+        {
+          "label": "Run Defense",
+          "value": "58.5",
+          "detail": "Nat. #814 \u2022 TULANE"
+        },
+        {
+          "label": "Tackle",
+          "value": "64.1",
+          "detail": "Nat. #525 \u2022 TULANE"
+        },
+        {
+          "label": "Coverage",
+          "value": "56.8",
+          "detail": "Nat. #579 \u2022 TULANE"
+        },
+        {
+          "label": "Stops",
+          "value": "8",
+          "detail": "Nat. #494 \u2022 TULANE"
+        },
+        {
+          "label": "TFL",
+          "value": "2",
+          "detail": "Nat. #278 \u2022 TULANE"
+        },
+        {
+          "label": "Pressures",
+          "value": "3",
+          "detail": "Nat. #456 \u2022 TULANE"
+        },
+        {
+          "label": "Sacks",
+          "value": "1",
+          "detail": "Nat. #214 \u2022 TULANE"
+        }
       ]
     },
     "daymion-sanford": {
@@ -3384,10 +5132,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "LB"
       },
       "badges": [
-        "Run Stopper"
+        "Pass Rush"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "70.6",
+          "detail": "Nat. #246"
+        },
+        {
+          "label": "Run Defense",
+          "value": "67.2",
+          "detail": "Nat. #443"
+        },
+        {
+          "label": "Tackle",
+          "value": "57.6",
+          "detail": "Nat. #645"
+        },
+        {
+          "label": "Coverage",
+          "value": "63.3",
+          "detail": "Nat. #314"
+        },
+        {
+          "label": "Stops",
+          "value": "31",
+          "detail": "Nat. #143"
+        },
+        {
+          "label": "TFL",
+          "value": "6",
+          "detail": "Nat. #51"
+        },
+        {
+          "label": "Pressures",
+          "value": "12",
+          "detail": "Nat. #141"
+        },
+        {
+          "label": "Sacks",
+          "value": "5",
+          "detail": "Nat. #17"
+        }
       ]
     },
     "5079560": {
@@ -3445,10 +5236,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "LB"
       },
       "badges": [
-        "Run Stopper"
+        "Sure Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "67.8",
+          "detail": "Nat. #338"
+        },
+        {
+          "label": "Run Defense",
+          "value": "65.3",
+          "detail": "Nat. #515"
+        },
+        {
+          "label": "Tackle",
+          "value": "74.4",
+          "detail": "Nat. #294"
+        },
+        {
+          "label": "Coverage",
+          "value": "67.4",
+          "detail": "Nat. #179"
+        },
+        {
+          "label": "Stops",
+          "value": "5",
+          "detail": "Nat. #553"
+        },
+        {
+          "label": "TFL",
+          "value": "2",
+          "detail": "Nat. #278"
+        },
+        {
+          "label": "Pressures",
+          "value": "2",
+          "detail": "Nat. #510"
+        },
+        {
+          "label": "Sacks",
+          "value": "2",
+          "detail": "Nat. #115"
+        }
       ]
     },
     "taurean-york": {
@@ -3502,10 +5336,55 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "LB"
       },
       "badges": [
-        "Run Stopper"
+        "Run Stopper",
+        "Sure Tackler",
+        "Coverage"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "83.7",
+          "detail": "Nat. #32"
+        },
+        {
+          "label": "Run Defense",
+          "value": "74.0",
+          "detail": "Nat. #249"
+        },
+        {
+          "label": "Tackle",
+          "value": "70.5",
+          "detail": "Nat. #408"
+        },
+        {
+          "label": "Coverage",
+          "value": "90.8",
+          "detail": "Nat. #7"
+        },
+        {
+          "label": "Stops",
+          "value": "44",
+          "detail": "Nat. #42"
+        },
+        {
+          "label": "TFL",
+          "value": "7",
+          "detail": "Nat. #34"
+        },
+        {
+          "label": "Pressures",
+          "value": "11",
+          "detail": "Nat. #170"
+        },
+        {
+          "label": "Sacks",
+          "value": "2",
+          "detail": "Nat. #115"
+        }
       ]
     },
     "5079656": {
@@ -3563,10 +5442,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Ball Skills",
+        "Lockdown"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "59.9",
+          "detail": "Nat. #1522"
+        },
+        {
+          "label": "Coverage",
+          "value": "63.5",
+          "detail": "Nat. #961"
+        },
+        {
+          "label": "Tackle",
+          "value": "27.5",
+          "detail": "Nat. #1831"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "44.1%",
+          "detail": "Nat. #229"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "74.4",
+          "detail": "Nat. #924"
+        },
+        {
+          "label": "PBUs",
+          "value": "8",
+          "detail": "Nat. #26"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "34.1%",
+          "detail": "Nat. #1768"
+        }
       ]
     },
     "5141400": {
@@ -3624,10 +5547,38 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "65.9",
+          "detail": "Nat. #838"
+        },
+        {
+          "label": "Coverage",
+          "value": "65.4",
+          "detail": "Nat. #796"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "0.0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "PBUs",
+          "value": "0",
+          "detail": "Nat. #1072"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        }
       ]
     },
     "4870644": {
@@ -3715,10 +5666,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Coverage"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "64.5",
+          "detail": "Nat. #979"
+        },
+        {
+          "label": "Coverage",
+          "value": "70.9",
+          "detail": "Nat. #448"
+        },
+        {
+          "label": "Tackle",
+          "value": "37.7",
+          "detail": "Nat. #1707"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "80.0%",
+          "detail": "Nat. #1458"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "108.7",
+          "detail": "Nat. #1637"
+        },
+        {
+          "label": "PBUs",
+          "value": "1",
+          "detail": "Nat. #734"
+        },
+        {
+          "label": "INTs",
+          "value": "1",
+          "detail": "Nat. #258"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "28.9%",
+          "detail": "Nat. #1683"
+        }
       ]
     },
     "tawfiq-byard": {
@@ -3761,10 +5755,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "COLORADO"
+        "team": "COLORADO",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Coverage",
+        "Lockdown"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "75.0",
+          "detail": "Nat. #241 \u2022 COLORADO"
+        },
+        {
+          "label": "Coverage",
+          "value": "78.9",
+          "detail": "Nat. #147 \u2022 COLORADO"
+        },
+        {
+          "label": "Tackle",
+          "value": "69.3",
+          "detail": "Nat. #798 \u2022 COLORADO"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "70.4%",
+          "detail": "Nat. #1231 \u2022 COLORADO"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "71.2",
+          "detail": "Nat. #869 \u2022 COLORADO"
+        },
+        {
+          "label": "PBUs",
+          "value": "2",
+          "detail": "Nat. #478 \u2022 COLORADO"
+        },
+        {
+          "label": "INTs",
+          "value": "1",
+          "detail": "Nat. #258 \u2022 COLORADO"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "13.0%",
+          "detail": "Nat. #830 \u2022 COLORADO"
+        }
       ]
     },
     "5139087": {
@@ -3822,10 +5860,48 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "66.4",
+          "detail": "Nat. #789"
+        },
+        {
+          "label": "Coverage",
+          "value": "68.2",
+          "detail": "Nat. #601"
+        },
+        {
+          "label": "Tackle",
+          "value": "56.4",
+          "detail": "Nat. #1253"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "0.0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "PBUs",
+          "value": "0",
+          "detail": "Nat. #1072"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "12.5%",
+          "detail": "Nat. #770"
+        }
       ]
     },
     "4950396": {
@@ -3883,10 +5959,54 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Coverage",
+        "Support Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "80.3",
+          "detail": "Nat. #91"
+        },
+        {
+          "label": "Coverage",
+          "value": "81.7",
+          "detail": "Nat. #93"
+        },
+        {
+          "label": "Tackle",
+          "value": "74.9",
+          "detail": "Nat. #528"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "77.8%",
+          "detail": "Nat. #1427"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "84.7",
+          "detail": "Nat. #1126"
+        },
+        {
+          "label": "PBUs",
+          "value": "3",
+          "detail": "Nat. #310"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "11.3%",
+          "detail": "Nat. #706"
+        }
       ]
     },
     "4685255": {
@@ -3944,10 +6064,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "58.0",
+          "detail": "Nat. #1653"
+        },
+        {
+          "label": "Coverage",
+          "value": "59.3",
+          "detail": "Nat. #1416"
+        },
+        {
+          "label": "Tackle",
+          "value": "53.3",
+          "detail": "Nat. #1362"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "100.0%",
+          "detail": "Nat. #1588"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "118.8",
+          "detail": "Nat. #1801"
+        },
+        {
+          "label": "PBUs",
+          "value": "0",
+          "detail": "Nat. #1072"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "23.5%",
+          "detail": "Nat. #1513"
+        }
       ]
     },
     "5149470": {
@@ -4001,10 +6164,48 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Support Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "59.5",
+          "detail": "Nat. #1547"
+        },
+        {
+          "label": "Coverage",
+          "value": "58.5",
+          "detail": "Nat. #1463"
+        },
+        {
+          "label": "Tackle",
+          "value": "76.2",
+          "detail": "Nat. #441"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "0.0",
+          "detail": "Nat. #1"
+        },
+        {
+          "label": "PBUs",
+          "value": "0",
+          "detail": "Nat. #1072"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "0.0%",
+          "detail": "Nat. #1"
+        }
       ]
     },
     "rickey-gibson": {
@@ -4047,10 +6248,48 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TENNESSEE"
+        "team": "TENNESSEE",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Support Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "54.5",
+          "detail": "Nat. #1833 \u2022 TENNESSEE"
+        },
+        {
+          "label": "Coverage",
+          "value": "56.1",
+          "detail": "Nat. #1575 \u2022 TENNESSEE"
+        },
+        {
+          "label": "Tackle",
+          "value": "76.6",
+          "detail": "Nat. #399 \u2022 TENNESSEE"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "0.0",
+          "detail": "Nat. #1 \u2022 TENNESSEE"
+        },
+        {
+          "label": "PBUs",
+          "value": "0",
+          "detail": "Nat. #1072 \u2022 TENNESSEE"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641 \u2022 TENNESSEE"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "0.0%",
+          "detail": "Nat. #1 \u2022 TENNESSEE"
+        }
       ]
     },
     "4685412": {
@@ -4108,10 +6347,55 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Coverage",
+        "Lockdown",
+        "Support Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "71.6",
+          "detail": "Nat. #414"
+        },
+        {
+          "label": "Coverage",
+          "value": "71.0",
+          "detail": "Nat. #440"
+        },
+        {
+          "label": "Tackle",
+          "value": "83.6",
+          "detail": "Nat. #81"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "40.0%",
+          "detail": "Nat. #169"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "58.8",
+          "detail": "Nat. #704"
+        },
+        {
+          "label": "PBUs",
+          "value": "0",
+          "detail": "Nat. #1072"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "0.0%",
+          "detail": "Nat. #1"
+        }
       ]
     },
     "5151083": {
@@ -4165,10 +6449,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Ball Skills"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "66.5",
+          "detail": "Nat. #781"
+        },
+        {
+          "label": "Coverage",
+          "value": "68.5",
+          "detail": "Nat. #580"
+        },
+        {
+          "label": "Tackle",
+          "value": "61.2",
+          "detail": "Nat. #1097"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "55.2%",
+          "detail": "Nat. #553"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "108.4",
+          "detail": "Nat. #1635"
+        },
+        {
+          "label": "PBUs",
+          "value": "8",
+          "detail": "Nat. #26"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "16.1%",
+          "detail": "Nat. #1065"
+        }
       ]
     },
     "jordan-shaw": {
@@ -4226,10 +6553,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Coverage"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "71.1",
+          "detail": "Nat. #448"
+        },
+        {
+          "label": "Coverage",
+          "value": "71.0",
+          "detail": "Nat. #440"
+        },
+        {
+          "label": "Tackle",
+          "value": "59.1",
+          "detail": "Nat. #1163"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "70.0%",
+          "detail": "Nat. #1209"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "117.7",
+          "detail": "Nat. #1782"
+        },
+        {
+          "label": "PBUs",
+          "value": "0",
+          "detail": "Nat. #1072"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "17.4%",
+          "detail": "Nat. #1170"
+        }
       ]
     },
     "bravion-rogers": {
@@ -4287,10 +6657,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Support Tackler"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "66.2",
+          "detail": "Nat. #805"
+        },
+        {
+          "label": "Coverage",
+          "value": "64.6",
+          "detail": "Nat. #874"
+        },
+        {
+          "label": "Tackle",
+          "value": "80.9",
+          "detail": "Nat. #173"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "75.0%",
+          "detail": "Nat. #1330"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "93.8",
+          "detail": "Nat. #1336"
+        },
+        {
+          "label": "PBUs",
+          "value": "0",
+          "detail": "Nat. #1072"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "0.0%",
+          "detail": "Nat. #1"
+        }
       ]
     },
     "4602676": {
@@ -4344,10 +6757,53 @@
       "ratingSource": {
         "type": "csv",
         "source": "defense",
-        "team": "TEXAS A&M"
+        "team": "TEXAS A&M",
+        "bucket": "DB"
       },
       "badges": [
-        "Tackler"
+        "Rotation Value"
+      ],
+      "metricCards": [
+        {
+          "label": "Defense Grade",
+          "value": "63.2",
+          "detail": "Nat. #1106"
+        },
+        {
+          "label": "Coverage",
+          "value": "61.3",
+          "detail": "Nat. #1198"
+        },
+        {
+          "label": "Tackle",
+          "value": "62.6",
+          "detail": "Nat. #1037"
+        },
+        {
+          "label": "Catch Rate",
+          "value": "67.3%",
+          "detail": "Nat. #1123"
+        },
+        {
+          "label": "QB Rating Ag.",
+          "value": "92.0",
+          "detail": "Nat. #1300"
+        },
+        {
+          "label": "PBUs",
+          "value": "3",
+          "detail": "Nat. #310"
+        },
+        {
+          "label": "INTs",
+          "value": "0",
+          "detail": "Nat. #641"
+        },
+        {
+          "label": "Missed Tk%",
+          "value": "16.2%",
+          "detail": "Nat. #1074"
+        }
       ]
     }
   },
@@ -4357,6 +6813,7 @@
       "role": "Head Coach",
       "headshot": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/tamu.sidearmsports.com/images/integration_2025/logo_main.svg",
       "bio": "THE ELKO FILE PERSONAL Born: July 28, 1977 Hometown: South Brunswick, N.J. Wife: Michelle Children: Michael, Andrew, Kaitlyn College: Penn, 1999 PLAYING EXPERIENCE 1995-98: Penn COACHING EXPERIENCE 1999: Stony Brook (GA/Inside Linebackers) 2000: Penn (Defensive Backs) 2001: U.S. Merchant Marine Academy (DC/DBs) 2002: Fordham (Linebackers) 2003: Fordham (co-DC/Linebackers) 2004: Richmond (LBs/Recruiting Coordinator)...",
+      "bioShort": "THE ELKO FILE PERSONAL Born: July 28, 1977 Hometown: South Brunswick, N.J. Wife: Michelle Children: Michael, Andrew, Kaitlyn College: Penn, 1999 PLAYING EXPERIENCE 1995-98: Penn COACHING EXPERIENCE 1999: Stony Brook (GA/Inside Linebackers) 2000: Penn (Defensive Backs) 2001: U.S. Merchant Marine Academy (DC/DBs) 2002: Fordham (Linebackers) 2003: Fordham (co-DC/Linebackers) 2004: Richmond (LBs/Recruiting Coordinator)...",
       "bioSource": "https://12thman.com/sports/football/roster/coaches/mike-elko/2151",
       "tendencies": [
         "Aggressive on selected fourth downs compared with the prior staff, especially when the offense has a matchup edge.",
@@ -4378,29 +6835,30 @@
         }
       ]
     },
-    "collin-klein": {
-      "name": "Collin Klein",
+    "holmon-wiggins": {
+      "name": "Holmon Wiggins",
       "role": "Offensive Coordinator",
       "headshot": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/tamu.sidearmsports.com/images/integration_2025/logo_main.svg",
-      "bio": "THE KLEIN FILE PERSONAL Hometown: Loveland, Colorado Education: Kansas State, 2011; Kansas State, 2019 Wife: Shalin Children: Beric, Rhett, Trek and Briar COACHING RESUME 2014: Kansas State (Assistant Director of Recruiting/Defensive Quality Control) 2015: Kansas State (Offensive Graduate Assistant) 2016: Northern Iowa (Quarterbacks) 2017: Kansas State (Quarterbacks) 2018: Kansas State (Co-Offensive...",
-      "bioSource": "https://12thman.com/sports/football/roster/coaches/collin-klein/2229",
+      "bio": "THE WIGGINS FILE PERSONAL Hometown: Los Angeles, California Education: New Mexico, 2003 Wife: Dominique Children: Justyce, Karyn, Brooklyn, Journye, Kingston, Legend COACHING RESUME 2003-04: New Mexico (Student Assistant) 2005: New Mexico (Graduate Assistant) 2006-10: Illinois State (Running Backs) 2011: Tulsa (Running Backs) 2012-15: Memphis (Wide Receivers) 2016-18: Virginia Tech (Wide Receivers) 2019-23: Alabama...",
+      "bioShort": "THE WIGGINS FILE PERSONAL Hometown: Los Angeles, California Education: New Mexico, 2003 Wife: Dominique Children: Justyce, Karyn, Brooklyn, Journye, Kingston, Legend COACHING RESUME 2003-04: New Mexico (Student Assistant) 2005: New Mexico (Graduate Assistant) 2006-10: Illinois State (Running Backs) 2011: Tulsa (Running Backs) 2012-15: Memphis (Wide Receivers) 2016-18: Virginia Tech (Wide Receivers) 2019-23: Alabama...",
+      "bioSource": "https://12thman.com/sports/football/roster/coaches/holmon-wiggins/2158",
       "tendencies": [
-        "Run-game-first approach built around QB mobility, conflict keys, and forcing defenses to fit every gap.",
-        "Frequent TE usage and formation variation to create leverage for both the run game and shot plays.",
-        "Prefers adaptable weekly game plans rather than calling the same menu every week."
+        "Receiver-driven approach that leans into explosive catches and vertical efficiency.",
+        "Emphasis on wideout development and route detail, with a track record of producing high-end receiver output.",
+        "Focus on red-zone and third-down efficiency while preserving continuity from the Aggies' 2024-25 offensive structure."
       ],
       "tendencySources": [
         {
-          "label": "KSAT on Collin Klein's offense",
-          "url": "https://www.ksat.com/news/local/2023/12/08/what-texas-am-fans-can-expect-from-a-collin-klein-led-offense-next-season/"
-        },
-        {
-          "label": "Houston Chronicle on offensive conflict",
-          "url": "https://www.houstonchronicle.com/sports/college/article/texas-aggies-offense-collin-klein-19622652.php"
+          "label": "Texas A&M promotion announcement",
+          "url": "https://12thman.com/news/2025/12/17/football-elko-announces-promotion-of-wiggins-to-offensive-coordinator"
         },
         {
           "label": "Official Texas A&M bio",
-          "url": "https://12thman.com/sports/football/roster/coaches/collin-klein/2229"
+          "url": "https://12thman.com/sports/football/roster/coaches/holmon-wiggins/2158"
+        },
+        {
+          "label": "2026 Texas A&M coaches page",
+          "url": "https://12thman.com/sports/football/coaches"
         }
       ]
     },
@@ -4409,6 +6867,7 @@
       "role": "Defensive Coordinator",
       "headshot": "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/tamu.sidearmsports.com/images/integration_2025/logo_main.svg",
       "bio": "THE HEMPHILL FILE PERSONAL Hometown: Wilmington, Delaware Education: Ursinus, 2002; Delaware, 2005 Wife: Christen Children: Izabella, Lyla, Georgia, Olivia COACHING RESUME 2002-03: Delaware Valley (Defensive Backs/Secondary) 2004-05: Delaware (Graduate Assistant/Secondary) 2006-09: Hofstra (Defensive Backs/Special Teams) 2010: Delaware (Cornerbacks) 2011-12: Stony Brook (Safeties) 2013-16: Stony Brook (Defensive...",
+      "bioShort": "THE HEMPHILL FILE PERSONAL Hometown: Wilmington, Delaware Education: Ursinus, 2002; Delaware, 2005 Wife: Christen Children: Izabella, Lyla, Georgia, Olivia COACHING RESUME 2002-03: Delaware Valley (Defensive Backs/Secondary) 2004-05: Delaware (Graduate Assistant/Secondary) 2006-09: Hofstra (Defensive Backs/Special Teams) 2010: Delaware (Cornerbacks) 2011-12: Stony Brook (Safeties) 2013-16: Stony Brook (Defensive...",
       "bioSource": "https://12thman.com/sports/football/roster/coaches/lyle-hemphill/1990",
       "tendencies": [
         "Secondary-driven structure with flexible shells that can rotate late and disguise coverage.",
@@ -4433,8 +6892,8 @@
   },
   "sources": [
     {
-      "label": "Ourlads depth chart",
-      "url": "https://secure.ourlads.com/ncaa-football-depth-charts/depth-chart/texas-am/92039"
+      "label": "Ourlads printer-friendly depth chart",
+      "url": "https://www.ourlads.com/ncaa-football-depth-charts/pfdepthchart/texas-am/92039"
     },
     {
       "label": "ESPN roster API",

@@ -26,12 +26,13 @@ ESPN_ROSTER_URL = (
 ESPN_TEAM_STATS_URL = (
     f"https://www.espn.com/college-football/team/stats/_/id/{TEAM_ID}/texas-am-aggies"
 )
-OURLADS_DEPTH_URL = "https://secure.ourlads.com/ncaa-football-depth-charts/depth-chart/texas-am/92039"
+OURLADS_DEPTH_URL = "https://www.ourlads.com/ncaa-football-depth-charts/pfdepthchart/texas-am/92039"
+OURLADS_SECURE_DEPTH_URL = "https://secure.ourlads.com/ncaa-football-depth-charts/depth-chart/texas-am/92039"
 TWELFTHMAN_ROSTER_URL = "https://12thman.com/sports/football/roster"
 CFBSTATS_TEAM_URL = "https://cfbstats.com/{season}/team/697/index.html"
 COACH_URLS = {
     "Mike Elko": "https://12thman.com/sports/football/roster/coaches/mike-elko/2151",
-    "Collin Klein": "https://12thman.com/sports/football/roster/coaches/collin-klein/2229",
+    "Holmon Wiggins": "https://12thman.com/sports/football/roster/coaches/holmon-wiggins/2158",
     "Lyle Hemphill": "https://12thman.com/sports/football/roster/coaches/lyle-hemphill/1990",
 }
 HEADERS = {
@@ -50,31 +51,31 @@ RATING_CSV_PATHS = {
 }
 
 OFFENSE_LAYOUT = {
-    "WR-X": {"x": 10, "y": 51},
-    "WR-SL": {"x": 23, "y": 67},
-    "LT": {"x": 35, "y": 51},
-    "LG": {"x": 43, "y": 51},
-    "C": {"x": 51, "y": 51},
-    "RG": {"x": 59, "y": 51},
-    "RT": {"x": 67, "y": 51},
-    "TE": {"x": 79, "y": 64},
-    "QB": {"x": 51, "y": 78},
-    "RB": {"x": 57, "y": 91},
-    "WR-Z": {"x": 90, "y": 51},
+    "WR-X": {"x": 10, "y": 58},
+    "WR-SL": {"x": 22, "y": 71},
+    "LT": {"x": 34, "y": 58},
+    "LG": {"x": 42, "y": 58},
+    "C": {"x": 50, "y": 58},
+    "RG": {"x": 58, "y": 58},
+    "RT": {"x": 66, "y": 58},
+    "TE": {"x": 80, "y": 71},
+    "QB": {"x": 50, "y": 81},
+    "RB": {"x": 56, "y": 93},
+    "WR-Z": {"x": 90, "y": 58},
 }
 
 DEFENSE_LAYOUT = {
-    "FS": {"x": 35, "y": 18},
+    "FS": {"x": 35, "y": 20},
     "SS": {"x": 67, "y": 24},
-    "WLB": {"x": 43, "y": 40},
-    "MLB": {"x": 57, "y": 40},
-    "NB": {"x": 23, "y": 49},
-    "LDE": {"x": 34, "y": 67},
-    "NT": {"x": 46, "y": 67},
-    "DT": {"x": 56, "y": 67},
-    "RDE": {"x": 68, "y": 67},
-    "LCB": {"x": 10, "y": 72},
-    "RCB": {"x": 90, "y": 72},
+    "WLB": {"x": 43, "y": 36},
+    "MLB": {"x": 57, "y": 36},
+    "NB": {"x": 23, "y": 50},
+    "LDE": {"x": 34, "y": 45},
+    "NT": {"x": 46, "y": 45},
+    "DT": {"x": 56, "y": 45},
+    "RDE": {"x": 68, "y": 45},
+    "LCB": {"x": 10, "y": 58},
+    "RCB": {"x": 90, "y": 58},
 }
 
 COACH_TENDENCIES = {
@@ -100,25 +101,25 @@ COACH_TENDENCIES = {
             },
         ],
     },
-    "Collin Klein": {
+    "Holmon Wiggins": {
         "role": "Offensive Coordinator",
         "tendencies": [
-            "Run-game-first approach built around QB mobility, conflict keys, and forcing defenses to fit every gap.",
-            "Frequent TE usage and formation variation to create leverage for both the run game and shot plays.",
-            "Prefers adaptable weekly game plans rather than calling the same menu every week.",
+            "Receiver-driven approach that leans into explosive catches and vertical efficiency.",
+            "Emphasis on wideout development and route detail, with a track record of producing high-end receiver output.",
+            "Focus on red-zone and third-down efficiency while preserving continuity from the Aggies' 2024-25 offensive structure.",
         ],
         "sources": [
             {
-                "label": "KSAT on Collin Klein's offense",
-                "url": "https://www.ksat.com/news/local/2023/12/08/what-texas-am-fans-can-expect-from-a-collin-klein-led-offense-next-season/",
-            },
-            {
-                "label": "Houston Chronicle on offensive conflict",
-                "url": "https://www.houstonchronicle.com/sports/college/article/texas-aggies-offense-collin-klein-19622652.php",
+                "label": "Texas A&M promotion announcement",
+                "url": "https://12thman.com/news/2025/12/17/football-elko-announces-promotion-of-wiggins-to-offensive-coordinator",
             },
             {
                 "label": "Official Texas A&M bio",
-                "url": COACH_URLS["Collin Klein"],
+                "url": COACH_URLS["Holmon Wiggins"],
+            },
+            {
+                "label": "2026 Texas A&M coaches page",
+                "url": "https://12thman.com/sports/football/coaches",
             },
         ],
     },
@@ -199,6 +200,10 @@ def normalize_name(name: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def compact_name(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", unescape(name or "").lower())
+
+
 def slugify(value: str) -> str:
     return normalize_name(value).replace(" ", "-")
 
@@ -267,7 +272,60 @@ def parse_depth_table(tbody: Any) -> list[dict[str, Any]]:
     return rows
 
 
-def parse_ourlads_depth(html: str) -> dict[str, Any]:
+def parse_ourlads_pf_lookup(html: str) -> dict[str, dict[str, list[str]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    lookup: dict[str, dict[str, list[str]]] = {"offense": {}, "defense": {}}
+    current_section = ""
+    for row in soup.select("#gvChart tr"):
+        cells = row.find_all("td")
+        if not cells:
+            continue
+        if len(cells) == 1:
+            label = trim_text(cells[0].get_text(" ", strip=True)).lower()
+            if label in {"offense", "defense"}:
+                current_section = label
+            elif label == "special teams":
+                break
+            continue
+        if current_section not in lookup:
+            continue
+        position = trim_text(cells[0].get_text(" ", strip=True))
+        names = []
+        for idx in range(2, len(cells), 2):
+            anchor = cells[idx].find("a")
+            if anchor:
+                names.append(compact_name(anchor.get_text(" ", strip=True)))
+        if names:
+            lookup[current_section][position] = names
+    return lookup
+
+
+def apply_ourlads_verification(
+    rows: list[dict[str, Any]], verified_positions: dict[str, list[str]]
+) -> list[dict[str, Any]]:
+    adjusted: list[dict[str, Any]] = []
+    for row in rows:
+        desired = verified_positions.get(row["position"], [])
+        if not desired:
+            adjusted.append({**row, "players": row["players"][:3]})
+            continue
+        players_by_key = {compact_name(player["name"]): player for player in row["players"]}
+        ordered: list[dict[str, Any]] = []
+        used: set[str] = set()
+        for key in desired[:3]:
+            player = players_by_key.get(key)
+            if player:
+                ordered.append(player)
+                used.add(key)
+        for player in row["players"]:
+            key = compact_name(player["name"])
+            if key not in used:
+                ordered.append(player)
+        adjusted.append({**row, "players": ordered[:3]})
+    return adjusted
+
+
+def parse_ourlads_depth(html: str, pf_html: str) -> dict[str, Any]:
     soup = BeautifulSoup(html, "html.parser")
     headings = soup.select("h2.TXAM")
     schemes = {}
@@ -285,15 +343,18 @@ def parse_ourlads_depth(html: str) -> dict[str, Any]:
     defense_tbody = soup.select_one("#ctl00_phContent_dcTBody2")
     if not offense_tbody or not defense_tbody:
         raise RuntimeError("Could not parse Ourlads depth chart tables")
+    verified_lookup = parse_ourlads_pf_lookup(pf_html)
+    offense_rows = apply_ourlads_verification(parse_depth_table(offense_tbody), verified_lookup["offense"])
+    defense_rows = apply_ourlads_verification(parse_depth_table(defense_tbody), verified_lookup["defense"])
 
     return {
         "updatedAt": updated_at,
         "offenseScheme": schemes.get("offense", ""),
         "defenseScheme": schemes.get("defense", ""),
-        "offense": parse_depth_table(offense_tbody),
-        "defense": parse_depth_table(defense_tbody),
+        "offense": offense_rows,
+        "defense": defense_rows,
         "source": {
-            "label": "Ourlads depth chart",
+            "label": "Ourlads printer-friendly depth chart",
             "url": OURLADS_DEPTH_URL,
         },
     }
@@ -544,35 +605,35 @@ def sample_size(row: dict[str, str]) -> float:
     return 0.0
 
 
-def load_rating_index() -> dict[str, dict[str, Any]]:
-    rating_index: dict[str, dict[str, Any]] = {}
+def load_csv_database() -> dict[str, Any]:
+    database: dict[str, Any] = {"sources": {}, "players": {}}
     for source_name, path in RATING_CSV_PATHS.items():
         if not path.exists():
             continue
+        rows: list[dict[str, Any]] = []
+        by_name: dict[str, dict[str, Any]] = {}
         with path.open(newline="", encoding="utf-8-sig") as handle:
             reader = csv.DictReader(handle)
             for row in reader:
                 raw_name = row.get("player")
                 if not raw_name:
                     continue
+                enriched = dict(row)
+                enriched["_source"] = source_name
+                enriched["_sampleSize"] = sample_size(row)
                 grade_key = "grades_defense" if source_name == "defense" else "grades_offense"
                 overall_grade = parse_float(row.get(grade_key))
-                if overall_grade is None:
-                    continue
+                if overall_grade is not None:
+                    enriched["overall"] = round(overall_grade, 1)
                 key = normalize_name(raw_name)
-                source_bucket = rating_index.setdefault(key, {})
-                existing = source_bucket.get(source_name)
-                candidate = {
-                    "name": raw_name,
-                    "team": row.get("team_name"),
-                    "position": row.get("position"),
-                    "overall": round(overall_grade, 1),
-                    "sampleSize": sample_size(row),
-                    "source": source_name,
-                }
-                if not existing or candidate["sampleSize"] >= existing["sampleSize"]:
-                    source_bucket[source_name] = candidate
-    return rating_index
+                rows.append(enriched)
+                existing = by_name.get(key)
+                if not existing or enriched["_sampleSize"] >= existing["_sampleSize"]:
+                    by_name[key] = enriched
+        database["sources"][source_name] = {"rows": rows}
+        for key, row in by_name.items():
+            database["players"].setdefault(key, {})[source_name] = row
+    return database
 
 
 def csv_rating_preference(position_group: str) -> list[str]:
@@ -589,24 +650,347 @@ def csv_rating_preference(position_group: str) -> list[str]:
     return ["passing", "rushing", "receiving", "blocking", "defense"]
 
 
-def select_rating(player_name: str, position_group: str, fallback_rating: float, rating_index: dict[str, dict[str, Any]]) -> tuple[float, dict[str, Any]]:
-    records = rating_index.get(normalize_name(player_name), {})
+def csv_rows_for_player(player_name: str, csv_database: dict[str, Any]) -> dict[str, Any]:
+    return csv_database.get("players", {}).get(normalize_name(player_name), {})
+
+
+def csv_row_bucket(source_name: str, csv_position: str) -> str:
+    position = (csv_position or "").upper()
+    if source_name == "passing":
+        return "QB"
+    if source_name == "rushing":
+        if "QB" in position:
+            return "QB"
+        if position in {"HB", "RB"}:
+            return "RB"
+        return "SKILL"
+    if source_name == "receiving":
+        if "TE" in position:
+            return "TE"
+        if position in {"HB", "RB"}:
+            return "RB"
+        return "WR"
+    if source_name == "blocking":
+        if position in {"T", "G", "C", "OT", "OG", "OL"}:
+            return "OL"
+        if "TE" in position:
+            return "TE"
+        return "SKILL"
+    if source_name == "defense":
+        if position in {"CB", "S", "DB", "NB"}:
+            return "DB"
+        if "LB" in position:
+            return "LB"
+        return "DL"
+    return "ALL"
+
+
+def player_metric_bucket(source_name: str, position: str, position_group: str) -> str:
+    if source_name == "passing":
+        return "QB"
+    if source_name == "rushing":
+        if position_group == "quarterback":
+            return "QB"
+        if position_group == "running_back":
+            return "RB"
+        return "SKILL"
+    if source_name == "receiving":
+        if position == "TE":
+            return "TE"
+        if position_group == "running_back":
+            return "RB"
+        return "WR"
+    if source_name == "blocking":
+        if position_group == "offensive_line":
+            return "OL"
+        if position == "TE":
+            return "TE"
+        return "SKILL"
+    if source_name == "defense":
+        if position_group == "defensive_back":
+            return "DB"
+        if position in {"WLB", "MLB"}:
+            return "LB"
+        return "DL"
+    return "ALL"
+
+
+def select_rating(
+    player_name: str, position: str, position_group: str, fallback_rating: float, csv_database: dict[str, Any]
+) -> tuple[float | None, dict[str, Any]]:
+    records = csv_rows_for_player(player_name, csv_database)
     for source_name in csv_rating_preference(position_group):
         record = records.get(source_name)
-        if record:
+        if record and record.get("overall") is not None:
             return record["overall"], {
                 "type": "csv",
                 "source": source_name,
-                "team": record.get("team"),
+                "team": record.get("team_name"),
+                "bucket": player_metric_bucket(source_name, position, position_group),
             }
     if records:
         source_name, record = next(iter(records.items()))
-        return record["overall"], {
-            "type": "csv",
-            "source": source_name,
-            "team": record.get("team"),
-        }
-    return fallback_rating, {"type": "fallback", "source": "projection"}
+        if record.get("overall") is not None:
+            return record["overall"], {
+                "type": "csv",
+                "source": source_name,
+                "team": record.get("team_name"),
+                "bucket": player_metric_bucket(source_name, position, position_group),
+            }
+    return None, {"type": "missing", "source": "csv"}
+
+
+def metric_configs(position: str, position_group: str) -> list[dict[str, Any]]:
+    if position_group == "quarterback":
+        return [
+            {"source": "passing", "field": "grades_offense", "label": "Off Grade", "format": "grade"},
+            {"source": "passing", "field": "grades_pass", "label": "Pass Grade", "format": "grade"},
+            {"source": "passing", "field": "accuracy_percent", "label": "Accuracy", "format": "percent"},
+            {"source": "passing", "field": "qb_rating", "label": "QB Rating", "format": "number"},
+            {"source": "passing", "field": "btt_rate", "label": "BTT Rate", "format": "percent"},
+            {"source": "passing", "field": "twp_rate", "label": "TWP Rate", "format": "percent", "descending": False},
+            {"source": "rushing", "field": "grades_run", "label": "Run Grade", "format": "grade"},
+            {"source": "rushing", "field": "scramble_yards", "label": "Scramble Yds", "format": "whole"},
+        ]
+    if position_group == "running_back":
+        return [
+            {"source": "rushing", "field": "grades_offense", "label": "Off Grade", "format": "grade"},
+            {"source": "rushing", "field": "grades_run", "label": "Rush Grade", "format": "grade"},
+            {"source": "rushing", "field": "elusive_rating", "label": "Elusive", "format": "number"},
+            {"source": "rushing", "field": "breakaway_percent", "label": "Breakaway", "format": "percent"},
+            {"source": "rushing", "field": "yco_attempt", "label": "YCO/Att", "format": "number"},
+            {"source": "rushing", "field": "ypa", "label": "Yards/Att", "format": "number"},
+            {"source": "receiving", "field": "grades_pass_route", "label": "Route Grade", "format": "grade"},
+            {"source": "receiving", "field": "yprr", "label": "YPRR", "format": "number"},
+        ]
+    if position == "TE":
+        return [
+            {"source": "receiving", "field": "grades_offense", "label": "Off Grade", "format": "grade"},
+            {"source": "receiving", "field": "grades_pass_route", "label": "Route Grade", "format": "grade"},
+            {"source": "receiving", "field": "caught_percent", "label": "Catch Rate", "format": "percent"},
+            {"source": "receiving", "field": "yprr", "label": "YPRR", "format": "number"},
+            {"source": "receiving", "field": "yards_after_catch_per_reception", "label": "YAC/Rec", "format": "number"},
+            {"source": "receiving", "field": "contested_catch_rate", "label": "Contested", "format": "percent"},
+            {"source": "blocking", "field": "grades_pass_block", "label": "Pass Block", "format": "grade"},
+            {"source": "blocking", "field": "grades_run_block", "label": "Run Block", "format": "grade"},
+        ]
+    if position_group == "receiver":
+        return [
+            {"source": "receiving", "field": "grades_offense", "label": "Off Grade", "format": "grade"},
+            {"source": "receiving", "field": "grades_pass_route", "label": "Route Grade", "format": "grade"},
+            {"source": "receiving", "field": "caught_percent", "label": "Catch Rate", "format": "percent"},
+            {"source": "receiving", "field": "yprr", "label": "YPRR", "format": "number"},
+            {"source": "receiving", "field": "avg_depth_of_target", "label": "aDOT", "format": "number"},
+            {"source": "receiving", "field": "yards_after_catch_per_reception", "label": "YAC/Rec", "format": "number"},
+            {"source": "receiving", "field": "drop_rate", "label": "Drop Rate", "format": "percent", "descending": False},
+            {"source": "receiving", "field": "contested_catch_rate", "label": "Contested", "format": "percent"},
+        ]
+    if position_group == "offensive_line":
+        return [
+            {"source": "blocking", "field": "grades_offense", "label": "Off Grade", "format": "grade"},
+            {"source": "blocking", "field": "grades_pass_block", "label": "Pass Block", "format": "grade"},
+            {"source": "blocking", "field": "grades_run_block", "label": "Run Block", "format": "grade"},
+            {"source": "blocking", "field": "pbe", "label": "PBE", "format": "number"},
+            {"source": "blocking", "field": "pressures_allowed", "label": "Pressures", "format": "whole", "descending": False},
+            {"source": "blocking", "field": "sacks_allowed", "label": "Sacks Allowed", "format": "whole", "descending": False},
+            {"source": "blocking", "field": "hits_allowed", "label": "Hits Allowed", "format": "whole", "descending": False},
+            {"source": "blocking", "field": "hurries_allowed", "label": "Hurries", "format": "whole", "descending": False},
+        ]
+    if position_group == "defensive_back":
+        return [
+            {"source": "defense", "field": "grades_defense", "label": "Defense Grade", "format": "grade"},
+            {"source": "defense", "field": "grades_coverage_defense", "label": "Coverage", "format": "grade"},
+            {"source": "defense", "field": "grades_tackle", "label": "Tackle", "format": "grade"},
+            {"source": "defense", "field": "catch_rate", "label": "Catch Rate", "format": "percent", "descending": False},
+            {"source": "defense", "field": "qb_rating_against", "label": "QB Rating Ag.", "format": "number", "descending": False},
+            {"source": "defense", "field": "pass_break_ups", "label": "PBUs", "format": "whole"},
+            {"source": "defense", "field": "interceptions", "label": "INTs", "format": "whole"},
+            {"source": "defense", "field": "missed_tackle_rate", "label": "Missed Tk%", "format": "percent", "descending": False},
+        ]
+    if position in {"WLB", "MLB"}:
+        return [
+            {"source": "defense", "field": "grades_defense", "label": "Defense Grade", "format": "grade"},
+            {"source": "defense", "field": "grades_run_defense", "label": "Run Defense", "format": "grade"},
+            {"source": "defense", "field": "grades_tackle", "label": "Tackle", "format": "grade"},
+            {"source": "defense", "field": "grades_coverage_defense", "label": "Coverage", "format": "grade"},
+            {"source": "defense", "field": "stops", "label": "Stops", "format": "whole"},
+            {"source": "defense", "field": "tackles_for_loss", "label": "TFL", "format": "whole"},
+            {"source": "defense", "field": "total_pressures", "label": "Pressures", "format": "whole"},
+            {"source": "defense", "field": "sacks", "label": "Sacks", "format": "whole"},
+        ]
+    return [
+        {"source": "defense", "field": "grades_defense", "label": "Defense Grade", "format": "grade"},
+        {"source": "defense", "field": "grades_pass_rush_defense", "label": "Pass Rush", "format": "grade"},
+        {"source": "defense", "field": "grades_run_defense", "label": "Run Defense", "format": "grade"},
+        {"source": "defense", "field": "grades_tackle", "label": "Tackle", "format": "grade"},
+        {"source": "defense", "field": "total_pressures", "label": "Pressures", "format": "whole"},
+        {"source": "defense", "field": "sacks", "label": "Sacks", "format": "whole"},
+        {"source": "defense", "field": "tackles_for_loss", "label": "TFL", "format": "whole"},
+        {"source": "defense", "field": "stops", "label": "Stops", "format": "whole"},
+    ]
+
+
+def format_metric_value(value: Any, kind: str) -> str:
+    numeric = parse_float(value)
+    if numeric is None:
+        return str(value)
+    if kind == "whole":
+        return str(int(round(numeric)))
+    if kind == "percent":
+        return f"{numeric:.1f}%"
+    return f"{numeric:.1f}"
+
+
+def metric_rank(
+    csv_database: dict[str, Any],
+    source_name: str,
+    field: str,
+    row: dict[str, Any],
+    bucket: str,
+    descending: bool,
+) -> tuple[int, int] | None:
+    value = parse_float(row.get(field))
+    if value is None:
+        return None
+    rows = csv_database.get("sources", {}).get(source_name, {}).get("rows", [])
+    pool = [
+        parse_float(candidate.get(field))
+        for candidate in rows
+        if parse_float(candidate.get(field)) is not None
+        and csv_row_bucket(source_name, candidate.get("position", "")) == bucket
+    ]
+    if not pool:
+        return None
+    better = sum(1 for candidate in pool if candidate > value) if descending else sum(1 for candidate in pool if candidate < value)
+    return better + 1, len(pool)
+
+
+def build_metric_cards(
+    player_name: str, position: str, position_group: str, csv_database: dict[str, Any]
+) -> list[dict[str, str]]:
+    records = csv_rows_for_player(player_name, csv_database)
+    cards: list[dict[str, str]] = []
+    for config in metric_configs(position, position_group):
+        row = records.get(config["source"])
+        if not row:
+            continue
+        value = row.get(config["field"])
+        if value in ("", None):
+            continue
+        bucket = player_metric_bucket(config["source"], position, position_group)
+        ranking = metric_rank(
+            csv_database,
+            config["source"],
+            config["field"],
+            row,
+            bucket,
+            config.get("descending", True),
+        )
+        detail_parts: list[str] = []
+        if ranking:
+            detail_parts.append(f"Nat. #{ranking[0]}")
+        team_name = row.get("team_name")
+        if team_name and team_name != "TEXAS A&M":
+            detail_parts.append(team_name)
+        cards.append(
+            {
+                "label": config["label"],
+                "value": format_metric_value(value, config["format"]),
+                "detail": " • ".join(detail_parts),
+            }
+        )
+    return cards[:8]
+
+
+def compute_badges(player: dict[str, Any], csv_database: dict[str, Any]) -> list[str]:
+    records = csv_rows_for_player(player["name"], csv_database)
+    group = player.get("positionGroup", "general")
+    position = player.get("position")
+    badges: list[str] = []
+
+    def value(source_name: str, field: str) -> float | None:
+        row = records.get(source_name)
+        return parse_float(row.get(field)) if row else None
+
+    if group == "quarterback":
+        if (value("passing", "btt_rate") or 0) >= 4:
+            badges.append("Shot Creator")
+        if (value("passing", "accuracy_percent") or 0) >= 70:
+            badges.append("Accurate")
+        if (value("passing", "twp_rate") or 100) <= 3.5:
+            badges.append("Ball Security")
+        if (value("rushing", "grades_run") or 0) >= 70:
+            badges.append("Run Threat")
+    elif group == "running_back":
+        if (value("rushing", "breakaway_percent") or 0) >= 35:
+            badges.append("Home Run")
+        if (value("rushing", "elusive_rating") or 0) >= 80:
+            badges.append("Elusive")
+        if (value("rushing", "yco_attempt") or 0) >= 3:
+            badges.append("Contact Balance")
+        if (value("receiving", "grades_pass_route") or 0) >= 65:
+            badges.append("Receiving Value")
+    elif position == "TE":
+        if (value("receiving", "grades_pass_route") or 0) >= 70:
+            badges.append("Route Detail")
+        if (value("receiving", "yards_after_catch_per_reception") or 0) >= 6:
+            badges.append("YAC Threat")
+        if (value("blocking", "grades_run_block") or 0) >= 68:
+            badges.append("Edge Setter")
+        if (value("receiving", "caught_percent") or 0) >= 70:
+            badges.append("Reliable Hands")
+    elif group == "receiver":
+        if (value("receiving", "grades_pass_route") or 0) >= 75:
+            badges.append("Route Winner")
+        if (value("receiving", "yards_after_catch_per_reception") or 0) >= 6:
+            badges.append("YAC Threat")
+        if (value("receiving", "avg_depth_of_target") or 0) >= 12:
+            badges.append("Vertical Target")
+        if (value("receiving", "caught_percent") or 0) >= 70:
+            badges.append("Reliable Hands")
+    elif group == "offensive_line":
+        if (value("blocking", "grades_pass_block") or 0) >= 75:
+            badges.append("Pass Pro")
+        if (value("blocking", "grades_run_block") or 0) >= 68:
+            badges.append("Run Mover")
+        if (value("blocking", "pressures_allowed") or 99) <= 12:
+            badges.append("Clean Pocket")
+    elif group == "defensive_back":
+        if (value("defense", "grades_coverage_defense") or 0) >= 70:
+            badges.append("Coverage")
+        if (value("defense", "interceptions") or 0) >= 2 or (value("defense", "pass_break_ups") or 0) >= 5:
+            badges.append("Ball Skills")
+        if (value("defense", "qb_rating_against") or 999) <= 80:
+            badges.append("Lockdown")
+        if (value("defense", "grades_tackle") or 0) >= 70:
+            badges.append("Support Tackler")
+    else:
+        if (value("defense", "grades_pass_rush_defense") or 0) >= 75:
+            badges.append("Pass Rush")
+        if (value("defense", "grades_run_defense") or 0) >= 70:
+            badges.append("Run Stopper")
+        if (value("defense", "grades_tackle") or 0) >= 70:
+            badges.append("Sure Tackler")
+        if position in {"WLB", "MLB"} and (value("defense", "grades_coverage_defense") or 0) >= 70:
+            badges.append("Coverage")
+
+    overall = None
+    for source_name in csv_rating_preference(group):
+        overall = value(source_name, "grades_defense" if source_name == "defense" else "grades_offense")
+        if overall is not None:
+            break
+    if not records:
+        return ["No 2025 CSV"]
+
+    if not badges:
+        if (overall or 0) >= 80:
+            badges.append("Difference Maker")
+        elif (overall or 0) >= 70:
+            badges.append("Reliable")
+        else:
+            badges.append("Rotation Value")
+
+    return badges[:3]
 
 
 def parse_cfbstats_style_summary(season: int) -> dict[str, Any]:
@@ -726,59 +1110,6 @@ def compute_rating(player: dict[str, Any], depth_index: int) -> float:
     return round(clamp(score, 60, 93), 1)
 
 
-def compute_badges(player: dict[str, Any]) -> list[str]:
-    stats = player.get("stats", {}).get("statGroups", {})
-    group = player.get("positionGroup", "general")
-    badges: list[str] = []
-
-    if group == "quarterback":
-        if numeric_stat(stats, "rushing", "rushingYards") >= 250 or numeric_stat(stats, "rushing", "yardsPerRushAttempt") >= 4.5:
-            badges.append("Dual Threat")
-        if numeric_stat(stats, "passing", "yardsPerPassAttempt") >= 8:
-            badges.append("Explosive Arm")
-        if not badges:
-            badges.append("Field General")
-    elif group == "running_back":
-        if numeric_stat(stats, "rushing", "yardsPerRushAttempt") >= 5:
-            badges.append("Burst")
-        if numeric_stat(stats, "rushing", "rushingTouchdowns") >= 6:
-            badges.append("Red Zone")
-        if not badges:
-            badges.append("Ball Carrier")
-    elif group == "receiver":
-        if numeric_stat(stats, "receiving", "yardsPerReception") >= 14:
-            badges.append("Explosive")
-        if numeric_stat(stats, "receiving", "receivingTouchdowns") >= 5:
-            badges.append("Finisher")
-        if numeric_stat(stats, "receiving", "receptions") >= 35:
-            badges.append("Chain Mover")
-        if not badges:
-            badges.append("Target")
-    elif group == "offensive_line":
-        badges.extend(["Anchor", "Pass Pro"])
-    elif group == "front_seven":
-        if numeric_stat(stats, "defensive", "sacks") >= 4:
-            badges.append("Pressure")
-        if numeric_stat(stats, "defensive", "tacklesForLoss") >= 6:
-            badges.append("Backfield Hunter")
-        if not badges:
-            badges.append("Run Stopper")
-    elif group == "defensive_back":
-        if numeric_stat(stats, "defensive", "interceptions") >= 2:
-            badges.append("Ball Hawk")
-        if numeric_stat(stats, "defensive", "passesDefensed") >= 4:
-            badges.append("Coverage")
-        if not badges:
-            badges.append("Tackler")
-    else:
-        badges.append("Contributor")
-
-    if player.get("eligibility", "").upper().startswith("FR"):
-        badges.append("Upside")
-
-    return badges[:3]
-
-
 def build_highlight_link(player_name: str) -> dict[str, str]:
     query = f"{player_name} Texas A&M football highlights"
     return {
@@ -795,7 +1126,7 @@ def merge_player(
     stats_map: dict[str, Any],
     twelfthman_links: dict[str, str],
     person_cache: dict[str, Any],
-    rating_index: dict[str, dict[str, Any]],
+    csv_database: dict[str, Any],
 ) -> dict[str, Any]:
     normalized = normalize_name(raw_player["name"])
     roster = roster_map.get(normalized, {})
@@ -848,9 +1179,10 @@ def merge_player(
     }
     fallback_rating = compute_rating(player, depth_index)
     player["rating"], player["ratingSource"] = select_rating(
-        player["name"], position_group, fallback_rating, rating_index
+        player["name"], position, position_group, fallback_rating, csv_database
     )
-    player["badges"] = compute_badges(player)
+    player["badges"] = compute_badges(player, csv_database)
+    player["metricCards"] = build_metric_cards(player["name"], position, position_group, csv_database)
     return player
 
 
@@ -860,7 +1192,7 @@ def format_row(
     stats_map: dict[str, Any],
     twelfthman_links: dict[str, str],
     person_cache: dict[str, Any],
-    rating_index: dict[str, dict[str, Any]],
+    csv_database: dict[str, Any],
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     players = []
     lineup = {"position": row["position"], "playerIds": []}
@@ -873,7 +1205,7 @@ def format_row(
             stats_map,
             twelfthman_links,
             person_cache,
-            rating_index,
+            csv_database,
         )
         players.append(merged)
         lineup["playerIds"].append(merged["id"])
@@ -892,6 +1224,7 @@ def gather_coaches(person_cache: dict[str, Any]) -> dict[str, Any]:
             "role": meta["role"],
             "headshot": person.get("headshot"),
             "bio": person.get("bioShort") or person.get("bio"),
+            "bioShort": person.get("bioShort") or person.get("bio"),
             "bioSource": url,
             "tendencies": meta["tendencies"],
             "tendencySources": meta["sources"],
@@ -901,9 +1234,9 @@ def gather_coaches(person_cache: dict[str, Any]) -> dict[str, Any]:
 
 def build_payload() -> dict[str, Any]:
     person_cache: dict[str, Any] = {}
-    rating_index = load_rating_index()
+    csv_database = load_csv_database()
 
-    depth = parse_ourlads_depth(fetch_text(OURLADS_DEPTH_URL))
+    depth = parse_ourlads_depth(fetch_text(OURLADS_SECURE_DEPTH_URL), fetch_text(OURLADS_DEPTH_URL))
     roster_data = parse_espn_roster()
     stats_data = parse_espn_team_stats(fetch_text(ESPN_TEAM_STATS_URL))
     twelfthman_links = parse_12thman_roster_index(fetch_text(TWELFTHMAN_ROSTER_URL))
@@ -917,7 +1250,7 @@ def build_payload() -> dict[str, Any]:
 
     for row in depth["offense"]:
         lineup, row_players = format_row(
-            row, roster_map, stats_map, twelfthman_links, person_cache, rating_index
+            row, roster_map, stats_map, twelfthman_links, person_cache, csv_database
         )
         offense_rows.append(lineup)
         for player in row_players:
@@ -925,7 +1258,7 @@ def build_payload() -> dict[str, Any]:
 
     for row in depth["defense"]:
         lineup, row_players = format_row(
-            row, roster_map, stats_map, twelfthman_links, person_cache, rating_index
+            row, roster_map, stats_map, twelfthman_links, person_cache, csv_database
         )
         defense_rows.append(lineup)
         for player in row_players:

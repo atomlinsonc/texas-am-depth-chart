@@ -4,9 +4,8 @@ const state = {
 };
 
 const depthButtons = Array.from(document.querySelectorAll("[data-depth]"));
-const offenseField = document.getElementById("offense-field");
-const defenseField = document.getElementById("defense-field");
-const coachGrid = document.getElementById("coach-grid");
+const teamField = document.getElementById("team-field");
+const coachOverlay = document.getElementById("coach-overlay");
 const playerModal = document.getElementById("player-modal");
 const modalContent = document.getElementById("modal-content");
 const modalTemplate = document.getElementById("player-modal-template");
@@ -42,9 +41,9 @@ function formatRating(value) {
   return Number.isFinite(numeric) ? numeric.toFixed(1) : "--";
 }
 
-function buildPlayerButton(player, position, coordinates) {
+function buildPlayerButton(player, position, coordinates, side) {
   const button = document.createElement("button");
-  button.className = "field-player";
+  button.className = `field-player field-player--${side}`;
   button.style.left = `${coordinates.x}%`;
   button.style.top = `${coordinates.y}%`;
   button.innerHTML = `
@@ -59,30 +58,15 @@ function buildPlayerButton(player, position, coordinates) {
   return button;
 }
 
-function buildField(fieldElement, rows, layout) {
-  fieldElement.innerHTML = "";
-  const marker = document.createElement("div");
-  marker.className = "field-marker";
-  fieldElement.appendChild(marker);
-
+function renderRows(rows, layout, side) {
   rows.forEach((row) => {
     const playerId = row.playerIds[state.depthIndex];
     const player = state.data.players[playerId];
     if (!player) return;
-    fieldElement.appendChild(
-      buildPlayerButton(player, row.position, positionPoint(layout, row.position))
+    teamField.appendChild(
+      buildPlayerButton(player, row.position, positionPoint(layout, row.position), side)
     );
   });
-}
-
-function summarizeStats(player) {
-  const groups = player.stats?.statGroups || {};
-  const order = ["passing", "rushing", "receiving", "defensive"];
-  const group = order.find((name) => groups[name]) || Object.keys(groups)[0];
-  if (!group) return [];
-  return Object.values(groups[group].stats)
-    .filter((stat) => stat.displayValue && stat.displayValue !== "0")
-    .slice(0, 6);
 }
 
 function renderStyleRow(containerId, summary, prefix) {
@@ -90,9 +74,9 @@ function renderStyleRow(containerId, summary, prefix) {
   if (!container) return;
   container.innerHTML = "";
   const items = [
-    `${summary.formation.label} ${summary.formation.percent}%`,
+    `${summary.formation.label}`,
+    `${summary.formation.percent}%`,
     `${prefix} ${summary.runPass.run}/${summary.runPass.pass}`,
-    `Season ${summary.season}`,
   ];
   items.forEach((text) => {
     const chip = document.createElement("span");
@@ -131,6 +115,33 @@ function bindExpandableBio(fragment, fullBio, previewBio) {
   render();
 }
 
+function renderMetricCards(fragment, player) {
+  const statGrid = fragment.querySelector(".stat-grid");
+  statGrid.innerHTML = "";
+  const cards = player.metricCards || [];
+  if (!cards.length) {
+    const chip = document.createElement("div");
+    chip.className = "stat-chip";
+    chip.innerHTML = `
+      <span class="stat-chip__label">CSV Profile</span>
+      <strong class="stat-chip__value">Unavailable</strong>
+      <span class="stat-chip__detail">No matching CSV row for this player.</span>
+    `;
+    statGrid.appendChild(chip);
+    return;
+  }
+  cards.forEach((stat) => {
+    const chip = document.createElement("div");
+    chip.className = "stat-chip";
+    chip.innerHTML = `
+      <span class="stat-chip__label">${stat.label}</span>
+      <strong class="stat-chip__value">${stat.value}</strong>
+      <span class="stat-chip__detail">${stat.detail || ""}</span>
+    `;
+    statGrid.appendChild(chip);
+  });
+}
+
 function openPlayerModal(player) {
   const fragment = modalTemplate.content.cloneNode(true);
   fragment.querySelector(".modal-card__headshot").src =
@@ -147,8 +158,13 @@ function openPlayerModal(player) {
     .filter(Boolean)
     .join(" • ");
   bindExpandableBio(fragment, player.bio, player.bioShort);
-  fragment.querySelector(".rating-pill span").textContent =
-    player.ratingSource?.type === "csv" ? "CSV Grade" : "Projected Grade";
+  const ratingLabel =
+    player.ratingSource?.type === "csv"
+      ? "CSV Grade"
+      : player.ratingSource?.type === "missing"
+        ? "No CSV Grade"
+        : "Projected Grade";
+  fragment.querySelector(".rating-pill span").textContent = ratingLabel;
   fragment.querySelector(".rating-pill strong").textContent = formatRating(player.rating);
 
   const badgeRow = fragment.querySelector(".badge-row");
@@ -159,16 +175,7 @@ function openPlayerModal(player) {
     badgeRow.appendChild(pill);
   });
 
-  const statGrid = fragment.querySelector(".stat-grid");
-  summarizeStats(player).forEach((stat) => {
-    const chip = document.createElement("div");
-    chip.className = "stat-chip";
-    chip.innerHTML = `
-      <span class="stat-chip__label">${stat.abbreviation}</span>
-      <strong class="stat-chip__value">${stat.displayValue}</strong>
-    `;
-    statGrid.appendChild(chip);
-  });
+  renderMetricCards(fragment, player);
 
   const linkRow = fragment.querySelector(".link-row");
   const links = [
@@ -227,13 +234,14 @@ function openCoachModal(coach) {
 
 function renderFields() {
   if (!state.data) return;
-  buildField(offenseField, state.data.depthChart.offense, state.data.depthChart.layouts.offense);
-  buildField(defenseField, state.data.depthChart.defense, state.data.depthChart.layouts.defense);
+  teamField.innerHTML = "";
+  renderRows(state.data.depthChart.defense, state.data.depthChart.layouts.defense, "defense");
+  renderRows(state.data.depthChart.offense, state.data.depthChart.layouts.offense, "offense");
 }
 
 function renderCoaches() {
   const coaches = Object.values(state.data.coaches);
-  coachGrid.innerHTML = "";
+  coachOverlay.innerHTML = "";
   coaches.forEach((coach) => {
     const card = document.createElement("button");
     card.type = "button";
@@ -249,7 +257,7 @@ function renderCoaches() {
       <p class="coach-card__bio">${coach.tendencies[0] || ""}</p>
     `;
     card.addEventListener("click", () => openCoachModal(coach));
-    coachGrid.appendChild(card);
+    coachOverlay.appendChild(card);
   });
 }
 
@@ -259,12 +267,10 @@ async function init() {
 
   document.title = "Texas A&M Depth Chart";
   setText("hero-title", "Texas A&M Depth Chart");
-  setText(
-    "hero-copy",
-    "Switch between starters, second string, and third string while keeping both units mapped to the field."
-  );
+  setText("hero-copy", "Verified strings, CSV grades, and one-field formation view.");
   document.getElementById("hero-logo").src = state.data.team.logo;
   document.getElementById("hero-logo").alt = `${state.data.team.shortName} logo`;
+  setText("board-team", "Texas A&M Aggies");
   renderStyleRow("offense-style", state.data.depthChart.styleSummary.offense, "Run/Pass");
   renderStyleRow("defense-style", state.data.depthChart.styleSummary.defense, "Opp Run/Pass");
 
