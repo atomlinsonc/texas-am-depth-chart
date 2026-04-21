@@ -1,0 +1,4047 @@
+{
+  "team": {
+    "name": "Texas A&M Aggies",
+    "shortName": "Texas A&M",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "colors": {
+      "primary": "#500000",
+      "secondary": "#9e7f5a",
+      "accent": "#f7f0e8"
+    }
+  },
+  "generatedAt": "2026-04-21T15:58:48+00:00",
+  "latestStatSeason": "2026",
+  "seasonContext": {
+    "rosterSeason": 2026,
+    "rosterPhase": "Preseason",
+    "note": "Roster is currently in preseason mode, so ESPN may still surface the latest available production while current-season game stats accumulate."
+  },
+  "depthChart": {
+    "updatedAt": "02/25/2026 11:35AM ET",
+    "offenseScheme": "Pro Style",
+    "defenseScheme": "Multiple",
+    "offense": [
+      {
+        "position": "WR-X",
+        "playerIds": [
+          "isaiah-horton",
+          "5164360",
+          "aaron-gregory"
+        ]
+      },
+      {
+        "position": "WR-Z",
+        "playerIds": [
+          "5139057",
+          "5079326",
+          "5148650"
+        ]
+      },
+      {
+        "position": "WR-SL",
+        "playerIds": [
+          "5079345",
+          "madden-williams",
+          "5164648"
+        ]
+      },
+      {
+        "position": "LT",
+        "playerIds": [
+          "tyree-adams",
+          "lamont-rogers",
+          "trey-zuhn"
+        ]
+      },
+      {
+        "position": "LG",
+        "playerIds": [
+          "coen-echols",
+          "5079453",
+          "5079291"
+        ]
+      },
+      {
+        "position": "C",
+        "playerIds": [
+          "4832816",
+          "5113181",
+          "4894116"
+        ]
+      },
+      {
+        "position": "RG",
+        "playerIds": [
+          "trovon-baugh",
+          "tyler-thomas",
+          "4606712"
+        ]
+      },
+      {
+        "position": "RT",
+        "playerIds": [
+          "wilkin-formby",
+          "5146765",
+          "4431526"
+        ]
+      },
+      {
+        "position": "TE",
+        "playerIds": [
+          "houston-thomas",
+          "richie-anderson",
+          "5141358"
+        ]
+      },
+      {
+        "position": "QB",
+        "playerIds": [
+          "4870971",
+          "5295969",
+          "helaman-casuga"
+        ]
+      },
+      {
+        "position": "RB",
+        "playerIds": [
+          "4870934",
+          "5141561",
+          "kj-edwards"
+        ]
+      }
+    ],
+    "defense": [
+      {
+        "position": "LDE",
+        "playerIds": [
+          "anto-saka",
+          "4870904",
+          "ryan-henderson"
+        ]
+      },
+      {
+        "position": "NT",
+        "playerIds": [
+          "cj-mims",
+          "angelo-mccullom",
+          "brandon-davis-swain"
+        ]
+      },
+      {
+        "position": "DT",
+        "playerIds": [
+          "5160111",
+          "landon-rink",
+          "dj-sanders"
+        ]
+      },
+      {
+        "position": "RDE",
+        "playerIds": [
+          "t-j-searcy",
+          "5141540",
+          "bryce-perry-wright"
+        ]
+      },
+      {
+        "position": "WLB",
+        "playerIds": [
+          "5141596",
+          "ray-coney",
+          "tj-smith"
+        ]
+      },
+      {
+        "position": "MLB",
+        "playerIds": [
+          "daymion-sanford",
+          "5079560",
+          "taurean-york"
+        ]
+      },
+      {
+        "position": "LCB",
+        "playerIds": [
+          "5079656",
+          "5141400"
+        ]
+      },
+      {
+        "position": "SS",
+        "playerIds": [
+          "4870644",
+          "tawfiq-byard",
+          "5139087"
+        ]
+      },
+      {
+        "position": "FS",
+        "playerIds": [
+          "4950396",
+          "4685255",
+          "5149470"
+        ]
+      },
+      {
+        "position": "RCB",
+        "playerIds": [
+          "rickey-gibson",
+          "4685412",
+          "5151083"
+        ]
+      },
+      {
+        "position": "NB",
+        "playerIds": [
+          "jordan-shaw",
+          "bravion-rogers",
+          "4602676"
+        ]
+      }
+    ],
+    "layouts": {
+      "offense": {
+        "WR-X": {
+          "x": 12,
+          "y": 16
+        },
+        "WR-SL": {
+          "x": 22,
+          "y": 35
+        },
+        "LT": {
+          "x": 38,
+          "y": 44
+        },
+        "LG": {
+          "x": 44,
+          "y": 44
+        },
+        "C": {
+          "x": 50,
+          "y": 44
+        },
+        "RG": {
+          "x": 56,
+          "y": 44
+        },
+        "RT": {
+          "x": 62,
+          "y": 44
+        },
+        "TE": {
+          "x": 70,
+          "y": 41
+        },
+        "QB": {
+          "x": 50,
+          "y": 58
+        },
+        "RB": {
+          "x": 50,
+          "y": 72
+        },
+        "WR-Z": {
+          "x": 88,
+          "y": 16
+        }
+      },
+      "defense": {
+        "LCB": {
+          "x": 12,
+          "y": 18
+        },
+        "NB": {
+          "x": 27,
+          "y": 30
+        },
+        "LDE": {
+          "x": 36,
+          "y": 42
+        },
+        "NT": {
+          "x": 46,
+          "y": 42
+        },
+        "DT": {
+          "x": 54,
+          "y": 42
+        },
+        "RDE": {
+          "x": 64,
+          "y": 42
+        },
+        "WLB": {
+          "x": 38,
+          "y": 58
+        },
+        "MLB": {
+          "x": 62,
+          "y": 58
+        },
+        "SS": {
+          "x": 42,
+          "y": 75
+        },
+        "FS": {
+          "x": 58,
+          "y": 75
+        },
+        "RCB": {
+          "x": 88,
+          "y": 18
+        }
+      }
+    }
+  },
+  "players": {
+    "isaiah-horton": {
+      "id": "isaiah-horton",
+      "name": "Isaiah Horton",
+      "position": "WR-X",
+      "positionGroup": "receiver",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS SR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Graduate Student",
+      "hometown": "Nashville, Tenn.",
+      "highSchool": "Oakland",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/isaiah-horton/15548",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Isaiah+Horton+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/isaiah-horton/157217"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/isaiah-horton/15548"
+        }
+      ],
+      "rating": 58,
+      "badges": [
+        "Target"
+      ]
+    },
+    "5164360": {
+      "id": "5164360",
+      "name": "TK Norman",
+      "position": "WR-X",
+      "positionGroup": "receiver",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "SO",
+      "jersey": "18",
+      "height": "6' 0\"",
+      "weight": "182 lbs",
+      "heightInches": 72.0,
+      "weightPounds": 182.0,
+      "class": "Redshirt Freshman",
+      "hometown": "Montgomery, Ala.",
+      "highSchool": "Carver",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : Tabbed a 3-star wide receiver by 247Sports, Rivals and ESPN \u2026 Coached by Bobby Carr at Carver High School \u2026 Amassed 75 catches for 1,365 yards and 16 touchdowns as a two-year starter \u2026 As a senior he averaged 20.3 yards per catch, while finishing the season with 31 catches for 629 yards and six touchdowns \u2026 Helped lead Carver to a 7-4 record and an AHSAA 6A playoff appearance in 2023 after finishing...",
+      "bioSource": "https://12thman.com/sports/football/roster/tk-norman/15502",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5164360/tk-norman",
+      "stats": {
+        "name": "TK Norman",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5164360/tk-norman",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5164360.png",
+        "position": "WR",
+        "statGroups": {
+          "rushing": {
+            "title": "Rushing",
+            "stats": {
+              "rushingAttempts": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "CAR"
+              },
+              "rushingYards": {
+                "value": 12,
+                "displayValue": "12",
+                "abbreviation": "YDS"
+              },
+              "yardsPerRushAttempt": {
+                "value": 12,
+                "displayValue": "12.0",
+                "abbreviation": "AVG"
+              },
+              "longRushing": {
+                "value": 12,
+                "displayValue": "12",
+                "abbreviation": "LNG"
+              },
+              "rushingTouchdowns": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "receiving": {
+            "title": "Receiving",
+            "stats": {
+              "receptions": {
+                "value": 3,
+                "displayValue": "3",
+                "abbreviation": "REC"
+              },
+              "receivingYards": {
+                "value": 39,
+                "displayValue": "39",
+                "abbreviation": "YDS"
+              },
+              "yardsPerReception": {
+                "value": 13,
+                "displayValue": "13.0",
+                "abbreviation": "AVG"
+              },
+              "longReception": {
+                "value": 29,
+                "displayValue": "29",
+                "abbreviation": "LNG"
+              },
+              "receivingTouchdowns": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "TD"
+              }
+            }
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=TK+Norman+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/tk-norman/175818"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/tk-norman/15502"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5164360/tk-norman"
+        }
+      ],
+      "rating": 72,
+      "badges": [
+        "Target"
+      ]
+    },
+    "aaron-gregory": {
+      "id": "aaron-gregory",
+      "name": "Aaron Gregory",
+      "position": "WR-X",
+      "positionGroup": "receiver",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "FR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Freshman",
+      "hometown": "Augusta, Ga.",
+      "highSchool": "Douglas County",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered three years at Douglas County under head coach Johnny White \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 84 and No. 95 overall prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 10, No. 11 and No. 13 wide receiver nationally according to 247Sports.com...",
+      "bioSource": "https://12thman.com/sports/football/roster/aaron-gregory/15545",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Aaron+Gregory+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/aaron-gregory/179799"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/aaron-gregory/15545"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Target",
+        "Upside"
+      ]
+    },
+    "5139057": {
+      "id": "5139057",
+      "name": "Ashton Bethel-Roman",
+      "position": "WR-Z",
+      "positionGroup": "receiver",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS SO",
+      "jersey": "3",
+      "height": "6' 0\"",
+      "weight": "185 lbs",
+      "heightInches": 72.0,
+      "weightPounds": 185.0,
+      "class": "Redshirt Sophomore",
+      "hometown": "Missouri City, Texas",
+      "highSchool": "Ridge Point",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (FRESHMAN): Saw action in four games ... Made his Aggie debut catching one pass for 9 yards in the win over McNeese ... Brought in three passes for 35 yards and his first collegiate touchdown in the win over New Mexico State. HIGH SCHOOL: Coached by Rick Lafavers at Ridge Point High School \u2026 Rated a 4 star prospect by all three recruiting services (247 Sports, Rivals, ESPN) and ranked No. 207 in ESPN top 300 in...",
+      "bioSource": "https://12thman.com/sports/football/roster/ashton-bethelroman/15458",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5139057/ashton-bethel-roman",
+      "stats": {
+        "name": "Ashton Bethel-Roman",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5139057/ashton-bethel-roman",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5139057.png",
+        "position": "WR",
+        "statGroups": {
+          "receiving": {
+            "title": "Receiving",
+            "stats": {
+              "receptions": {
+                "value": 24,
+                "displayValue": "24",
+                "abbreviation": "REC"
+              },
+              "receivingYards": {
+                "value": 503,
+                "displayValue": "503",
+                "abbreviation": "YDS"
+              },
+              "yardsPerReception": {
+                "value": 20.95800018310547,
+                "displayValue": "21.0",
+                "abbreviation": "AVG"
+              },
+              "longReception": {
+                "value": 76,
+                "displayValue": "76",
+                "abbreviation": "LNG"
+              },
+              "receivingTouchdowns": {
+                "value": 5,
+                "displayValue": "5",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Ashton+Bethel-Roman+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/ashton-bethel-roman/168748"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/ashton-bethelroman/15458"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5139057/ashton-bethel-roman"
+        }
+      ],
+      "rating": 98,
+      "badges": [
+        "Explosive",
+        "Finisher"
+      ]
+    },
+    "5079326": {
+      "id": "5079326",
+      "name": "Terry Bussey",
+      "position": "WR-Z",
+      "positionGroup": "receiver",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "JR",
+      "jersey": "2",
+      "height": "5' 10\"",
+      "weight": "195 lbs",
+      "heightInches": 70.0,
+      "weightPounds": 195.0,
+      "class": "Junior",
+      "hometown": "Timpson, Texas",
+      "highSchool": "Timpson",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (FRESHMAN): Played in 12 games this season, primarily as a return specialist and selected offensive snaps ... Returned two kickoffs and two punts in the season-opener against Notre Dame ... Scored the first touchdown of his career, breaking away on a 65-yard run to the end zone in the win over McNeese ... Ran for 7 yards on two carries in the win at Florida ... Caught one pass for 10 yards in the win over...",
+      "bioSource": "https://12thman.com/sports/football/roster/terry-bussey/15466",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079326/terry-bussey",
+      "stats": {
+        "name": "Terry Bussey",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079326/terry-bussey",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079326.png",
+        "position": "WR",
+        "statGroups": {
+          "rushing": {
+            "title": "Rushing",
+            "stats": {
+              "rushingAttempts": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "CAR"
+              },
+              "rushingYards": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "YDS"
+              },
+              "yardsPerRushAttempt": {
+                "value": 1,
+                "displayValue": "1.0",
+                "abbreviation": "AVG"
+              },
+              "longRushing": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "LNG"
+              },
+              "rushingTouchdowns": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "receiving": {
+            "title": "Receiving",
+            "stats": {
+              "receptions": {
+                "value": 18,
+                "displayValue": "18",
+                "abbreviation": "REC"
+              },
+              "receivingYards": {
+                "value": 195,
+                "displayValue": "195",
+                "abbreviation": "YDS"
+              },
+              "yardsPerReception": {
+                "value": 10.833000183105469,
+                "displayValue": "10.8",
+                "abbreviation": "AVG"
+              },
+              "longReception": {
+                "value": 34,
+                "displayValue": "34",
+                "abbreviation": "LNG"
+              },
+              "receivingTouchdowns": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Terry+Bussey+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/terry-bussey/168750"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/terry-bussey/15466"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5079326/terry-bussey"
+        }
+      ],
+      "rating": 79,
+      "badges": [
+        "Target"
+      ]
+    },
+    "5148650": {
+      "id": "5148650",
+      "name": "Jerome Myles",
+      "position": "WR-Z",
+      "positionGroup": "receiver",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS FR",
+      "jersey": "80",
+      "height": "6' 2\"",
+      "weight": "220 lbs",
+      "heightInches": 74.0,
+      "weightPounds": 220.0,
+      "class": "Redshirt Freshman",
+      "hometown": "Draper, Utah",
+      "highSchool": "Corner Canyon",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "1 minute w/ @jerome_myles6 ??? pic.twitter.com/0VxoZuv69H \u2014 Texas A&M Football (@AggieFootball) August 19, 2025 Coached by Eric Kjar at Corner Canyon High School 247Sports: 5 star, No. 5 WR in Nation, No. 1 in Utah, No. 23 in Nation Rivals: 4 star, No. 4 WR in Nation, No. 1 in Utah, No. 32 in Nation ESPN: 4 star, No. 6 WR in Nation, No. 1 in Utah, No. 33 in Nation High School Tabbed a 5-star by 247Sports, while...",
+      "bioSource": "https://12thman.com/sports/football/roster/jerome-myles/15500",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5148650/jerome-myles",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Jerome+Myles+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/jerome-myles/175830"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/jerome-myles/15500"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5148650/jerome-myles"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Target"
+      ]
+    },
+    "5079345": {
+      "id": "5079345",
+      "name": "Mario Craver",
+      "position": "WR-SL",
+      "positionGroup": "receiver",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "JR/TR",
+      "jersey": "1",
+      "height": "5' 9\"",
+      "weight": "165 lbs",
+      "heightInches": 69.0,
+      "weightPounds": 165.0,
+      "class": "Junior",
+      "hometown": "Birmingham, Ala.",
+      "highSchool": "Clay-Chalkville",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "PRIOR TO TEXAS A&M: Ranked No. 2 in the SEC with 21.6 yards per catch among players with at least 15 catches in his freshman season at Mississippi State in nine games, while making three starts ... Caught 17 passes for 368 yards and three touchdowns, while averaging 40.9 yards per game ... Scored two touchdowns in his collegiate debut, a 54-yard reception and a blocked punt recovery in the end zone ... Recorded a...",
+      "bioSource": "https://12thman.com/sports/football/roster/mario-craver/15470",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079345/mario-craver",
+      "stats": {
+        "name": "Mario Craver",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079345/mario-craver",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079345.png",
+        "position": "WR",
+        "statGroups": {
+          "rushing": {
+            "title": "Rushing",
+            "stats": {
+              "rushingAttempts": {
+                "value": 11,
+                "displayValue": "11",
+                "abbreviation": "CAR"
+              },
+              "rushingYards": {
+                "value": 81,
+                "displayValue": "81",
+                "abbreviation": "YDS"
+              },
+              "yardsPerRushAttempt": {
+                "value": 7.363999843597412,
+                "displayValue": "7.4",
+                "abbreviation": "AVG"
+              },
+              "longRushing": {
+                "value": 28,
+                "displayValue": "28",
+                "abbreviation": "LNG"
+              },
+              "rushingTouchdowns": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "receiving": {
+            "title": "Receiving",
+            "stats": {
+              "receptions": {
+                "value": 59,
+                "displayValue": "59",
+                "abbreviation": "REC"
+              },
+              "receivingYards": {
+                "value": 917,
+                "displayValue": "917",
+                "abbreviation": "YDS"
+              },
+              "yardsPerReception": {
+                "value": 15.541999816894531,
+                "displayValue": "15.5",
+                "abbreviation": "AVG"
+              },
+              "longReception": {
+                "value": 86,
+                "displayValue": "86",
+                "abbreviation": "LNG"
+              },
+              "receivingTouchdowns": {
+                "value": 4,
+                "displayValue": "4",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Mario+Craver+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/mario-craver/169215"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/mario-craver/15470"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5079345/mario-craver"
+        }
+      ],
+      "rating": 98,
+      "badges": [
+        "Explosive",
+        "Chain Mover"
+      ]
+    },
+    "madden-williams": {
+      "id": "madden-williams",
+      "name": "Madden Williams",
+      "position": "WR-SL",
+      "positionGroup": "receiver",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "FR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Freshman",
+      "hometown": "Irvine, Calif.",
+      "highSchool": "St. John Bosco",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at St. John Bosco under head coach Jason Negro \u2026 consensus four-star prospect by ESPN.com, 247Sports.com and Rivals/On3.com \u2026 charted as the No. 26, No. 31 and No. 38 wide receiver nationally according to ESPN.com , 247Sports.com and Rivals/On3.com , respectively \u2026 logged as the No. 19, No. 21 and No. 21 prospect from the state of...",
+      "bioSource": "https://12thman.com/sports/football/roster/madden-williams/15571",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Madden+Williams+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/madden-williams/179815"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/madden-williams/15571"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Target",
+        "Upside"
+      ]
+    },
+    "5164648": {
+      "id": "5164648",
+      "name": "Kelshaun Johnson",
+      "position": "WR-SL",
+      "positionGroup": "receiver",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS FR",
+      "jersey": "11",
+      "height": "5' 11\"",
+      "weight": "168 lbs",
+      "heightInches": 71.0,
+      "weightPounds": 168.0,
+      "class": "Redshirt Freshman",
+      "hometown": "Hitchcock, Texas",
+      "highSchool": "Hitchcock",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : Earned a 4-star ranking by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 176 on the ESPN 300 \u2026 Coached by Craig Smith at Hitchcock High School \u2026 Played varsity all four seasons leading the Bulldogs to district titles in 2022 and 2024 \u2026 Earned First Team All-District honors each season \u2026 Multi-sport athlete that was a starter on the state champion basketball team and...",
+      "bioSource": "https://12thman.com/sports/football/roster/kelshaun-johnson/15487",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5164648/kelshaun-johnson",
+      "stats": {
+        "name": "Kelshaun Johnson",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5164648/kelshaun-johnson",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5164648.png",
+        "position": "WR",
+        "statGroups": {
+          "receiving": {
+            "title": "Receiving",
+            "stats": {
+              "receptions": {
+                "value": 4,
+                "displayValue": "4",
+                "abbreviation": "REC"
+              },
+              "receivingYards": {
+                "value": 27,
+                "displayValue": "27",
+                "abbreviation": "YDS"
+              },
+              "yardsPerReception": {
+                "value": 6.75,
+                "displayValue": "6.8",
+                "abbreviation": "AVG"
+              },
+              "longReception": {
+                "value": 25,
+                "displayValue": "25",
+                "abbreviation": "LNG"
+              },
+              "receivingTouchdowns": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "TD"
+              }
+            }
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Kelshaun+Johnson+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/kelshaun-johnson/175811"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/kelshaun-johnson/15487"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5164648/kelshaun-johnson"
+        }
+      ],
+      "rating": 59,
+      "badges": [
+        "Target"
+      ]
+    },
+    "tyree-adams": {
+      "id": "tyree-adams",
+      "name": "Tyree Adams",
+      "position": "LT",
+      "positionGroup": "offensive_line",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS JR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Junior",
+      "hometown": "Marrero, La.",
+      "highSchool": "St. Augustine",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/tyree-adams/15527",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Tyree+Adams+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/tyree-adams/162923"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/tyree-adams/15527"
+        }
+      ],
+      "rating": 82,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "lamont-rogers": {
+      "id": "lamont-rogers",
+      "name": "Lamont Rogers",
+      "position": "LT",
+      "positionGroup": "offensive_line",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS FR",
+      "jersey": "79",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Freshman",
+      "hometown": "Mesquite, Texas",
+      "highSchool": "Horn",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : A 5-star recruit by 247Sports and a 4-star prospect by Rivals and ESPN \u2026 Ranked No. 24 in the ESPN 300 \u2026 2024 Navy All-American Bowl selection \u2026 Coached by Courtney Allen at Horn High School \u2026 Earned first team all-district honors as a senior, junior and sophomore \u2026 As a sophomore he helped pave the way for the Jaguars to an 8-3 record and a UIL 6A DI playoff appearance \u2026 A multi-sport athlete that...",
+      "bioSource": "https://12thman.com/sports/football/roster/lamont-rogers/15513",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Lamont+Rogers+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/lamont-rogers/175823"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/lamont-rogers/15513"
+        }
+      ],
+      "rating": 70,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "trey-zuhn": {
+      "id": "trey-zuhn",
+      "name": "Trey Zuhn III",
+      "position": "LT",
+      "positionGroup": "offensive_line",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS SR",
+      "jersey": "60",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": null,
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Trey+Zuhn+III+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/trey-zuhn-iii/148226"
+        }
+      ],
+      "rating": 78,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "coen-echols": {
+      "id": "coen-echols",
+      "name": "Coen Echols",
+      "position": "LG",
+      "positionGroup": "offensive_line",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS SO/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Sophomore",
+      "hometown": "Katy, Texas",
+      "highSchool": "Katy",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/coen-echols/15538",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Coen+Echols+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/coen-echols/168998"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/coen-echols/15538"
+        }
+      ],
+      "rating": 78,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "5079453": {
+      "id": "5079453",
+      "name": "Blake Ivy",
+      "position": "LG",
+      "positionGroup": "offensive_line",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS SO",
+      "jersey": "52",
+      "height": "6' 3\"",
+      "weight": "336 lbs",
+      "heightInches": 75.0,
+      "weightPounds": 336.0,
+      "class": "Redshirt Sophomore",
+      "hometown": "League City, Texas",
+      "highSchool": "Clear Springs",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (FRESHMAN): Saw offensive snaps in the wins against McNeese and New Mexico State ... Appeared in the Las Vegas Bowl against USC. HIGH SCHOOL: Tabbed a 4-star recruit by all three major outlets (247 Sports, Rivals, ESPN) ... Coached by Anthony Renfro at Clear Springs High School \u2026 2024 Under Armour All-American Bowl selection \u2026 Ranked No. 128 in ESPN top 300 in the nation \u2026 Three-year varsity starter at Clear...",
+      "bioSource": "https://12thman.com/sports/football/roster/blake-ivy/15485",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079453/blake-ivy",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Blake+Ivy+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/blake-ivy/168754"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/blake-ivy/15485"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5079453/blake-ivy"
+        }
+      ],
+      "rating": 77,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "5079291": {
+      "id": "5079291",
+      "name": "Isendre Ahfua",
+      "position": "LG",
+      "positionGroup": "offensive_line",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS SO",
+      "jersey": "50",
+      "height": "6' 3\"",
+      "weight": "342 lbs",
+      "heightInches": 75.0,
+      "weightPounds": 342.0,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079291.png",
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079291/isendre-ahfua",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Isendre+Ahfua+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/isendre-ahfua/172600"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5079291/isendre-ahfua"
+        }
+      ],
+      "rating": 74,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "4832816": {
+      "id": "4832816",
+      "name": "Mark Nabou Jr.",
+      "position": "C",
+      "positionGroup": "offensive_line",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS SR",
+      "jersey": "54",
+      "height": "6' 4\"",
+      "weight": "330 lbs",
+      "heightInches": 76.0,
+      "weightPounds": 330.0,
+      "class": "Graduate Student",
+      "hometown": "Lynnwood, Wash.",
+      "highSchool": "O'Dea",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (SOPHOMORE): Made the start at center in the season opener before suffering a season-ending injury. 2023 (FRESHMAN): Started in all 12 games, including 11 starts at left guard and one at center ... Made the start at Miami, while the offensive line allowed only 1.0 sack in 53 pass attempts ... Made his first career start at center as the Aggies registered a season-high 399 passing yards in the win over ULM ......",
+      "bioSource": "https://12thman.com/sports/football/roster/mark-nabou-jr/15501",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4832816/mark-nabou-jr",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Mark+Nabou+Jr.+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/mark-nabou-jr./157800"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/mark-nabou-jr/15501"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4832816/mark-nabou-jr"
+        }
+      ],
+      "rating": 90,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "5113181": {
+      "id": "5113181",
+      "name": "Ashton Funk",
+      "position": "C",
+      "positionGroup": "offensive_line",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS SO",
+      "jersey": "73",
+      "height": "6' 6\"",
+      "weight": "322 lbs",
+      "heightInches": 78.0,
+      "weightPounds": 322.0,
+      "class": "Redshirt Sophomore",
+      "hometown": "Katy, Texas",
+      "highSchool": "Tompkins",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (FRESHMAN): Saw offensive snaps at left tackle in the wins over McNeese and New Mexico State ... Appeared in the Las Vegas Bowl against USC. HIGH SCHOOL: Rated a 4-star prospect by 247 Sports, ESPN and Rivals ... Coached by Todd McVey at Tompkins High School \u2026 2023 Houston TD Club Offensive Player of the Year Finalist \u2026 Ranked No. 147 in ESPN top 300 in the nation \u2026 As a junior he was a UIL District 19-6A First...",
+      "bioSource": "https://12thman.com/sports/football/roster/ashton-funk/15474",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5113181/ashton-funk",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Ashton+Funk+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/ashton-funk/168753"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/ashton-funk/15474"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5113181/ashton-funk"
+        }
+      ],
+      "rating": 77,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "4894116": {
+      "id": "4894116",
+      "name": "William Huntsinger",
+      "position": "C",
+      "positionGroup": "offensive_line",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS SR",
+      "jersey": "58",
+      "height": "6' 3\"",
+      "weight": "300 lbs",
+      "heightInches": 75.0,
+      "weightPounds": 300.0,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4894116.png",
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4894116/william-huntsinger",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=William+Huntsinger+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/william-huntsinger/170638"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4894116/william-huntsinger"
+        }
+      ],
+      "rating": 78,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "trovon-baugh": {
+      "id": "trovon-baugh",
+      "name": "Trovon Baugh",
+      "position": "RG",
+      "positionGroup": "offensive_line",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "SR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Graduate Student",
+      "hometown": "Atlanta, Ga.",
+      "highSchool": "Pace Academy",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/trovon-baugh/15531",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Trovon+Baugh+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/trovon-baugh/165661"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/trovon-baugh/15531"
+        }
+      ],
+      "rating": 86,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "tyler-thomas": {
+      "id": "tyler-thomas",
+      "name": "Tyler Thomas",
+      "position": "RG",
+      "positionGroup": "offensive_line",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS FR",
+      "jersey": "77",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Freshman",
+      "hometown": "Dickinson, Texas",
+      "highSchool": "Dickinson",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : Rated a 3-star prospect by 247Sports, Rivals and ESPN \u2026 Coached by John Snelson at Dickinson High School \u2026 Three-year varsity letterman and helped lead the Gators to the UIL 6A D1 playoffs each season \u2026 Was named a finalist for the 2024 Offensive Player of the Year by the Touchdown Club of Houston \u2026 As a senior he helped pave the way for a 1,500-plus yard rusher as Dickinson averaged 250.7 rushing...",
+      "bioSource": "https://12thman.com/sports/football/roster/tyler-thomas/15521",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Tyler+Thomas+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/tyler-thomas/175827"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/tyler-thomas/15521"
+        }
+      ],
+      "rating": 70,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "4606712": {
+      "id": "4606712",
+      "name": "Ar'maj Reed-Adams",
+      "position": "RG",
+      "positionGroup": "offensive_line",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS SR/TR",
+      "jersey": "55",
+      "height": "6' 5\"",
+      "weight": "325 lbs",
+      "heightInches": 77.0,
+      "weightPounds": 325.0,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4606712.png",
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4606712/armaj-reed-adams",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Ar%27maj+Reed-Adams+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/armaj-reed-adams/168778"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4606712/armaj-reed-adams"
+        }
+      ],
+      "rating": 82,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "wilkin-formby": {
+      "id": "wilkin-formby",
+      "name": "Wilkin Formby",
+      "position": "RT",
+      "positionGroup": "offensive_line",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS JR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Graduate Student",
+      "hometown": "Tuscaloosa, Ala.",
+      "highSchool": "Northridge",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/wilkin-formby/15542",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Wilkin+Formby+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/wilkin-formby/161393"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/wilkin-formby/15542"
+        }
+      ],
+      "rating": 82,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "5146765": {
+      "id": "5146765",
+      "name": "Robert Bourdon",
+      "position": "RT",
+      "positionGroup": "offensive_line",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS SO",
+      "jersey": "70",
+      "height": "6' 6\"",
+      "weight": "318 lbs",
+      "heightInches": 78.0,
+      "weightPounds": 318.0,
+      "class": "Redshirt Sophomore",
+      "hometown": "Collierville, Tenn.",
+      "highSchool": "Collierville",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (FRESHMAN): Saw action in the win over New Mexico State. HIGH SCHOOL: Coached by Joe Rocconi at Collierville High School ... Named to the Commercial Appeal All-Metro First Team and earned TSWA All-State 6A honors as a senior \u2026 Helped lead Collierville to an 8-4 record and 4-3 in 6A Region 8 action \u2026 As a junior, he helped pave the way as Collierville finished third in district play at 5-2 before finishing the...",
+      "bioSource": "https://12thman.com/sports/football/roster/robert-bourdon/15460",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5146765/robert-bourdon",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Robert+Bourdon+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/robert-bourdon/168749"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/robert-bourdon/15460"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5146765/robert-bourdon"
+        }
+      ],
+      "rating": 77,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "4431526": {
+      "id": "4431526",
+      "name": "Dametrious Crownover",
+      "position": "RT",
+      "positionGroup": "offensive_line",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS SR",
+      "jersey": "78",
+      "height": "6' 7\"",
+      "weight": "336 lbs",
+      "heightInches": 79.0,
+      "weightPounds": 336.0,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4431526.png",
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4431526/dametrious-crownover",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Dametrious+Crownover+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/dametrious-crownover/150526"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4431526/dametrious-crownover"
+        }
+      ],
+      "rating": 82,
+      "badges": [
+        "Anchor",
+        "Pass Pro"
+      ]
+    },
+    "houston-thomas": {
+      "id": "houston-thomas",
+      "name": "Houston Thomas",
+      "position": "TE",
+      "positionGroup": "receiver",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS SR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Graduate Student",
+      "hometown": "College Station, Texas",
+      "highSchool": "College Station",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/houston-thomas/15568",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Houston+Thomas+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/houston-thomas/156648"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/houston-thomas/15568"
+        }
+      ],
+      "rating": 58,
+      "badges": [
+        "Target"
+      ]
+    },
+    "richie-anderson": {
+      "id": "richie-anderson",
+      "name": "Richie Anderson III",
+      "position": "TE",
+      "positionGroup": "receiver",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "JR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Junior",
+      "hometown": "Tualatin, Ore.",
+      "highSchool": "Tualatin",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/richie-anderson/15528",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Richie+Anderson+III+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/richie-anderson-iii/163306"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/richie-anderson/15528"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Target"
+      ]
+    },
+    "5141358": {
+      "id": "5141358",
+      "name": "Kiotti Armstrong",
+      "position": "TE",
+      "positionGroup": "receiver",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS FR",
+      "jersey": "21",
+      "height": "6' 5\"",
+      "weight": "275 lbs",
+      "heightInches": 77.0,
+      "weightPounds": 275.0,
+      "class": "Redshirt Freshman",
+      "hometown": "Jasper, Texas",
+      "highSchool": "Jasper",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major outlets (247Sports, Rivals, ESPN) and ranked a top 25 prospect in Texas by 247Sports and ESPN \u2026 Ranked No. 160 in the ESPN 300 \u2026 Coached by Kendrick Crumedy at Jasper High School \u2026 2024 Navy All-American Bowl selection \u2026 Made 68 catches for 1,026 yards and 18 touchdowns as a three-year varsity letterman for the Bulldogs \u2026 As a senior he had 36 catches for...",
+      "bioSource": "https://12thman.com/sports/football/roster/kiotti-armstrong/15456",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141358/kiotti-armstrong",
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Kiotti+Armstrong+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/kiotti-armstrong/175804"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/kiotti-armstrong/15456"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5141358/kiotti-armstrong"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Target"
+      ]
+    },
+    "4870971": {
+      "id": "4870971",
+      "name": "Marcel Reed",
+      "position": "QB",
+      "positionGroup": "quarterback",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS JR",
+      "jersey": "10",
+      "height": "6' 1\"",
+      "weight": "185 lbs",
+      "heightInches": 73.0,
+      "weightPounds": 185.0,
+      "class": "Redshirt Junior",
+      "hometown": "Nashville, Tenn.",
+      "highSchool": "Montgomery Bell Academy",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "SEC Freshman of the Week (9/16/24) SEC Freshman of the Week (10/28/24) Shaun Alexander Player of the Week (10/29/24) Davey O'Brien National QB of the Week (10/29/24) 2024 (FRESHMAN): Started eight of 11 games he appeared in, including three straight wins in his first three career starts ... Ranked first among SEC quarterbacks averaging 4.7 yards per carry, while his 49.4 yards per game and seven rushing scores were...",
+      "bioSource": "https://12thman.com/sports/football/roster/marcel-reed/15506",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870971/marcel-reed",
+      "stats": {
+        "name": "Marcel Reed",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870971/marcel-reed",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4870971.png",
+        "position": "QB",
+        "statGroups": {
+          "passing": {
+            "title": "Passing",
+            "stats": {
+              "completions": {
+                "value": 234,
+                "displayValue": "234",
+                "abbreviation": "CMP"
+              },
+              "passingAttempts": {
+                "value": 377,
+                "displayValue": "377",
+                "abbreviation": "ATT"
+              },
+              "passingYards": {
+                "value": 3169,
+                "displayValue": "3,169",
+                "abbreviation": "YDS"
+              },
+              "completionPct": {
+                "value": 62.069000244140625,
+                "displayValue": "62.1",
+                "abbreviation": "CMP%"
+              },
+              "yardsPerPassAttempt": {
+                "value": 8.406000137329102,
+                "displayValue": "8.4",
+                "abbreviation": "AVG"
+              },
+              "longPassing": {
+                "value": 86,
+                "displayValue": "86",
+                "abbreviation": "LNG"
+              },
+              "passingTouchdowns": {
+                "value": 25,
+                "displayValue": "25",
+                "abbreviation": "TD"
+              },
+              "interceptions": {
+                "value": 12,
+                "displayValue": "12",
+                "abbreviation": "INT"
+              },
+              "sacks": {
+                "value": 17,
+                "displayValue": "17",
+                "abbreviation": "SACK"
+              },
+              "sackYardsLost": {
+                "value": -100,
+                "displayValue": "-100",
+                "abbreviation": "SYL"
+              },
+              "QBRating": {
+                "value": 148.19668579101562,
+                "displayValue": "148.2",
+                "abbreviation": "RTG"
+              }
+            }
+          },
+          "rushing": {
+            "title": "Rushing",
+            "stats": {
+              "rushingAttempts": {
+                "value": 104,
+                "displayValue": "104",
+                "abbreviation": "CAR"
+              },
+              "rushingYards": {
+                "value": 493,
+                "displayValue": "493",
+                "abbreviation": "YDS"
+              },
+              "yardsPerRushAttempt": {
+                "value": 4.739999771118164,
+                "displayValue": "4.7",
+                "abbreviation": "AVG"
+              },
+              "longRushing": {
+                "value": 46,
+                "displayValue": "46",
+                "abbreviation": "LNG"
+              },
+              "rushingTouchdowns": {
+                "value": 6,
+                "displayValue": "6",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Marcel+Reed+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/marcel-reed/160831"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/marcel-reed/15506"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4870971/marcel-reed"
+        }
+      ],
+      "rating": 97,
+      "badges": [
+        "Dual Threat",
+        "Explosive Arm"
+      ]
+    },
+    "5295969": {
+      "id": "5295969",
+      "name": "Brady Hart",
+      "position": "QB",
+      "positionGroup": "quarterback",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS FR",
+      "jersey": "13",
+      "height": "6' 4\"",
+      "weight": "195 lbs",
+      "heightInches": 76.0,
+      "weightPounds": 195.0,
+      "class": "Redshirt Freshman",
+      "hometown": "Cocoa, Fla.",
+      "highSchool": "Cocoa",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 134 in ESPN 300 2025 class after reclassifying from the 2026 class \u2026 Coached by Ryan Schneider at Cocoa High School \u2026 Completed 509-of-757 for 7,476 yards and 78 touchdowns in his career for the Tigers \u2026 In 2024 he has led Cocoa to a 9-3 record and an appearance in the FHSAA 2A state semifinals,...",
+      "bioSource": "https://12thman.com/sports/football/roster/brady-hart/15482",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5295969/brady-hart",
+      "stats": {
+        "name": "Brady Hart",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5295969/brady-hart",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5295969.png",
+        "position": "QB",
+        "statGroups": {
+          "passing": {
+            "title": "Passing",
+            "stats": {
+              "completions": {
+                "value": 5,
+                "displayValue": "5",
+                "abbreviation": "CMP"
+              },
+              "passingAttempts": {
+                "value": 10,
+                "displayValue": "10",
+                "abbreviation": "ATT"
+              },
+              "passingYards": {
+                "value": 62,
+                "displayValue": "62",
+                "abbreviation": "YDS"
+              },
+              "completionPct": {
+                "value": 50,
+                "displayValue": "50.0",
+                "abbreviation": "CMP%"
+              },
+              "yardsPerPassAttempt": {
+                "value": 6.199999809265137,
+                "displayValue": "6.2",
+                "abbreviation": "AVG"
+              },
+              "longPassing": {
+                "value": 29,
+                "displayValue": "29",
+                "abbreviation": "LNG"
+              },
+              "passingTouchdowns": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "TD"
+              },
+              "interceptions": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "INT"
+              },
+              "sacks": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "SACK"
+              },
+              "sackYardsLost": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "SYL"
+              },
+              "QBRating": {
+                "value": 102.07999420166016,
+                "displayValue": "102.1",
+                "abbreviation": "RTG"
+              }
+            }
+          },
+          "rushing": {
+            "title": "Rushing",
+            "stats": {
+              "rushingAttempts": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "CAR"
+              },
+              "rushingYards": {
+                "value": 9,
+                "displayValue": "9",
+                "abbreviation": "YDS"
+              },
+              "yardsPerRushAttempt": {
+                "value": 9,
+                "displayValue": "9.0",
+                "abbreviation": "AVG"
+              },
+              "longRushing": {
+                "value": 9,
+                "displayValue": "9",
+                "abbreviation": "LNG"
+              },
+              "rushingTouchdowns": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "TD"
+              }
+            }
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Brady+Hart+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/brady-hart/175809"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/brady-hart/15482"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5295969/brady-hart"
+        }
+      ],
+      "rating": 82,
+      "badges": [
+        "Dual Threat"
+      ]
+    },
+    "helaman-casuga": {
+      "id": "helaman-casuga",
+      "name": "Helaman Casuga",
+      "position": "QB",
+      "positionGroup": "quarterback",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "FR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Freshman",
+      "hometown": "Kona, Hawai'i",
+      "highSchool": "Corner Canyon [Utah]",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered two years at Timpview under head coach Donny Atuaia and two seasons at Corner Canyon under head coach Eric Kjar \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 235 and No. 274 overall prospect nationally by Rivals/On3.com and 247Sports.com , respectively \u2026 charted as the No. 15, No. 16 and No....",
+      "bioSource": "https://12thman.com/sports/football/roster/helaman-casuga/15535",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Helaman+Casuga+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/helaman-casuga/179795"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/helaman-casuga/15535"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Field General",
+        "Upside"
+      ]
+    },
+    "4870934": {
+      "id": "4870934",
+      "name": "Rueben Owens II",
+      "position": "RB",
+      "positionGroup": "running_back",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS JR",
+      "jersey": "4",
+      "height": "5' 11\"",
+      "weight": "215 lbs",
+      "heightInches": 71.0,
+      "weightPounds": 215.0,
+      "class": "Redshirt Junior",
+      "hometown": "El Campo, Texas",
+      "highSchool": "El Campo",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2023 SEC All-Freshman Team (RB) 2024 (REDSHIRT): Suffered a foot injury in the first scrimmage of fall camp that sidelined him until Week 14 when he rushed three times for 10 yards against Texas ... Led the team with 13 carries for 56 yards in the Las Vegas Bowl against USC. 2023 (FRESHMAN): Appeared in 13 games making five starts, while registering a rush in every game and making a catch in eight games ... Earned...",
+      "bioSource": "https://12thman.com/sports/football/roster/rueben-owens-ii/15503",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870934/rueben-owens-ii",
+      "stats": {
+        "name": "Rueben Owens II",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870934/rueben-owens-ii",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4870934.png",
+        "position": "RB",
+        "statGroups": {
+          "rushing": {
+            "title": "Rushing",
+            "stats": {
+              "rushingAttempts": {
+                "value": 119,
+                "displayValue": "119",
+                "abbreviation": "CAR"
+              },
+              "rushingYards": {
+                "value": 639,
+                "displayValue": "639",
+                "abbreviation": "YDS"
+              },
+              "yardsPerRushAttempt": {
+                "value": 5.369999885559082,
+                "displayValue": "5.4",
+                "abbreviation": "AVG"
+              },
+              "longRushing": {
+                "value": 57,
+                "displayValue": "57",
+                "abbreviation": "LNG"
+              },
+              "rushingTouchdowns": {
+                "value": 5,
+                "displayValue": "5",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "receiving": {
+            "title": "Receiving",
+            "stats": {
+              "receptions": {
+                "value": 13,
+                "displayValue": "13",
+                "abbreviation": "REC"
+              },
+              "receivingYards": {
+                "value": 130,
+                "displayValue": "130",
+                "abbreviation": "YDS"
+              },
+              "yardsPerReception": {
+                "value": 10,
+                "displayValue": "10.0",
+                "abbreviation": "AVG"
+              },
+              "longReception": {
+                "value": 24,
+                "displayValue": "24",
+                "abbreviation": "LNG"
+              },
+              "receivingTouchdowns": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Rueben+Owens+II+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/rueben-owens-ii/160829"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/rueben-owens-ii/15503"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4870934/rueben-owens-ii"
+        }
+      ],
+      "rating": 98,
+      "badges": [
+        "Burst"
+      ]
+    },
+    "5141561": {
+      "id": "5141561",
+      "name": "Jamarion Morrow",
+      "position": "RB",
+      "positionGroup": "running_back",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "SO",
+      "jersey": "23",
+      "height": "5' 9\"",
+      "weight": "205 lbs",
+      "heightInches": 69.0,
+      "weightPounds": 205.0,
+      "class": "Sophomore",
+      "hometown": "Memphis, Tenn.",
+      "highSchool": "Melrose",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : Rated a 4-star and ranked as a top 10 overall prospect in Tennessee by 247Sports and Rivals \u2026 Coached by his father Jarrett Morrow at Melrose High School \u2026 As he senior he has played running back, wide receiver and quarterback, while helping lead the Wildcats to 12-3 record, an undefeated district title and Melrose\u2019s first TSSAA 4A state title game appearance since 1998 \u2026 In 2023 he played at...",
+      "bioSource": "https://12thman.com/sports/football/roster/jamarion-morrow/15498",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141561/jamarion-morrow",
+      "stats": {
+        "name": "Jamarion Morrow",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141561/jamarion-morrow",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5141561.png",
+        "position": "RB",
+        "statGroups": {
+          "rushing": {
+            "title": "Rushing",
+            "stats": {
+              "rushingAttempts": {
+                "value": 43,
+                "displayValue": "43",
+                "abbreviation": "CAR"
+              },
+              "rushingYards": {
+                "value": 182,
+                "displayValue": "182",
+                "abbreviation": "YDS"
+              },
+              "yardsPerRushAttempt": {
+                "value": 4.232999801635742,
+                "displayValue": "4.2",
+                "abbreviation": "AVG"
+              },
+              "longRushing": {
+                "value": 23,
+                "displayValue": "23",
+                "abbreviation": "LNG"
+              },
+              "rushingTouchdowns": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "receiving": {
+            "title": "Receiving",
+            "stats": {
+              "receptions": {
+                "value": 6,
+                "displayValue": "6",
+                "abbreviation": "REC"
+              },
+              "receivingYards": {
+                "value": 80,
+                "displayValue": "80",
+                "abbreviation": "YDS"
+              },
+              "yardsPerReception": {
+                "value": 13.333000183105469,
+                "displayValue": "13.3",
+                "abbreviation": "AVG"
+              },
+              "longReception": {
+                "value": 24,
+                "displayValue": "24",
+                "abbreviation": "LNG"
+              },
+              "receivingTouchdowns": {
+                "value": 2,
+                "displayValue": "2",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Jamarion+Morrow+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/jamarion-morrow/175815"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/jamarion-morrow/15498"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5141561/jamarion-morrow"
+        }
+      ],
+      "rating": 86,
+      "badges": [
+        "Ball Carrier"
+      ]
+    },
+    "kj-edwards": {
+      "id": "kj-edwards",
+      "name": "KJ Edwards",
+      "position": "RB",
+      "positionGroup": "running_back",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "FR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Freshman",
+      "hometown": "Carthage, Texas",
+      "highSchool": "Carthage",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at Carthage under head coach Scott Surratt \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 43 and No. 59 overall prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 3, No. 3 and No. 4 running back nationally according to 247Sports.com ,...",
+      "bioSource": "https://12thman.com/sports/football/roster/kj-edwards/15540",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=KJ+Edwards+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/kj-edwards/179797"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/kj-edwards/15540"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Ball Carrier",
+        "Upside"
+      ]
+    },
+    "anto-saka": {
+      "id": "anto-saka",
+      "name": "Anto Saka",
+      "position": "LDE",
+      "positionGroup": "front_seven",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS SR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Graduate Student",
+      "hometown": "Baltimore, Md.",
+      "highSchool": "Loyola Blakefield",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/anto-saka/15564",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Anto+Saka+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/anto-saka/156807"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/anto-saka/15564"
+        }
+      ],
+      "rating": 60,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "4870904": {
+      "id": "4870904",
+      "name": "Sam M'Pemba",
+      "position": "LDE",
+      "positionGroup": "front_seven",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS JR/TR",
+      "jersey": "92",
+      "height": "6' 3\"",
+      "weight": "252 lbs",
+      "heightInches": 75.0,
+      "weightPounds": 252.0,
+      "class": "Redshirt Junior",
+      "hometown": "Olivette, Mo.",
+      "highSchool": "IMG Academy",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "PRIOR TO TEXAS A&M: Appeared in 14 games in two seasons at Georgia ... Played in four games in 2024 ... Made six tackles in 2023, including two tackles against Ole Miss. HIGH SCHOOL: Tabbed a 5-star by 247Sports and Rivals, while ESPN rated him a 5-star ... Selected to Under Armour All-America Bowl ... Coached by Billy Miller at IMG Academy ... Nationally ranked No. 1 edge prospect by Rivals and No. 2 edge recruit...",
+      "bioSource": "https://12thman.com/sports/football/roster/sam-mpemba/15492",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870904/sam-mpemba",
+      "stats": {
+        "name": "Sam M'Pemba",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870904/sam-mpemba",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4870904.png",
+        "position": "DE",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Sam+M%27Pemba+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/sam-mpemba/160005"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/sam-mpemba/15492"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4870904/sam-mpemba"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "ryan-henderson": {
+      "id": "ryan-henderson",
+      "name": "Ryan Henderson",
+      "position": "LDE",
+      "positionGroup": "front_seven",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS SR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Graduate Student",
+      "hometown": "Las Vegas, Nev.",
+      "highSchool": "Canyon Springs High",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/ryan-henderson/15547",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Ryan+Henderson+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/ryan-henderson/158379"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/ryan-henderson/15547"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "cj-mims": {
+      "id": "cj-mims",
+      "name": "CJ Mims",
+      "position": "NT",
+      "positionGroup": "front_seven",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS SR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Senior",
+      "hometown": "New Bern, N.C.",
+      "highSchool": "West Craven",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/cj-mims/15556",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=CJ+Mims+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/cj-mims/157667"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/cj-mims/15556"
+        }
+      ],
+      "rating": 60,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "angelo-mccullom": {
+      "id": "angelo-mccullom",
+      "name": "Angelo McCullom",
+      "position": "NT",
+      "positionGroup": "front_seven",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "JR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Junior",
+      "hometown": "Pickerington, Ohio",
+      "highSchool": "Pickerington North",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/angelo-mccullom/15553",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Angelo+McCullom+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/angelo-mccullom/168941"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/angelo-mccullom/15553"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "brandon-davis-swain": {
+      "id": "brandon-davis-swain",
+      "name": "Brandon Davis-Swain",
+      "position": "NT",
+      "positionGroup": "front_seven",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS SO/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Sophomore",
+      "hometown": "Detroit, Mich.",
+      "highSchool": "West Bloomfield",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/brandon-davisswain/15537",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Brandon+Davis-Swain+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/brandon-davis-swain/169387"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/brandon-davisswain/15537"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "5160111": {
+      "id": "5160111",
+      "name": "DJ Hicks",
+      "position": "DT",
+      "positionGroup": "front_seven",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "SR",
+      "jersey": "5",
+      "height": "6' 3\"",
+      "weight": "295 lbs",
+      "heightInches": 75.0,
+      "weightPounds": 295.0,
+      "class": "Senior",
+      "hometown": "Katy, Texas",
+      "highSchool": "Paetow",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games, making the start in the Las Vegas Bowl ... Was in on three tackles in the win over McNeese ... Had a solo sack for a 3-yard loss in the win over Missouri ... Made three tackles and was in on a sack in the win over LSU ... Had a pair of tackles, including 1.0 for loss, at South Carolina ... Broke up a pass that landed in the hands of Will Lee III, who returned it 93 yards to...",
+      "bioSource": "https://12thman.com/sports/football/roster/dj-hicks/15483",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5160111/dj-hicks",
+      "stats": {
+        "name": "DJ Hicks",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5160111/dj-hicks",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5160111.png",
+        "position": "DT",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=DJ+Hicks+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/dj-hicks/160826"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/dj-hicks/15483"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5160111/dj-hicks"
+        }
+      ],
+      "rating": 60,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "landon-rink": {
+      "id": "landon-rink",
+      "name": "Landon Rink",
+      "position": "DT",
+      "positionGroup": "front_seven",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "SO",
+      "jersey": "99",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Sophomore",
+      "hometown": "Cypress, Texas",
+      "highSchool": "Cy-Fair",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : Tabbed a 4-star recruit by 247Sports, Rivals and ESPN \u2026 Ranked No. 155 in the ESPN 300 \u2026 Coached by Jeff Miller at Cy-Fair High School \u2026 Totaled 255 tackles, including 86.5 tackles for loss and 34.0 sacks, while adding 80 quarterback hurries in four seasons for the Bobcats \u2026 Was named the 17-6A District Defensive MVP after finishing his junior season with 70 tackles and 15.0 sacks \u2026 Helped lead Cy-Fair...",
+      "bioSource": "https://12thman.com/sports/football/roster/landon-rink/15511",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141651/landon-rink",
+      "stats": {
+        "name": "Landon Rink",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141651/landon-rink",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5141651.png",
+        "position": "DT",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Landon+Rink+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/landon-rink/175822"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/landon-rink/15511"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5141651/landon-rink"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "dj-sanders": {
+      "id": "dj-sanders",
+      "name": "DJ Sanders",
+      "position": "DT",
+      "positionGroup": "front_seven",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS FR",
+      "jersey": "88",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Freshman",
+      "hometown": "Bellville, Texas",
+      "highSchool": "Bellville",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : A consensus 4-star recruit by all three major outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 110 in the ESPN 300 \u2026 Coached by Keith Reineke at Bellville High School \u2026 2024 Navy All-American Bowl selection \u2026 Has totaled over 304 tackles, including 88 solo takedowns, 42.5 tackles for loss, 36.5 sacks, while adding 51 quarterback hurries, five forced fumbles and five fumble recoveries in four seasons for...",
+      "bioSource": "https://12thman.com/sports/football/roster/dj-sanders/15514",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141638/dj-sanders",
+      "stats": {
+        "name": "DJ Sanders",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141638/dj-sanders",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5141638.png",
+        "position": "DT",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=DJ+Sanders+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/dj-sanders/175824"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/dj-sanders/15514"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5141638/dj-sanders"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "t-j-searcy": {
+      "id": "t-j-searcy",
+      "name": "T.J. Searcy",
+      "position": "RDE",
+      "positionGroup": "front_seven",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "SR/TR",
+      "jersey": "18",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Senior",
+      "hometown": "Thomaston, Ga.",
+      "highSchool": "Upson-Lee",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "PRIOR TO TEXAS A&M: Appeared in 24 games with five starts over two seasons at Florida, recording 60 tackles, including 29 solo takedowns and 7.5 tackles for loss with 2.5 sacks ... In 2024, he logged 34 tackles, 4.0 tackles for loss, two forced fumbles and one fumble recovery ... Earned Freshman All-SEC honors in 2023 after appearing in all 12 games, tallying 26 tackles, two quarterback hurries and a forced fumble....",
+      "bioSource": "https://12thman.com/sports/football/roster/tj-searcy/15517",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870990/tj-searcy",
+      "stats": {
+        "name": "T.J. Searcy",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870990/tj-searcy",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4870990.png",
+        "position": "DE",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=T.J.+Searcy+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/t.j.-searcy/162435"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/tj-searcy/15517"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4870990/tj-searcy"
+        }
+      ],
+      "rating": 60,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "5141540": {
+      "id": "5141540",
+      "name": "Marco Jones",
+      "position": "RDE",
+      "positionGroup": "front_seven",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "SO",
+      "jersey": "10",
+      "height": "6' 5\"",
+      "weight": "258 lbs",
+      "heightInches": 77.0,
+      "weightPounds": 258.0,
+      "class": "Sophomore",
+      "hometown": "Dublin, Calif.",
+      "highSchool": "San Ramon Valley",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL: A consensus 4-star prospect by all three major recruiting networks (247Sports, Rivals, ESPN) \u2026 Ranked No. 193 in ESPN 300 \u2026 Coached by Aaron Becker at San Ramon Valley High School \u2026 2024 Navy All-American Bowl selection \u2026 Totaled nearly 425 tackles, including 214 solo takedowns, 53.0 tackles for loss, 13.0 sacks, while adding seven forced fumbles, five fumble recoveries and six interceptions in his...",
+      "bioSource": "https://12thman.com/sports/football/roster/marco-jones/15489",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141540/marco-jones",
+      "stats": {
+        "name": "Marco Jones",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141540/marco-jones",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5141540.png",
+        "position": "DE",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Marco+Jones+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/marco-jones/175828"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/marco-jones/15489"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5141540/marco-jones"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "bryce-perry-wright": {
+      "id": "bryce-perry-wright",
+      "name": "Bryce Perry-Wright",
+      "position": "RDE",
+      "positionGroup": "front_seven",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "FR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Freshman",
+      "hometown": "Atlanta, Ga.",
+      "highSchool": "Buford",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2026: Enrolled at Texas A&M in January, 2026. PRIOR TO TEXAS A&M: Lettered four years at Buford under head coach Bryant Appling \u2026 consensus four-star prospect by ESPN.com , 247Sports.com and Rivals/On3.com as well as the No. 60 and No. 66 prospect nationally by 247Sports.com and Rivals/On3.com , respectively \u2026 charted as the No. 3, No. 7 and No. 10 defensive tackle nationally according to ESPN.com , 247Sports.com...",
+      "bioSource": "https://12thman.com/sports/football/roster/bryce-perrywright/15561",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Bryce+Perry-Wright+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/bryce-perry-wright/179809"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/bryce-perrywright/15561"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper",
+        "Upside"
+      ]
+    },
+    "5141596": {
+      "id": "5141596",
+      "name": "Noah Mikhail",
+      "position": "WLB",
+      "positionGroup": "front_seven",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "SO",
+      "jersey": "16",
+      "height": "6' 2\"",
+      "weight": "223 lbs",
+      "heightInches": 74.0,
+      "weightPounds": 223.0,
+      "class": "Sophomore",
+      "hometown": "La Verne, Calif.",
+      "highSchool": "Bonita",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : Rated a 4-star prospect and ranked in the top 10 overall prospect in California by all three major recruiting outlets (247Sports, Rivals, ESPN) \u2026 Ranked No. 64 in the ESPN 300 \u2026 Coached by Bo Beatty and Steve Bogan at Bonita High School \u2026 2024 Navy All-American and Polynesian Bowl selection \u2026 Three-time Max Preps All-American, two-time All-CIF and two-time CIF League Defensive MVP \u2026 Was a two-way...",
+      "bioSource": "https://12thman.com/sports/football/roster/noah-mikhail/15495",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141596/noah-mikhail",
+      "stats": {
+        "name": "Noah Mikhail",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141596/noah-mikhail",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5141596.png",
+        "position": "LB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Noah+Mikhail+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/noah-mikhail/175813"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/noah-mikhail/15495"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5141596/noah-mikhail"
+        }
+      ],
+      "rating": 58,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "ray-coney": {
+      "id": "ray-coney",
+      "name": "Ray Coney",
+      "position": "WLB",
+      "positionGroup": "front_seven",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "SR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Senior",
+      "hometown": "Fairfield, Ohio",
+      "highSchool": "Fairfield HS",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/ray-coney/15536",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Ray+Coney+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/ray-coney/176297"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/ray-coney/15536"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "tj-smith": {
+      "id": "tj-smith",
+      "name": "TJ Smith",
+      "position": "WLB",
+      "positionGroup": "front_seven",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "JR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Junior",
+      "hometown": "Los Angeles, Calif.",
+      "highSchool": "Cathedral",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/tj-smith/15566",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=TJ+Smith+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/tj-smith/179790"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/tj-smith/15566"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "daymion-sanford": {
+      "id": "daymion-sanford",
+      "name": "Daymion Sanford",
+      "position": "MLB",
+      "positionGroup": "front_seven",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "SR",
+      "jersey": "27",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Senior",
+      "hometown": "Katy, Texas",
+      "highSchool": "Paetow",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games, making three starts ... Made a pair of tackles against Notre Dame ... Had a tackle and a breakup against McNeese in his first career start ... Made a pair of tackles, including 1.0 for a 5-yard loss, in the win over Bowling Green ... Tallied three tackles and added a hurry against Arkansas ... Had four tackles, including a solo sack, in the win over Missouri ... Tallied...",
+      "bioSource": "https://12thman.com/sports/football/roster/daymion-sanford/15515",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5078108/daymion-sanford",
+      "stats": {
+        "name": "Daymion Sanford",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5078108/daymion-sanford",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5078108.png",
+        "position": "LB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Daymion+Sanford+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/daymion-sanford/160833"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/daymion-sanford/15515"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5078108/daymion-sanford"
+        }
+      ],
+      "rating": 60,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "5079560": {
+      "id": "5079560",
+      "name": "Jordan Lockhart",
+      "position": "MLB",
+      "positionGroup": "front_seven",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "JR",
+      "jersey": "54",
+      "height": "6' 1\"",
+      "weight": "229 lbs",
+      "heightInches": 73.0,
+      "weightPounds": 229.0,
+      "class": "Junior",
+      "hometown": "Redlands, Calif.",
+      "highSchool": "St. John Bosco",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (FRESHMAN): Played in 10 games ... Was in on a tackle in his collegiate debut against Notre Dame ... Led the team with six tackles in the win over McNeese ... Was in on a tackle in the win at Florida ... Had a pair of tackles in the win over New Mexico State. HIGH SCHOOL: Coached by Jason Negro at St. John Bosco High School \u2026 Rated as 4-star prospect by 247 Sports and Rivals ... 2024 Polynesian Bowl selection \u2026...",
+      "bioSource": "https://12thman.com/sports/football/roster/jordan-lockhart/15491",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079560/jordan-lockhart",
+      "stats": {
+        "name": "Jordan Lockhart",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079560/jordan-lockhart",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079560.png",
+        "position": "LB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Jordan+Lockhart+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/jordan-lockhart/168758"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/jordan-lockhart/15491"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5079560/jordan-lockhart"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "taurean-york": {
+      "id": "taurean-york",
+      "name": "Taurean York",
+      "position": "MLB",
+      "positionGroup": "front_seven",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "JR",
+      "jersey": "21",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4917859.png",
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4917859/taurean-york",
+      "stats": {
+        "name": "Taurean York",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4917859/taurean-york",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4917859.png",
+        "position": "LB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Taurean+York+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/taurean-york/160839"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4917859/taurean-york"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Run Stopper"
+      ]
+    },
+    "5079656": {
+      "id": "5079656",
+      "name": "Dezz Ricks",
+      "position": "LCB",
+      "positionGroup": "defensive_back",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS JR/TR",
+      "jersey": "2",
+      "height": "6' 1\"",
+      "weight": "188 lbs",
+      "heightInches": 73.0,
+      "weightPounds": 188.0,
+      "class": "Redshirt Junior",
+      "hometown": "Norfolk, Va.",
+      "highSchool": "IMG Academy",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (FRESHMAN): Played in all 13 games, making nine starts ... Made three tackles, including 1.0 for loss against Notre Dame ... Was in on a tackle in the win over McNeese ... Had five tackles and a breakup against Arkansas ... Made two tackles at Mississippi State ... Broke up a pass in the win over LSU ... Had three tackles at Auburn ... Had a pair of tackles against USC in the Las Vegas Bowl ... Was nominated...",
+      "bioSource": "https://12thman.com/sports/football/roster/dezz-ricks/15507",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079656/dezz-ricks",
+      "stats": {
+        "name": "Dezz Ricks",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5079656/dezz-ricks",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5079656.png",
+        "position": "CB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Dezz+Ricks+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/dezz-ricks/168765"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/dezz-ricks/15507"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5079656/dezz-ricks"
+        }
+      ],
+      "rating": 58,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "5141400": {
+      "id": "5141400",
+      "name": "Adonyss Currie",
+      "position": "LCB",
+      "positionGroup": "defensive_back",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS FR",
+      "jersey": "20",
+      "height": "6' 0\"",
+      "weight": "174 lbs",
+      "heightInches": 72.0,
+      "weightPounds": 174.0,
+      "class": "Redshirt Freshman",
+      "hometown": "Lancaster, Calif.",
+      "highSchool": "Quartz Hill",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "HIGH SCHOOL : A consensus 4-star recruit and ranked the No. 3 overall prospect in California by ESPN \u2026 Ranked No. 55 in ESPN 300 \u2026 Coached by Russell Gordon at Quartz Hill High School \u2026 2024 Navy All-American Bowl and Polynesian Bowl selection \u2026 Played his junior and senior seasons at Quartz Hill High School where he was a two-way standout totaling 1,500-plus yards receiving and over 60 tackles, while scoring nearly...",
+      "bioSource": "https://12thman.com/sports/football/roster/adonyss-currie/15471",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141400/adonyss-currie",
+      "stats": {
+        "name": "Adonyss Currie",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5141400/adonyss-currie",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5141400.png",
+        "position": "CB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Adonyss+Currie+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/adonyss-currie/175807"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/adonyss-currie/15471"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5141400/adonyss-currie"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "4870644": {
+      "id": "4870644",
+      "name": "Dalton Brooks",
+      "position": "SS",
+      "positionGroup": "defensive_back",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "SR",
+      "jersey": "25",
+      "height": "6' 0\"",
+      "weight": "193 lbs",
+      "heightInches": 72.0,
+      "weightPounds": 193.0,
+      "class": "Senior",
+      "hometown": "Shiner, Texas",
+      "highSchool": "Shiner",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games, making eight starts ... Finished the season second on the team with 59 tackles and top-five on the team with 5.5 tackles for loss ... Tallied three tackles in the win over McNeese ... Had a tackle and a breakup in the win at Florida ... Made a pair of tackles, including 1.0 for loss in the win over Bowling Green ... Led the team with seven tackles, including 2.0 for 6 yards...",
+      "bioSource": "https://12thman.com/sports/football/roster/dalton-brooks/15463",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870644/dalton-brooks",
+      "stats": {
+        "name": "Dalton Brooks",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4870644/dalton-brooks",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4870644.png",
+        "position": "S",
+        "statGroups": {
+          "rushing": {
+            "title": "Rushing",
+            "stats": {
+              "rushingAttempts": {
+                "value": 1,
+                "displayValue": "1",
+                "abbreviation": "CAR"
+              },
+              "rushingYards": {
+                "value": 48,
+                "displayValue": "48",
+                "abbreviation": "YDS"
+              },
+              "yardsPerRushAttempt": {
+                "value": 48,
+                "displayValue": "48.0",
+                "abbreviation": "AVG"
+              },
+              "longRushing": {
+                "value": 48,
+                "displayValue": "48",
+                "abbreviation": "LNG"
+              },
+              "rushingTouchdowns": {
+                "value": "",
+                "displayValue": "0",
+                "abbreviation": "TD"
+              }
+            }
+          },
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Dalton+Brooks+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/dalton-brooks/160825"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/dalton-brooks/15463"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4870644/dalton-brooks"
+        }
+      ],
+      "rating": 59,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "tawfiq-byard": {
+      "id": "tawfiq-byard",
+      "name": "Tawfiq Byard",
+      "position": "SS",
+      "positionGroup": "defensive_back",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS JR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Junior",
+      "hometown": "Hyattsville, Md.",
+      "highSchool": "DeMatha Catholic",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/tawfiq-byard/15534",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Tawfiq+Byard+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/tawfiq-byard/164061"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/tawfiq-byard/15534"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "5139087": {
+      "id": "5139087",
+      "name": "Myles Davis",
+      "position": "SS",
+      "positionGroup": "defensive_back",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "JR",
+      "jersey": "29",
+      "height": "6' 1\"",
+      "weight": "196 lbs",
+      "heightInches": 73.0,
+      "weightPounds": 196.0,
+      "class": "Junior",
+      "hometown": "Converse, Texas",
+      "highSchool": "Judson",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (FRESHMAN): Played in 12 games, primarily on special teams ... Saw the field in the win over McNeese and finished the game second on the team with five tackles ... Made a tackle in the win over Bowling Green ... Had a tackle in the win at Mississippi State ... Made three tackles in the New Mexico State victory. HIGH SCHOOL: Coached by Mark Soto at Judson High School \u2026 Rated as a 4-star recruit by 247 Sports and...",
+      "bioSource": "https://12thman.com/sports/football/roster/myles-davis/15472",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5139087/myles-davis",
+      "stats": {
+        "name": "Myles Davis",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5139087/myles-davis",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5139087.png",
+        "position": "S",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Myles+Davis+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/myles-davis/168763"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/myles-davis/15472"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5139087/myles-davis"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "4950396": {
+      "id": "4950396",
+      "name": "Marcus Ratcliffe",
+      "position": "FS",
+      "positionGroup": "defensive_back",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "SR/TR",
+      "jersey": "3",
+      "height": "6' 2\"",
+      "weight": "209 lbs",
+      "heightInches": 74.0,
+      "weightPounds": 209.0,
+      "class": "Senior",
+      "hometown": "Chula Vista, Calif.",
+      "highSchool": "Cathedral Catholic",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games, making 12 starts ... Finished the year eighth in the SEC with three interceptions, also ranking third on the team with 48 tackles ... Had two tackles and a hurry in the season opener against Notre Dame ... Picked off a pass and returned it 12 yards in the win over McNeese ... Led the team with five tackles in the win at Florida, forcing a fumble and making it back-to-back...",
+      "bioSource": "https://12thman.com/sports/football/roster/marcus-ratcliffe/15505",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4950396/marcus-ratcliffe",
+      "stats": {
+        "name": "Marcus Ratcliffe",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4950396/marcus-ratcliffe",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4950396.png",
+        "position": "S",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Marcus+Ratcliffe+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/marcus-ratcliffe/168769"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/marcus-ratcliffe/15505"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4950396/marcus-ratcliffe"
+        }
+      ],
+      "rating": 59,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "4685255": {
+      "id": "4685255",
+      "name": "Bryce Anderson",
+      "position": "FS",
+      "positionGroup": "defensive_back",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS JR",
+      "jersey": "1",
+      "height": "5' 10\"",
+      "weight": "186 lbs",
+      "heightInches": 70.0,
+      "weightPounds": 186.0,
+      "class": "Graduate Student",
+      "hometown": "Beaumont, Texas",
+      "highSchool": "West Brook",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2022 Dave Campbell's Texas Football Defensive Freshman of the Year 2024 (JUNIOR): Played in all 13 games, making five starts ... Had a pair of tackles, including 1.0 for loss in the season-opener against Notre Dame ... Picked of a pass in the third quarter and returned it 45 yards to the end zone to extend the Aggie lead on Florida to 33-7 and register the first score of his career ... Was in on a pair of tackles in...",
+      "bioSource": "https://12thman.com/sports/football/roster/bryce-anderson/15455",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4685255/bryce-anderson",
+      "stats": {
+        "name": "Bryce Anderson",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4685255/bryce-anderson",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4685255.png",
+        "position": "S",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Bryce+Anderson+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/bryce-anderson/153030"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/bryce-anderson/15455"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4685255/bryce-anderson"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "5149470": {
+      "id": "5149470",
+      "name": "Rashad Johnson Jr.",
+      "position": "FS",
+      "positionGroup": "defensive_back",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS FR",
+      "jersey": "13",
+      "height": "6' 1\"",
+      "weight": "198 lbs",
+      "heightInches": 73.0,
+      "weightPounds": 198.0,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5149470.png",
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5149470/rashad-johnson-jr",
+      "stats": {
+        "name": "Rashad Johnson Jr.",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5149470/rashad-johnson-jr",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5149470.png",
+        "position": "S",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Rashad+Johnson+Jr.+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/rashad-johnson-jr./175810"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5149470/rashad-johnson-jr"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "rickey-gibson": {
+      "id": "rickey-gibson",
+      "name": "Rickey Gibson III",
+      "position": "RCB",
+      "positionGroup": "defensive_back",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS JR/TR",
+      "jersey": null,
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Graduate Student",
+      "hometown": "Trussville, Ala.",
+      "highSchool": "Hewitt-Trussville",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "",
+      "bioSource": "https://12thman.com/sports/football/roster/rickey-gibson-iii/15543",
+      "espnPlayerUrl": null,
+      "stats": {},
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Rickey+Gibson+III+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/rickey-gibson-iii/160798"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/rickey-gibson-iii/15543"
+        }
+      ],
+      "rating": 58,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "4685412": {
+      "id": "4685412",
+      "name": "Julio Humphrey",
+      "position": "RCB",
+      "positionGroup": "defensive_back",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "RS SR/TR",
+      "jersey": "6",
+      "height": "6' 1\"",
+      "weight": "195 lbs",
+      "heightInches": 73.0,
+      "weightPounds": 195.0,
+      "class": "Redshirt Senior",
+      "hometown": "Galveston, Texas",
+      "highSchool": "Clear Lake",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "PRIOR TO TEXAS A&M: Played three seasons at Georgia appearing in 23 games, including 10 starts and a team leading four pass breakups on the 2024 SEC Championship team ... Totaled 21 tackles, including 18 solo takedowns and had five pass breakups ... Saw action in nine games as a reserve defensive back in 2023, while he appeared in three games in 2022. HIGH SCHOOL: Coached by Larry McRae at Clear Lake High School ......",
+      "bioSource": "https://12thman.com/sports/football/roster/julio-humphrey/15484",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4685412/julio-humphrey",
+      "stats": {
+        "name": "Julio Humphrey",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4685412/julio-humphrey",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4685412.png",
+        "position": "CB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Julio+Humphrey+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/julio-humphrey/167889"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/julio-humphrey/15484"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4685412/julio-humphrey"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "5151083": {
+      "id": "5151083",
+      "name": "Will Lee III",
+      "position": "RCB",
+      "positionGroup": "defensive_back",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "SR/TR",
+      "jersey": "4",
+      "height": "6' 1\"",
+      "weight": "189 lbs",
+      "heightInches": 73.0,
+      "weightPounds": 189.0,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5151083.png",
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5151083/will-lee-iii",
+      "stats": {
+        "name": "Will Lee III",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/5151083/will-lee-iii",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/5151083.png",
+        "position": "CB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Will+Lee+III+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/will-lee-iii/168768"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/5151083/will-lee-iii"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "jordan-shaw": {
+      "id": "jordan-shaw",
+      "name": "Jordan Shaw",
+      "position": "NB",
+      "positionGroup": "defensive_back",
+      "depthIndex": 0,
+      "depthLabel": "Starter",
+      "eligibility": "RS JR/TR",
+      "jersey": "8",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Redshirt Junior",
+      "hometown": "Los Angeles, Calif.",
+      "highSchool": "St. Pius X-St. Matthias Academy",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "PRIOR TO TEXAS A&M: Has appeared in 17 career games, including 11 starts with 49 career tackles, including 29 solo takedowns, 5.0 tackles for loss for 14 yards, while adding seven pass breakups ... Appeared in 13 games, making nine starts totaling 37 tackles, including 21 solo takedowns, 4.0 tackles for loss and six pass breakups in 2024 at Washington ... As a true freshman at Indiana, he tallied eight solo tackles...",
+      "bioSource": "https://12thman.com/sports/football/roster/jordan-shaw/15518",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4921319/jordan-shaw",
+      "stats": {
+        "name": "Jordan Shaw",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4921319/jordan-shaw",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4921319.png",
+        "position": "CB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Jordan+Shaw+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/jordan-shaw/168117"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/jordan-shaw/15518"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4921319/jordan-shaw"
+        }
+      ],
+      "rating": 58,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "bravion-rogers": {
+      "id": "bravion-rogers",
+      "name": "Bravion Rogers",
+      "position": "NB",
+      "positionGroup": "defensive_back",
+      "depthIndex": 1,
+      "depthLabel": "2nd String",
+      "eligibility": "SR",
+      "jersey": "19",
+      "height": null,
+      "weight": null,
+      "heightInches": null,
+      "weightPounds": null,
+      "class": "Senior",
+      "hometown": "La Grange, Texas",
+      "highSchool": "La Grange",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "2024 (SOPHOMORE): Played in all 13 games ... Was in on a tackle against Notre Dame ... Made two tackles in the win over McNeese ... Added three solo tackles in the win at Florida ... Had 1.0 tackle for loss against New Mexico State ... Was nominated for Special Teams MVP at the team award show. 2023 (FRESHMAN): Played in seven games, making the start in the Texas Bowl against Oklahoma State ... Saw the field in the...",
+      "bioSource": "https://12thman.com/sports/football/roster/bravion-rogers/15512",
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4899422/bravion-rogers",
+      "stats": {
+        "name": "Bravion Rogers",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4899422/bravion-rogers",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4899422.png",
+        "position": "CB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Bravion+Rogers+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/bravion-rogers/160832"
+        },
+        {
+          "label": "12thMan bio",
+          "url": "https://12thman.com/sports/football/roster/bravion-rogers/15512"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4899422/bravion-rogers"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    },
+    "4602676": {
+      "id": "4602676",
+      "name": "Tyreek Chappell",
+      "position": "NB",
+      "positionGroup": "defensive_back",
+      "depthIndex": 2,
+      "depthLabel": "3rd String",
+      "eligibility": "RS SR",
+      "jersey": "7",
+      "height": "5' 11\"",
+      "weight": "180 lbs",
+      "heightInches": 71.0,
+      "weightPounds": 180.0,
+      "class": null,
+      "hometown": null,
+      "highSchool": null,
+      "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4602676.png",
+      "bio": "",
+      "bioSource": null,
+      "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4602676/tyreek-chappell",
+      "stats": {
+        "name": "Tyreek Chappell",
+        "espnPlayerUrl": "https://www.espn.com/college-football/player/_/id/4602676/tyreek-chappell",
+        "headshot": "https://a.espncdn.com/i/headshots/college-football/players/full/4602676.png",
+        "position": "CB",
+        "statGroups": {
+          "defensive": {
+            "title": "Defense",
+            "stats": {}
+          }
+        }
+      },
+      "highlight": {
+        "label": "Search highlights",
+        "url": "https://www.youtube.com/results?search_query=Tyreek+Chappell+Texas+A%26M+football+highlights"
+      },
+      "sourceLinks": [
+        {
+          "label": "Ourlads depth slot",
+          "url": "https://www.ourlads.com/ncaa-football-depth-charts/player/tyreek-chappell/168476"
+        },
+        {
+          "label": "ESPN player page",
+          "url": "https://www.espn.com/college-football/player/_/id/4602676/tyreek-chappell"
+        }
+      ],
+      "rating": 55,
+      "badges": [
+        "Tackler"
+      ]
+    }
+  },
+  "coaches": {
+    "mike-elko": {
+      "name": "Mike Elko",
+      "role": "Head Coach",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "THE ELKO FILE PERSONAL Born: July 28, 1977 Hometown: South Brunswick, N.J. Wife: Michelle Children: Michael, Andrew, Kaitlyn College: Penn, 1999 PLAYING EXPERIENCE 1995-98: Penn COACHING EXPERIENCE 1999: Stony Brook (GA/Inside Linebackers) 2000: Penn (Defensive Backs) 2001: U.S. Merchant Marine Academy (DC/DBs) 2002: Fordham (Linebackers) 2003: Fordham (co-DC/Linebackers) 2004: Richmond (LBs/Recruiting Coordinator)...",
+      "bioSource": "https://12thman.com/sports/football/roster/coaches/mike-elko/2151",
+      "tendencies": [
+        "Aggressive on selected fourth downs compared with the prior staff, especially when the offense has a matchup edge.",
+        "Defensive identity leans on split-front looks and variable pressure packages instead of one static structure.",
+        "Program emphasis is complementary football: explosive run game support on offense and third-down efficiency on defense."
+      ],
+      "tendencySources": [
+        {
+          "label": "KBTX on fourth-down aggressiveness",
+          "url": "https://www.kbtx.com/2024/11/08/fourth-down-attempts-more-commonplace-texas-am-football-elko-era/"
+        },
+        {
+          "label": "MatchQuarters on Elko split-front pressure philosophy",
+          "url": "https://www.matchquarters.com/p/mike-elkos-split-front"
+        },
+        {
+          "label": "Official Texas A&M bio",
+          "url": "https://12thman.com/sports/football/roster/coaches/mike-elko/2151"
+        }
+      ]
+    },
+    "collin-klein": {
+      "name": "Collin Klein",
+      "role": "Offensive Coordinator",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "THE KLEIN FILE PERSONAL Hometown: Loveland, Colorado Education: Kansas State, 2011; Kansas State, 2019 Wife: Shalin Children: Beric, Rhett, Trek and Briar COACHING RESUME 2014: Kansas State (Assistant Director of Recruiting/Defensive Quality Control) 2015: Kansas State (Offensive Graduate Assistant) 2016: Northern Iowa (Quarterbacks) 2017: Kansas State (Quarterbacks) 2018: Kansas State (Co-Offensive...",
+      "bioSource": "https://12thman.com/sports/football/roster/coaches/collin-klein/2229",
+      "tendencies": [
+        "Run-game-first approach built around QB mobility, conflict keys, and forcing defenses to fit every gap.",
+        "Frequent TE usage and formation variation to create leverage for both the run game and shot plays.",
+        "Prefers adaptable weekly game plans rather than calling the same menu every week."
+      ],
+      "tendencySources": [
+        {
+          "label": "KSAT on Collin Klein's offense",
+          "url": "https://www.ksat.com/news/local/2023/12/08/what-texas-am-fans-can-expect-from-a-collin-klein-led-offense-next-season/"
+        },
+        {
+          "label": "Houston Chronicle on offensive conflict",
+          "url": "https://www.houstonchronicle.com/sports/college/article/texas-aggies-offense-collin-klein-19622652.php"
+        },
+        {
+          "label": "Official Texas A&M bio",
+          "url": "https://12thman.com/sports/football/roster/coaches/collin-klein/2229"
+        }
+      ]
+    },
+    "lyle-hemphill": {
+      "name": "Lyle Hemphill",
+      "role": "Defensive Coordinator",
+      "headshot": "https://12thman.com/images/logos/site/site.png",
+      "bio": "THE HEMPHILL FILE PERSONAL Hometown: Wilmington, Delaware Education: Ursinus, 2002; Delaware, 2005 Wife: Christen Children: Izabella, Lyla, Georgia, Olivia COACHING RESUME 2002-03: Delaware Valley (Defensive Backs/Secondary) 2004-05: Delaware (Graduate Assistant/Secondary) 2006-09: Hofstra (Defensive Backs/Special Teams) 2010: Delaware (Cornerbacks) 2011-12: Stony Brook (Safeties) 2013-16: Stony Brook (Defensive...",
+      "bioSource": "https://12thman.com/sports/football/roster/coaches/lyle-hemphill/1990",
+      "tendencies": [
+        "Secondary-driven structure with flexible shells that can rotate late and disguise coverage.",
+        "Pressure complements coverage rather than replacing it; the goal is to win on passing downs without living in all-out blitz.",
+        "Strong emphasis on limiting explosive passes while winning third-down situations."
+      ],
+      "tendencySources": [
+        {
+          "label": "Texas A&M promotion announcement",
+          "url": "https://12thman.com/news/2025/12/12/football-elko-elevates-hemphill-to-aggies-next-defensive-coordinator"
+        },
+        {
+          "label": "Wake Forest defensive overview",
+          "url": "https://www.shakinthesouthland.com/2020/9/11/21429614/what-to-watch-for-in-the-wake-forest-defense"
+        },
+        {
+          "label": "Official Texas A&M bio",
+          "url": "https://12thman.com/sports/football/roster/coaches/lyle-hemphill/1990"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "label": "Ourlads depth chart",
+      "url": "https://secure.ourlads.com/ncaa-football-depth-charts/depth-chart/texas-am/92039"
+    },
+    {
+      "label": "ESPN roster API",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/245/roster"
+    },
+    {
+      "label": "ESPN team stats",
+      "url": "https://www.espn.com/college-football/team/stats/_/id/245/texas-am-aggies"
+    },
+    {
+      "label": "12thMan roster",
+      "url": "https://12thman.com/sports/football/roster"
+    }
+  ]
+}
