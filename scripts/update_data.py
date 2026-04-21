@@ -51,17 +51,17 @@ RATING_CSV_PATHS = {
 }
 
 OFFENSE_LAYOUT = {
-    "WR-X": {"x": 10, "y": 68},
-    "WR-SL": {"x": 22, "y": 80},
-    "LT": {"x": 34, "y": 68},
-    "LG": {"x": 42, "y": 68},
-    "C": {"x": 50, "y": 68},
-    "RG": {"x": 58, "y": 68},
-    "RT": {"x": 66, "y": 68},
-    "TE": {"x": 80, "y": 80},
-    "QB": {"x": 50, "y": 86},
-    "RB": {"x": 56, "y": 94},
-    "WR-Z": {"x": 90, "y": 68},
+    "WR-X": {"x": 10, "y": 66},
+    "WR-SL": {"x": 22, "y": 78},
+    "LT": {"x": 34, "y": 66},
+    "LG": {"x": 42, "y": 66},
+    "C": {"x": 50, "y": 66},
+    "RG": {"x": 58, "y": 66},
+    "RT": {"x": 66, "y": 66},
+    "TE": {"x": 80, "y": 78},
+    "QB": {"x": 50, "y": 84},
+    "RB": {"x": 56, "y": 91},
+    "WR-Z": {"x": 90, "y": 66},
 }
 
 DEFENSE_LAYOUT = {
@@ -980,7 +980,7 @@ def compute_badges(player: dict[str, Any], csv_database: dict[str, Any]) -> list
         if overall is not None:
             break
     if not records:
-        return ["No 2025 CSV"]
+        return ["No Overall Grade"]
 
     if not badges:
         if (overall or 0) >= 80:

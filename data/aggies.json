@@ -201,47 +201,47 @@
       "offense": {
         "WR-X": {
           "x": 10,
-          "y": 68
+          "y": 66
         },
         "WR-SL": {
           "x": 22,
-          "y": 80
+          "y": 78
         },
         "LT": {
           "x": 34,
-          "y": 68
+          "y": 66
         },
         "LG": {
           "x": 42,
-          "y": 68
+          "y": 66
         },
         "C": {
           "x": 50,
-          "y": 68
+          "y": 66
         },
         "RG": {
           "x": 58,
-          "y": 68
+          "y": 66
         },
         "RT": {
           "x": 66,
-          "y": 68
+          "y": 66
         },
         "TE": {
           "x": 80,
-          "y": 80
+          "y": 78
         },
         "QB": {
           "x": 50,
-          "y": 86
+          "y": 84
         },
         "RB": {
           "x": 56,
-          "y": 94
+          "y": 91
         },
         "WR-Z": {
           "x": 90,
-          "y": 68
+          "y": 66
         }
       },
       "defense": {
@@ -603,7 +603,7 @@
         "source": "csv"
       },
       "badges": [
-        "No 2025 CSV"
+        "No Overall Grade"
       ],
       "metricCards": []
     },
@@ -952,7 +952,7 @@
         "source": "csv"
       },
       "badges": [
-        "No 2025 CSV"
+        "No Overall Grade"
       ],
       "metricCards": []
     },
@@ -1163,7 +1163,7 @@
         "source": "csv"
       },
       "badges": [
-        "No 2025 CSV"
+        "No Overall Grade"
       ],
       "metricCards": []
     },
@@ -1781,7 +1781,7 @@
         "source": "csv"
       },
       "badges": [
-        "No 2025 CSV"
+        "No Overall Grade"
       ],
       "metricCards": []
     },
@@ -3292,7 +3292,7 @@
         "source": "csv"
       },
       "badges": [
-        "No 2025 CSV"
+        "No Overall Grade"
       ],
       "metricCards": []
     },
@@ -3668,7 +3668,7 @@
         "source": "csv"
       },
       "badges": [
-        "No 2025 CSV"
+        "No Overall Grade"
       ],
       "metricCards": []
     },
@@ -4788,7 +4788,7 @@
         "source": "csv"
       },
       "badges": [
-        "No 2025 CSV"
+        "No Overall Grade"
       ],
       "metricCards": []
     },

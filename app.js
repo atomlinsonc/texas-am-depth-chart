@@ -11,6 +11,35 @@ const playerModal = document.getElementById("player-modal");
 const modalContent = document.getElementById("modal-content");
 const modalTemplate = document.getElementById("player-modal-template");
 const coachModalTemplate = document.getElementById("coach-modal-template");
+const PORTRAIT_LAYOUTS = {
+  offense: {
+    "WR-X": { x: 8, y: 63 },
+    "WR-SL": { x: 20, y: 77 },
+    LT: { x: 18, y: 69 },
+    LG: { x: 34, y: 69 },
+    C: { x: 50, y: 69 },
+    RG: { x: 66, y: 69 },
+    RT: { x: 82, y: 69 },
+    TE: { x: 80, y: 79 },
+    QB: { x: 50, y: 83 },
+    RB: { x: 62, y: 90 },
+    "WR-Z": { x: 92, y: 63 },
+  },
+  defense: {
+    FS: { x: 35, y: 23 },
+    SS: { x: 65, y: 23 },
+    WLB: { x: 40, y: 35 },
+    MLB: { x: 60, y: 35 },
+    NB: { x: 22, y: 43 },
+    LDE: { x: 18, y: 47 },
+    NT: { x: 40, y: 47 },
+    DT: { x: 60, y: 47 },
+    RDE: { x: 82, y: 47 },
+    LCB: { x: 8, y: 39 },
+    RCB: { x: 92, y: 39 },
+  },
+};
+let lastPortraitMobile = false;
 
 depthButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -34,6 +63,18 @@ function setText(id, value) {
 
 function positionPoint(layout, position) {
   return layout[position] || { x: 50, y: 50 };
+}
+
+function isPortraitMobile() {
+  return window.matchMedia("(max-width: 700px) and (orientation: portrait)").matches;
+}
+
+function activeLayout(side) {
+  if (!state.data) return {};
+  if (isPortraitMobile()) {
+    return PORTRAIT_LAYOUTS[side];
+  }
+  return state.data.depthChart.layouts[side];
 }
 
 function formatRating(value) {
@@ -251,9 +292,16 @@ function openCoachModal(coach) {
 function renderFields() {
   if (!state.data) return;
   teamField.innerHTML = "";
-  renderRows(state.data.depthChart.defense, state.data.depthChart.layouts.defense, "defense");
-  renderRows(state.data.depthChart.offense, state.data.depthChart.layouts.offense, "offense");
+  renderRows(state.data.depthChart.defense, activeLayout("defense"), "defense");
+  renderRows(state.data.depthChart.offense, activeLayout("offense"), "offense");
   renderBoardToolbar();
+}
+
+function handleViewportChange() {
+  const portraitMobile = isPortraitMobile();
+  if (portraitMobile === lastPortraitMobile) return;
+  lastPortraitMobile = portraitMobile;
+  renderFields();
 }
 
 function renderCoaches() {
@@ -286,6 +334,8 @@ async function init() {
   setText("hero-title", "Texas A&M Depth Chart");
   document.getElementById("hero-logo").src = state.data.team.logo;
   document.getElementById("hero-logo").alt = `${state.data.team.shortName} logo`;
+  lastPortraitMobile = isPortraitMobile();
+  window.addEventListener("resize", handleViewportChange);
 
   renderFields();
   renderCoaches();
