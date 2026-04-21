@@ -7,10 +7,10 @@ const depthButtons = Array.from(document.querySelectorAll("[data-depth]"));
 const offenseField = document.getElementById("offense-field");
 const defenseField = document.getElementById("defense-field");
 const coachGrid = document.getElementById("coach-grid");
-const sourceList = document.getElementById("source-list");
 const playerModal = document.getElementById("player-modal");
 const modalContent = document.getElementById("modal-content");
 const modalTemplate = document.getElementById("player-modal-template");
+const coachModalTemplate = document.getElementById("coach-modal-template");
 
 depthButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -42,10 +42,12 @@ function buildPlayerButton(player, position, coordinates) {
   button.style.left = `${coordinates.x}%`;
   button.style.top = `${coordinates.y}%`;
   button.innerHTML = `
-    <span class="field-player__pos">${position}</span>
+    <div class="field-player__top">
+      <span class="field-player__pos">${position}</span>
+      <span class="field-player__rating">${player.rating}</span>
+    </div>
     <h3 class="field-player__name">${player.name}</h3>
     <p class="field-player__meta">${player.class || player.eligibility || ""}</p>
-    <span class="field-player__rating">${player.rating}</span>
   `;
   button.addEventListener("click", () => openPlayerModal(player));
   return button;
@@ -75,6 +77,23 @@ function summarizeStats(player) {
   return Object.values(groups[group].stats)
     .filter((stat) => stat.displayValue && stat.displayValue !== "0")
     .slice(0, 6);
+}
+
+function renderStyleRow(containerId, summary, prefix) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.innerHTML = "";
+  const items = [
+    `${summary.formation.label} ${summary.formation.percent}%`,
+    `${prefix} ${summary.runPass.run}/${summary.runPass.pass}`,
+    `Season ${summary.season}`,
+  ];
+  items.forEach((text) => {
+    const chip = document.createElement("span");
+    chip.className = "style-pill";
+    chip.textContent = text;
+    container.appendChild(chip);
+  });
 }
 
 function openPlayerModal(player) {
@@ -136,6 +155,40 @@ function openPlayerModal(player) {
   playerModal.showModal();
 }
 
+function openCoachModal(coach) {
+  const fragment = coachModalTemplate.content.cloneNode(true);
+  fragment.querySelector(".modal-card__headshot").src =
+    coach.headshot || state.data.team.logo;
+  fragment.querySelector(".modal-card__headshot").alt = `${coach.name} headshot`;
+  fragment.querySelector(".modal-card__depth").textContent = coach.role;
+  fragment.querySelector(".modal-card__name").textContent = coach.name;
+  fragment.querySelector(".modal-card__meta").textContent = "Texas A&M Football Staff";
+  fragment.querySelector(".modal-card__bio").textContent = coach.bio || "";
+
+  const tendencyList = fragment.querySelector(".tendency-list");
+  coach.tendencies.forEach((item) => {
+    const pill = document.createElement("span");
+    pill.className = "badge badge--soft";
+    pill.textContent = item;
+    tendencyList.appendChild(pill);
+  });
+
+  const linkRow = fragment.querySelector(".link-row");
+  coach.tendencySources.forEach((source) => {
+    const anchor = document.createElement("a");
+    anchor.href = source.url;
+    anchor.target = "_blank";
+    anchor.rel = "noreferrer";
+    anchor.className = "badge";
+    anchor.textContent = source.label;
+    linkRow.appendChild(anchor);
+  });
+
+  modalContent.innerHTML = "";
+  modalContent.appendChild(fragment);
+  playerModal.showModal();
+}
+
 function renderFields() {
   if (!state.data) return;
   buildField(offenseField, state.data.depthChart.offense, state.data.depthChart.layouts.offense);
@@ -146,7 +199,8 @@ function renderCoaches() {
   const coaches = Object.values(state.data.coaches);
   coachGrid.innerHTML = "";
   coaches.forEach((coach) => {
-    const card = document.createElement("article");
+    const card = document.createElement("button");
+    card.type = "button";
     card.className = "coach-card";
     card.innerHTML = `
       <div class="coach-card__header">
@@ -156,22 +210,10 @@ function renderCoaches() {
           <p class="coach-card__role">${coach.role}</p>
         </div>
       </div>
-      <p class="coach-card__bio">${coach.bio || ""}</p>
-      <ul>${coach.tendencies.map((item) => `<li>${item}</li>`).join("")}</ul>
-      <p>${coach.tendencySources
-        .map((source) => `<a href="${source.url}" target="_blank" rel="noreferrer">${source.label}</a>`)
-        .join(" · ")}</p>
+      <p class="coach-card__bio">${coach.tendencies[0] || ""}</p>
     `;
+    card.addEventListener("click", () => openCoachModal(coach));
     coachGrid.appendChild(card);
-  });
-}
-
-function renderSources() {
-  sourceList.innerHTML = "";
-  state.data.sources.forEach((source) => {
-    const item = document.createElement("li");
-    item.innerHTML = `<a href="${source.url}" target="_blank" rel="noreferrer">${source.label}</a>`;
-    sourceList.appendChild(item);
   });
 }
 
@@ -179,24 +221,19 @@ async function init() {
   const response = await fetch("data/aggies.json", { cache: "no-store" });
   state.data = await response.json();
 
-  document.title = `${state.data.team.shortName} Football Depth Chart`;
-  setText("hero-title", `${state.data.team.shortName} depth chart in formation view`);
+  document.title = "Texas A&M Depth Chart";
+  setText("hero-title", "Texas A&M Depth Chart");
   setText(
     "hero-copy",
-    "Switch between starters, second string, and third string while keeping each lineup mapped onto the field."
+    "Switch between starters, second string, and third string while keeping both units mapped to the field."
   );
-  setText("offense-scheme", state.data.depthChart.offenseScheme);
-  setText("defense-scheme", state.data.depthChart.defenseScheme);
-  setText(
-    "depth-updated",
-    state.data.depthChart.updatedAt || `Generated ${new Date(state.data.generatedAt).toLocaleString()}`
-  );
-  setText("stats-season", state.data.latestStatSeason);
-  setText("season-note", state.data.seasonContext.note);
+  document.getElementById("hero-logo").src = state.data.team.logo;
+  document.getElementById("hero-logo").alt = `${state.data.team.shortName} logo`;
+  renderStyleRow("offense-style", state.data.depthChart.styleSummary.offense, "Run/Pass");
+  renderStyleRow("defense-style", state.data.depthChart.styleSummary.defense, "Opp Run/Pass");
 
   renderFields();
   renderCoaches();
-  renderSources();
 }
 
 init().catch((error) => {

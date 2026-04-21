@@ -27,6 +27,7 @@ ESPN_TEAM_STATS_URL = (
 )
 OURLADS_DEPTH_URL = "https://secure.ourlads.com/ncaa-football-depth-charts/depth-chart/texas-am/92039"
 TWELFTHMAN_ROSTER_URL = "https://12thman.com/sports/football/roster"
+CFBSTATS_TEAM_URL = "https://cfbstats.com/{season}/team/697/index.html"
 COACH_URLS = {
     "Mike Elko": "https://12thman.com/sports/football/roster/coaches/mike-elko/2151",
     "Collin Klein": "https://12thman.com/sports/football/roster/coaches/collin-klein/2229",
@@ -40,31 +41,31 @@ HEADERS = {
 }
 
 OFFENSE_LAYOUT = {
-    "WR-X": {"x": 12, "y": 16},
-    "WR-SL": {"x": 22, "y": 35},
-    "LT": {"x": 38, "y": 44},
-    "LG": {"x": 44, "y": 44},
-    "C": {"x": 50, "y": 44},
-    "RG": {"x": 56, "y": 44},
-    "RT": {"x": 62, "y": 44},
-    "TE": {"x": 70, "y": 41},
-    "QB": {"x": 50, "y": 58},
-    "RB": {"x": 50, "y": 72},
-    "WR-Z": {"x": 88, "y": 16},
+    "WR-X": {"x": 8, "y": 14},
+    "WR-SL": {"x": 24, "y": 27},
+    "LT": {"x": 30, "y": 47},
+    "LG": {"x": 40, "y": 47},
+    "C": {"x": 50, "y": 47},
+    "RG": {"x": 60, "y": 47},
+    "RT": {"x": 70, "y": 47},
+    "TE": {"x": 82, "y": 39},
+    "QB": {"x": 50, "y": 62},
+    "RB": {"x": 50, "y": 80},
+    "WR-Z": {"x": 92, "y": 14},
 }
 
 DEFENSE_LAYOUT = {
-    "LCB": {"x": 12, "y": 18},
-    "NB": {"x": 27, "y": 30},
-    "LDE": {"x": 36, "y": 42},
-    "NT": {"x": 46, "y": 42},
-    "DT": {"x": 54, "y": 42},
-    "RDE": {"x": 64, "y": 42},
-    "WLB": {"x": 38, "y": 58},
-    "MLB": {"x": 62, "y": 58},
-    "SS": {"x": 42, "y": 75},
-    "FS": {"x": 58, "y": 75},
-    "RCB": {"x": 88, "y": 18},
+    "LCB": {"x": 10, "y": 15},
+    "NB": {"x": 24, "y": 27},
+    "LDE": {"x": 31, "y": 43},
+    "NT": {"x": 43, "y": 43},
+    "DT": {"x": 57, "y": 43},
+    "RDE": {"x": 69, "y": 43},
+    "WLB": {"x": 36, "y": 62},
+    "MLB": {"x": 64, "y": 62},
+    "SS": {"x": 36, "y": 79},
+    "FS": {"x": 64, "y": 79},
+    "RCB": {"x": 90, "y": 15},
 }
 
 COACH_TENDENCIES = {
@@ -393,6 +394,11 @@ def parse_12thman_roster_index(html: str) -> dict[str, str]:
         if not re.search(r"/sports/football/roster/[^/]+/\d+$", href):
             continue
         label = trim_text(anchor.get_text(" ", strip=True))
+        classes = set(anchor.get("class") or [])
+        if not {"hover:underline", "focus:underline"}.issubset(classes):
+            continue
+        if label.startswith("Full Bio for"):
+            continue
         if not label or len(label) < 3:
             continue
         links[normalize_name(label)] = urljoin("https://12thman.com", href)
@@ -422,13 +428,28 @@ def parse_12thman_person(url: str) -> dict[str, Any]:
             fields[label] = clean_plain_text(dd.get_text(" ", strip=True))
 
     headshot = None
-    og_image = soup.find("meta", attrs={"property": "og:image"})
-    if og_image:
-        headshot = og_image.get("content")
+    for script in soup.select('script[type="application/ld+json"]'):
+        try:
+            payload = json.loads(script.get_text(strip=True))
+        except json.JSONDecodeError:
+            continue
+        main_entity = payload.get("mainEntity") if isinstance(payload, dict) else None
+        image = main_entity.get("image") if isinstance(main_entity, dict) else None
+        if isinstance(image, str) and image and "site/site.png" not in image:
+            headshot = urljoin(url, image)
+            break
     if not headshot:
-        image = soup.find("img")
+        roster_headshot = soup.select_one('.c-rosterbio__player__image img[src]')
+        if roster_headshot and roster_headshot.get("src"):
+            headshot = urljoin(url, roster_headshot.get("src"))
+    if not headshot:
+        og_image = soup.find("meta", attrs={"property": "og:image"})
+        if og_image and og_image.get("content") and "site/site.png" not in og_image.get("content", ""):
+            headshot = og_image.get("content")
+    if not headshot:
+        image = soup.find("img", src=True)
         if image:
-            headshot = image.get("src")
+            headshot = urljoin(url, image.get("src"))
 
     return {
         "sourceUrl": url,
@@ -487,63 +508,121 @@ def clamp(value: float, low: float, high: float) -> float:
     return max(low, min(high, value))
 
 
+def parse_cfbstats_style_summary(season: int) -> dict[str, Any]:
+    html = fetch_text(CFBSTATS_TEAM_URL.format(season=season))
+    soup = BeautifulSoup(html, "html.parser")
+    stats: dict[str, tuple[str, str]] = {}
+    for row in soup.select("tr"):
+        cells = [trim_text(cell.get_text(" ", strip=True)) for cell in row.select("td")]
+        if len(cells) == 3 and cells[0]:
+            stats[cells[0]] = (cells[1], cells[2])
+
+    rush_key = next((key for key in stats if key.startswith("Rushing:") and "Attempts - Yards - TD" in key), "")
+    pass_key = next(
+        (key for key in stats if key.startswith("Passing:") and "Attempts - Completions - Interceptions - TD" in key),
+        "",
+    )
+
+    rush_for = stats.get(rush_key, ("0 - 0 - 0", "0 - 0 - 0"))[0]
+    pass_for = stats.get(pass_key, ("0 - 0 - 0 - 0", "0 - 0 - 0 - 0"))[0]
+    rush_against = stats.get(rush_key, ("0 - 0 - 0", "0 - 0 - 0"))[1]
+    pass_against = stats.get(pass_key, ("0 - 0 - 0 - 0", "0 - 0 - 0 - 0"))[1]
+
+    offense_rush_attempts = int(rush_for.split(" - ")[0])
+    offense_pass_attempts = int(pass_for.split(" - ")[0])
+    defense_rush_attempts = int(rush_against.split(" - ")[0])
+    defense_pass_attempts = int(pass_against.split(" - ")[0])
+
+    def ratio_pair(run_attempts: int, pass_attempts: int) -> dict[str, int]:
+        total = max(run_attempts + pass_attempts, 1)
+        run_pct = round(run_attempts * 100 / total)
+        return {"run": run_pct, "pass": 100 - run_pct}
+
+    return {
+        "season": season,
+        "offense": ratio_pair(offense_rush_attempts, offense_pass_attempts),
+        "defense": ratio_pair(defense_rush_attempts, defense_pass_attempts),
+        "source": {"label": "CFB Stats team totals", "url": CFBSTATS_TEAM_URL.format(season=season)},
+    }
+
+
+def formation_labels(offense_rows: list[dict[str, Any]], defense_rows: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    offense_positions = {row["position"] for row in offense_rows}
+    wr_count = sum(1 for position in offense_positions if position.startswith("WR"))
+    te_count = 1 if "TE" in offense_positions else 0
+    rb_count = 1 if "RB" in offense_positions else 0
+    offense_personnel = f"{rb_count}{te_count} personnel"
+
+    defensive_db = sum(1 for row in defense_rows if row["position"] in {"LCB", "RCB", "NB", "SS", "FS"})
+    defensive_lb = sum(1 for row in defense_rows if row["position"] in {"WLB", "MLB"})
+    defensive_dl = sum(1 for row in defense_rows if row["position"] in {"LDE", "NT", "DT", "RDE"})
+    defensive_front = f"{defensive_dl}-{defensive_lb}-{defensive_db}"
+    defensive_label = f"{defensive_front} nickel" if defensive_db == 5 else defensive_front
+
+    return {
+        "offense": {"label": offense_personnel, "percent": 100},
+        "defense": {"label": defensive_label, "percent": 100},
+    }
+
+
 def compute_rating(player: dict[str, Any], depth_index: int) -> int:
     stats = player.get("stats", {}).get("statGroups", {})
     group = player.get("positionGroup", "general")
     experience = year_score(player.get("eligibility", ""))
-    role_bonus = {0: 8, 1: 3, 2: 0}.get(depth_index, 0)
+    base_by_group = {
+        "quarterback": [83, 74, 68],
+        "running_back": [81, 73, 67],
+        "receiver": [80, 72, 66],
+        "offensive_line": [79, 72, 67],
+        "front_seven": [80, 73, 67],
+        "defensive_back": [80, 73, 67],
+        "general": [76, 70, 65],
+    }
+    base = base_by_group.get(group, base_by_group["general"])[depth_index]
+    score = base + experience * 4.5
 
     if group == "quarterback":
-        score = (
-            numeric_stat(stats, "passing", "QBRating") * 0.35
-            + numeric_stat(stats, "passing", "completionPct") * 0.18
-            + numeric_stat(stats, "passing", "yardsPerPassAttempt") * 4.0
-            + numeric_stat(stats, "passing", "passingTouchdowns") * 1.2
-            - numeric_stat(stats, "passing", "interceptions") * 1.8
-            + numeric_stat(stats, "rushing", "yardsPerRushAttempt") * 2.2
+        score += (
+            clamp((numeric_stat(stats, "passing", "QBRating") - 125) / 4.5, 0, 6)
+            + clamp((numeric_stat(stats, "passing", "yardsPerPassAttempt") - 7) / 0.28, 0, 5)
+            + clamp((numeric_stat(stats, "passing", "completionPct") - 58) / 2.1, 0, 3)
+            + clamp((numeric_stat(stats, "passing", "passingTouchdowns") - 10) / 3.5, 0, 4)
+            + clamp((numeric_stat(stats, "rushing", "rushingYards") - 150) / 100, 0, 3)
+            - clamp(numeric_stat(stats, "passing", "interceptions") / 3, 0, 3)
         )
-        score = 45 + score / 2.8
     elif group == "running_back":
-        score = (
-            numeric_stat(stats, "rushing", "yardsPerRushAttempt") * 10.5
-            + numeric_stat(stats, "rushing", "rushingYards") / 36
-            + numeric_stat(stats, "rushing", "rushingTouchdowns") * 1.9
-            + numeric_stat(stats, "receiving", "yardsPerReception") * 1.1
+        score += (
+            clamp((numeric_stat(stats, "rushing", "yardsPerRushAttempt") - 4.2) / 0.25, 0, 6)
+            + clamp((numeric_stat(stats, "rushing", "rushingYards") - 300) / 125, 0, 6)
+            + clamp((numeric_stat(stats, "rushing", "rushingTouchdowns") - 3) / 1.5, 0, 4)
+            + clamp((numeric_stat(stats, "receiving", "receptions") - 10) / 6, 0, 2)
         )
-        score = 48 + score / 2.0
     elif group == "receiver":
-        score = (
-            numeric_stat(stats, "receiving", "receivingYards") / 24
-            + numeric_stat(stats, "receiving", "receptions") * 0.8
-            + numeric_stat(stats, "receiving", "yardsPerReception") * 3.2
-            + numeric_stat(stats, "receiving", "receivingTouchdowns") * 2.4
+        score += (
+            clamp((numeric_stat(stats, "receiving", "receivingYards") - 250) / 110, 0, 6)
+            + clamp((numeric_stat(stats, "receiving", "receptions") - 20) / 7, 0, 4)
+            + clamp((numeric_stat(stats, "receiving", "yardsPerReception") - 11) / 0.65, 0, 4)
+            + clamp((numeric_stat(stats, "receiving", "receivingTouchdowns") - 2) / 1.3, 0, 3)
         )
-        score = 46 + score / 2.2
     elif group == "offensive_line":
         weight = player.get("weightPounds") or 300
-        score = 54 + experience * 18 + clamp((weight - 280) / 5, 0, 8)
+        score += clamp((weight - 290) / 8, 0, 3)
     elif group == "front_seven":
-        score = (
-            numeric_stat(stats, "defensive", "totalTackles") * 0.7
-            + numeric_stat(stats, "defensive", "tacklesForLoss") * 3.0
-            + numeric_stat(stats, "defensive", "sacks") * 4.0
-            + numeric_stat(stats, "defensive", "passesDefensed") * 1.6
-            + numeric_stat(stats, "defensive", "interceptions") * 4.5
+        score += (
+            clamp((numeric_stat(stats, "defensive", "totalTackles") - 25) / 8, 0, 4)
+            + clamp((numeric_stat(stats, "defensive", "tacklesForLoss") - 3) / 1.5, 0, 5)
+            + clamp((numeric_stat(stats, "defensive", "sacks") - 1.5) / 0.8, 0, 5)
+            + clamp((numeric_stat(stats, "defensive", "forcedFumbles")) * 1.8, 0, 3)
         )
-        score = 48 + score / 2.0
     elif group == "defensive_back":
-        score = (
-            numeric_stat(stats, "defensive", "interceptions") * 6.0
-            + numeric_stat(stats, "defensive", "passesDefensed") * 2.4
-            + numeric_stat(stats, "defensive", "totalTackles") * 0.55
-            + numeric_stat(stats, "defensive", "forcedFumbles") * 4.0
+        score += (
+            clamp((numeric_stat(stats, "defensive", "interceptions")) * 2.5, 0, 5)
+            + clamp((numeric_stat(stats, "defensive", "passesDefensed") - 2) / 1.1, 0, 5)
+            + clamp((numeric_stat(stats, "defensive", "totalTackles") - 20) / 10, 0, 3)
+            + clamp((numeric_stat(stats, "defensive", "forcedFumbles")) * 1.6, 0, 2)
         )
-        score = 47 + score / 2.0
-    else:
-        score = 50 + experience * 14
 
-    score += role_bonus + experience * 4
-    return int(round(clamp(score, 55, 98)))
+    return int(round(clamp(score, 60, 93)))
 
 
 def compute_badges(player: dict[str, Any]) -> list[str]:
@@ -741,6 +820,14 @@ def build_payload() -> dict[str, Any]:
     coaches = gather_coaches(person_cache)
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     latest_stat_season = stats_data["season"] or roster_data["season"].get("year")
+    latest_stat_season_int = int(str(latest_stat_season))
+    analysis_season = (
+        latest_stat_season_int - 1
+        if (roster_data["season"].get("name") or "").lower() == "preseason"
+        else latest_stat_season_int
+    )
+    style_totals = parse_cfbstats_style_summary(analysis_season)
+    formation_summary = formation_labels(depth["offense"], depth["defense"])
 
     return {
         "team": {
@@ -762,11 +849,21 @@ def build_payload() -> dict[str, Any]:
         },
         "depthChart": {
             "updatedAt": depth["updatedAt"],
-            "offenseScheme": depth["offenseScheme"],
-            "defenseScheme": depth["defenseScheme"],
             "offense": offense_rows,
             "defense": defense_rows,
             "layouts": {"offense": OFFENSE_LAYOUT, "defense": DEFENSE_LAYOUT},
+            "styleSummary": {
+                "offense": {
+                    "formation": formation_summary["offense"],
+                    "runPass": style_totals["offense"],
+                    "season": analysis_season,
+                },
+                "defense": {
+                    "formation": formation_summary["defense"],
+                    "runPass": style_totals["defense"],
+                    "season": analysis_season,
+                },
+            },
         },
         "players": players,
         "coaches": coaches,

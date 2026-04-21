@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Texas A&amp;M Football Depth Chart</title>
+    <title>Texas A&amp;M Depth Chart</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,10 +17,10 @@
     <main class="page-shell">
       <section class="hero">
         <div class="hero__meta">
-          <p class="eyebrow">Interactive Texas A&amp;M Football Depth Chart</p>
+          <p class="eyebrow">Interactive Football Formation Board</p>
           <h1 id="hero-title">Loading depth chart...</h1>
           <p class="hero__copy" id="hero-copy">
-            Formation view, badges, modeled ratings, bios, and weekly automated updates.
+            Formation view, player badges, ratings, bios, and clickable coaches.
           </p>
           <div class="hero__actions" role="group" aria-label="Depth chart string selector">
             <button class="segmented is-active" data-depth="0">Starters</button>
@@ -28,30 +28,18 @@
             <button class="segmented" data-depth="2">Third String</button>
           </div>
         </div>
-        <div class="hero__status">
-          <div class="status-card">
-            <span class="status-card__label">Depth Source</span>
-            <strong id="depth-updated">-</strong>
-          </div>
-          <div class="status-card">
-            <span class="status-card__label">Stats Season</span>
-            <strong id="stats-season">-</strong>
-          </div>
-          <div class="status-card">
-            <span class="status-card__label">Automation</span>
-            <strong>Weekly GitHub refresh</strong>
-          </div>
+        <div class="hero__crest">
+          <img id="hero-logo" alt="Texas A&amp;M logo" />
         </div>
       </section>
-
-      <section class="notice" id="season-note"></section>
 
       <section class="formations">
         <article class="formation-card">
           <header class="formation-card__header">
             <div>
               <p class="formation-card__eyebrow">Offense</p>
-              <h2 id="offense-scheme">-</h2>
+              <h2>Style Snapshot</h2>
+              <div class="style-row" id="offense-style"></div>
             </div>
             <p class="formation-card__hint">Click any position to open the player card.</p>
           </header>
@@ -62,9 +50,10 @@
           <header class="formation-card__header">
             <div>
               <p class="formation-card__eyebrow">Defense</p>
-              <h2 id="defense-scheme">-</h2>
+              <h2>Style Snapshot</h2>
+              <div class="style-row" id="defense-style"></div>
             </div>
-            <p class="formation-card__hint">Built from the latest published depth rows.</p>
+            <p class="formation-card__hint">Click any coach below for a full tendency summary.</p>
           </header>
           <div class="field field--defense" id="defense-field"></div>
         </article>
@@ -76,14 +65,6 @@
           <h2>Coordinators and tendencies</h2>
         </div>
         <div class="coach-grid" id="coach-grid"></div>
-      </section>
-
-      <section class="sources">
-        <div class="section-heading">
-          <p class="eyebrow">Source Stack</p>
-          <h2>How this page stays current</h2>
-        </div>
-        <ul class="source-list" id="source-list"></ul>
       </section>
     </main>
 
@@ -111,6 +92,25 @@
         <div class="stat-block">
           <h4>Latest Stats</h4>
           <div class="stat-grid"></div>
+        </div>
+        <div class="link-row"></div>
+      </article>
+    </template>
+
+    <template id="coach-modal-template">
+      <article class="modal-card">
+        <div class="modal-card__header">
+          <img class="modal-card__headshot" alt="" />
+          <div>
+            <p class="modal-card__depth"></p>
+            <h3 class="modal-card__name"></h3>
+            <p class="modal-card__meta"></p>
+          </div>
+        </div>
+        <p class="modal-card__bio"></p>
+        <div class="stat-block">
+          <h4>Tendencies</h4>
+          <div class="tendency-list"></div>
         </div>
         <div class="link-row"></div>
       </article>

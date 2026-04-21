@@ -40,9 +40,7 @@ dialog {
 
 .hero,
 .formation-card,
-.coaches,
-.sources,
-.notice {
+.coaches {
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 28px;
@@ -50,9 +48,10 @@ dialog {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
   padding: 1.6rem;
   position: relative;
   overflow: hidden;
@@ -89,8 +88,7 @@ dialog {
 }
 
 .hero__copy,
-.formation-card__hint,
-.notice {
+.formation-card__hint {
   color: var(--muted);
 }
 
@@ -130,31 +128,21 @@ dialog {
   border-color: var(--maroon);
 }
 
-.hero__status {
+.hero__crest {
+  flex: 0 0 auto;
+  width: 8rem;
+  height: 8rem;
   display: grid;
-  gap: 0.9rem;
+  place-items: center;
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(80, 0, 0, 0.08), rgba(80, 0, 0, 0.03));
+  border: 1px solid rgba(80, 0, 0, 0.12);
 }
 
-.status-card {
-  border-radius: 22px;
-  padding: 1rem 1.1rem;
-  background: linear-gradient(180deg, rgba(80, 0, 0, 0.05), rgba(80, 0, 0, 0.015));
-  border: 1px solid rgba(80, 0, 0, 0.08);
-}
-
-.status-card__label {
-  display: block;
-  margin-bottom: 0.25rem;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--muted);
-  font-weight: 800;
-}
-
-.notice {
-  margin-top: 1rem;
-  padding: 1rem 1.2rem;
+.hero__crest img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
 }
 
 .formations {
@@ -176,9 +164,27 @@ dialog {
   margin-bottom: 0.9rem;
 }
 
+.style-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+}
+
+.style-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(80, 0, 0, 0.08);
+  color: var(--maroon);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
 .field {
   position: relative;
-  min-height: 31rem;
+  min-height: 36rem;
   border-radius: 24px;
   overflow: hidden;
   background:
@@ -224,8 +230,8 @@ dialog {
 
 .field-player {
   position: absolute;
-  width: min(11rem, 26vw);
-  padding: 0.7rem 0.75rem;
+  width: clamp(7.3rem, 11vw, 8.8rem);
+  padding: 0.58rem 0.62rem;
   border-radius: 18px;
   border: 1px solid rgba(255, 255, 255, 0.42);
   background: rgba(255, 250, 245, 0.88);
@@ -234,6 +240,13 @@ dialog {
   cursor: pointer;
   z-index: 2;
   text-align: left;
+}
+
+.field-player__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0.4rem;
 }
 
 .field-player__pos {
@@ -246,7 +259,7 @@ dialog {
 
 .field-player__name {
   margin: 0.16rem 0;
-  font-size: 1rem;
+  font-size: 0.92rem;
   font-weight: 800;
   color: var(--maroon);
   line-height: 1.05;
@@ -255,22 +268,26 @@ dialog {
 .field-player__meta {
   margin: 0;
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: 0.72rem;
+  line-height: 1.1;
 }
 
 .field-player__rating {
   display: inline-flex;
-  margin-top: 0.45rem;
-  padding: 0.2rem 0.5rem;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.2rem;
+  min-height: 2.2rem;
+  padding: 0.15rem 0.4rem;
   border-radius: 999px;
-  background: rgba(80, 0, 0, 0.08);
-  color: var(--maroon);
-  font-size: 0.82rem;
-  font-weight: 800;
+  background: var(--maroon);
+  color: #fff;
+  font-size: 1.02rem;
+  font-weight: 900;
+  line-height: 1;
 }
 
-.coaches,
-.sources {
+.coaches {
   margin-top: 1rem;
   padding: 1.2rem;
 }
@@ -286,10 +303,21 @@ dialog {
 }
 
 .coach-card {
+  appearance: none;
+  text-align: left;
+  cursor: pointer;
   border-radius: 22px;
-  padding: 1rem;
+  padding: 0.85rem 0.95rem;
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.74);
+  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+
+.coach-card:hover,
+.coach-card:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(80, 0, 0, 0.24);
+  outline: none;
 }
 
 .coach-card__header {
@@ -299,9 +327,9 @@ dialog {
 }
 
 .coach-card__headshot {
-  width: 4.5rem;
-  height: 4.5rem;
-  border-radius: 18px;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 14px;
   object-fit: cover;
   background: rgba(80, 0, 0, 0.06);
 }
@@ -309,35 +337,20 @@ dialog {
 .coach-card__name {
   margin: 0;
   color: var(--maroon);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
 }
 
 .coach-card__role {
   margin: 0.15rem 0 0;
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.8rem;
 }
 
 .coach-card__bio {
+  margin: 0.55rem 0 0;
   color: var(--muted);
-}
-
-.coach-card ul,
-.source-list {
-  margin: 0.8rem 0 0;
-  padding-left: 1.1rem;
-}
-
-.coach-card li,
-.source-list li {
-  margin-bottom: 0.55rem;
-}
-
-.source-list a,
-.link-row a,
-.coach-card a {
-  color: var(--maroon);
-  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.3;
 }
 
 .player-modal {
@@ -421,6 +434,12 @@ dialog {
   font-weight: 800;
 }
 
+.badge--soft {
+  border-radius: 16px;
+  white-space: normal;
+  align-items: start;
+}
+
 .rating-pill {
   min-width: 8rem;
   padding: 0.8rem 0.9rem;
@@ -452,6 +471,12 @@ dialog {
   gap: 0.7rem;
 }
 
+.tendency-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
 .stat-chip {
   border-radius: 18px;
   background: rgba(80, 0, 0, 0.05);
@@ -475,8 +500,11 @@ dialog {
 
 @media (max-width: 980px) {
   .hero,
-  .coach-grid,
   .modal-card__header {
+    grid-template-columns: 1fr;
+  }
+
+  .coach-grid {
     grid-template-columns: 1fr;
   }
 
@@ -486,7 +514,7 @@ dialog {
   }
 
   .field {
-    min-height: 43rem;
+    min-height: 42rem;
   }
 }
 
@@ -497,22 +525,31 @@ dialog {
 
   .hero,
   .formation-card,
-  .coaches,
-  .sources,
-  .notice {
+  .coaches {
     border-radius: 22px;
   }
 
   .field-player {
-    width: min(9rem, 34vw);
-    padding: 0.55rem 0.6rem;
+    width: clamp(5.8rem, 20vw, 7rem);
+    padding: 0.42rem 0.45rem;
   }
 
   .field-player__name {
-    font-size: 0.92rem;
+    font-size: 0.74rem;
+  }
+
+  .field-player__pos,
+  .field-player__meta {
+    font-size: 0.62rem;
+  }
+
+  .field-player__rating {
+    min-width: 1.75rem;
+    min-height: 1.75rem;
+    font-size: 0.82rem;
   }
 
   .field {
-    min-height: 46rem;
+    min-height: 36rem;
   }
 }
